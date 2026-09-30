@@ -17,7 +17,11 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: CoursePageProps) {
   const { id } = await params;
-  const course = coursesData.find((c) => c.id.toString() === id);
+  let course = coursesData.find((c) => c.id.toString() === id || c.slug === id);
+
+  if (!course && id === "id" && coursesData.length > 0) {
+    course = coursesData[0];
+  }
 
   if (!course) {
     return {
@@ -33,10 +37,17 @@ export async function generateMetadata({ params }: CoursePageProps) {
 
 export default async function CourseDetailPage({ params }: CoursePageProps) {
   const { id } = await params;
-  const course = coursesData.find((c) => c.id.toString() === id);
+  let course = coursesData.find(
+    (c) => c.id.toString() === id || c.slug === id
+  );
 
+  // If the user navigates directly to literal /courses/id or invalid id, fallback to first course gracefully
   if (!course) {
-    notFound();
+    if (id === "id" && coursesData.length > 0) {
+      course = coursesData[0];
+    } else {
+      notFound();
+    }
   }
 
   return <CourseDetailView course={course} />;

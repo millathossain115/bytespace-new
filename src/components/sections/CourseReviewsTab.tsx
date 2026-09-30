@@ -81,25 +81,25 @@ export function CourseReviewsTab({ course }: CourseReviewsTabProps) {
       </div>
 
       {/* 2. Rating Breakdown Card */}
-      <div className="p-6 sm:p-8 rounded-[24px] bg-white border border-slate-200/90 shadow-2xs grid grid-cols-1 md:grid-cols-12 gap-6 items-center">
+      <div className="p-6 sm:p-8 rounded-[28px] bg-white border border-slate-200/90 shadow-2xs grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8 items-center">
         {/* Left Big Rating Box (Lime colored background) */}
-        <div className="md:col-span-4 flex justify-center">
-          <div className="w-full max-w-[170px] aspect-square rounded-[20px] bg-[#D4FB20] flex flex-col items-center justify-center text-center shadow-xs">
-            <span className="text-[11px] font-semibold text-zinc-700 uppercase tracking-wider">
+        <div className="md:col-span-3 flex justify-center md:justify-start">
+          <div className="w-[125px] h-[125px] rounded-[20px] bg-[#D4FB20] flex flex-col items-center justify-center text-center shadow-xs">
+            <span className="text-[11px] font-medium text-zinc-700 tracking-tight">
               Ratings
             </span>
-            <span className="text-4xl sm:text-5xl font-black font-poppins text-zinc-950 mt-1">
+            <span className="text-4xl font-extrabold font-poppins text-zinc-950 mt-0.5">
               {course.rating.toFixed(1)}
             </span>
           </div>
         </div>
 
         {/* Right Star Breakdown Bars */}
-        <div className="md:col-span-8 space-y-2.5">
+        <div className="md:col-span-9 space-y-2">
           {distribution.map((item) => (
-            <div key={item.stars} className="flex items-center gap-3 text-xs font-semibold text-zinc-600">
+            <div key={item.stars} className="flex items-center gap-4 text-xs font-semibold text-zinc-600">
               {/* Progress Bar Container */}
-              <div className="h-2.5 flex-1 rounded-full bg-slate-100 overflow-hidden">
+              <div className="h-2 flex-1 rounded-full bg-slate-100 overflow-hidden">
                 <div
                   className="h-full rounded-full bg-[#D4FB20] transition-all"
                   style={{ width: `${item.percentage}%` }}
@@ -121,7 +121,7 @@ export function CourseReviewsTab({ course }: CourseReviewsTabProps) {
               </div>
 
               {/* Count */}
-              <span className="w-8 text-right font-medium text-zinc-500">
+              <span className="w-9 text-right font-normal text-xs text-zinc-500 font-satoshi">
                 {item.count}
               </span>
             </div>
@@ -131,7 +131,7 @@ export function CourseReviewsTab({ course }: CourseReviewsTabProps) {
 
       {/* 3. Individual Reviews with Filter Buttons */}
       <div>
-        <h3 className="text-lg sm:text-xl font-bold font-poppins text-zinc-900 mb-4">
+        <h3 className="text-base sm:text-lg font-bold font-poppins text-zinc-900 mb-4">
           Individual Reviews:
         </h3>
 
@@ -140,10 +140,10 @@ export function CourseReviewsTab({ course }: CourseReviewsTabProps) {
           <button
             type="button"
             onClick={() => setFilterRating("all")}
-            className={`px-4 py-1.5 rounded-full text-xs font-bold transition-all cursor-pointer ${
+            className={`px-4 py-1.5 rounded-full text-xs font-semibold transition-all cursor-pointer ${
               filterRating === "all"
-                ? "bg-[#D4FB20] text-black shadow-xs scale-105"
-                : "bg-white text-zinc-700 hover:bg-slate-50 border border-slate-200"
+                ? "bg-[#D4FB20] text-black shadow-xs font-bold"
+                : "bg-white text-zinc-700 hover:bg-slate-50 border border-slate-200/90"
             }`}
           >
             All rating
@@ -153,13 +153,13 @@ export function CourseReviewsTab({ course }: CourseReviewsTabProps) {
               key={stars}
               type="button"
               onClick={() => setFilterRating(stars)}
-              className={`flex items-center gap-1 px-3.5 py-1.5 rounded-full text-xs font-semibold transition-all cursor-pointer ${
+              className={`flex items-center gap-1.5 px-4 py-1.5 rounded-full text-xs font-semibold transition-all cursor-pointer ${
                 filterRating === stars
-                  ? "bg-[#D4FB20] text-black shadow-xs scale-105 font-bold"
-                  : "bg-white text-zinc-700 hover:bg-slate-50 border border-slate-200"
+                  ? "bg-[#D4FB20] text-black shadow-xs font-bold"
+                  : "bg-white text-zinc-700 hover:bg-slate-50 border border-slate-200/90"
               }`}
             >
-              <Star className="w-3 h-3 fill-current" />
+              <Star className="w-3.5 h-3.5 fill-current" />
               <span>{stars}</span>
             </button>
           ))}
@@ -171,10 +171,10 @@ export function CourseReviewsTab({ course }: CourseReviewsTabProps) {
             filteredReviews.map((rev) => (
               <div
                 key={rev.id}
-                className="p-5 sm:p-6 rounded-[24px] bg-white border border-slate-200/90 shadow-2xs space-y-3"
+                className="p-6 rounded-[24px] bg-white border border-slate-200/90 shadow-2xs space-y-3"
               >
                 {/* Reviewer Header */}
-                <div className="flex items-center justify-between">
+                <div className="flex items-start justify-between gap-4">
                   <div className="flex items-center gap-3">
                     <div className="relative w-10 h-10 rounded-full overflow-hidden bg-slate-100 shrink-0">
                       <Image
@@ -193,13 +193,13 @@ export function CourseReviewsTab({ course }: CourseReviewsTabProps) {
                       </p>
                     </div>
                   </div>
-                  <span className="text-xs text-zinc-400 font-medium">
+                  <span className="text-xs text-zinc-400 font-normal font-satoshi shrink-0">
                     {rev.date}
                   </span>
                 </div>
 
                 {/* Stars */}
-                <div className="flex items-center gap-0.5 pt-1">
+                <div className="flex items-center gap-1 pt-1">
                   {Array.from({ length: 5 }).map((_, i) => (
                     <Star
                       key={i}
@@ -213,7 +213,7 @@ export function CourseReviewsTab({ course }: CourseReviewsTabProps) {
                 </div>
 
                 {/* Comment Body */}
-                <p className="text-xs sm:text-sm text-zinc-600 leading-relaxed font-satoshi pt-1">
+                <p className="text-xs sm:text-[13px] text-zinc-600 leading-relaxed font-satoshi pt-1">
                   &ldquo;{rev.comment}&rdquo;
                 </p>
               </div>

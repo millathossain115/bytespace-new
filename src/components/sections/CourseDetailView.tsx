@@ -41,8 +41,8 @@ export function CourseDetailView({ course }: CourseDetailViewProps) {
 
   return (
     <div className="w-full bg-[#FAFAFA] min-h-screen">
-      {/* 1. BLUE HERO SECTION */}
-      <section className="relative w-full bg-[#0052FF] pt-28 sm:pt-32 pb-16 sm:pb-24 text-white overflow-hidden">
+      {/* ───── BLUE HERO SECTION ───── */}
+      <section className="relative w-full bg-[#0052FF] pt-24 sm:pt-28 pb-40 sm:pb-52 lg:pb-64 text-white overflow-hidden">
         {/* Background Grid Pattern */}
         <div
           className="absolute inset-0 pointer-events-none opacity-30"
@@ -77,23 +77,18 @@ export function CourseDetailView({ course }: CourseDetailViewProps) {
 
               {/* Badges: Level, Rating, Students */}
               <div className="mt-6 flex flex-wrap items-center gap-3">
-                {/* Level Badge */}
                 <span className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-xs sm:text-sm font-semibold text-zinc-900 shadow-xs">
-                  <BarChart2 className="w-4 h-4 text-zinc-700" />
+                  <BarChart2 className="w-4 h-4 text-[#0052FF]" />
                   <span>{course.level}</span>
                 </span>
-
-                {/* Rating Badge */}
                 <span className="inline-flex items-center gap-1.5 rounded-full bg-white px-4 py-2 text-xs sm:text-sm font-semibold text-zinc-900 shadow-xs">
-                  <Star className="w-4 h-4 fill-[#EAB308] text-[#EAB308]" />
+                  <Star className="w-4 h-4 fill-[#0052FF] text-[#0052FF]" />
                   <span>
                     {course.rating} ({course.reviewsCount} reviews)
                   </span>
                 </span>
-
-                {/* Students Badge */}
                 <span className="inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-xs sm:text-sm font-semibold text-zinc-900 shadow-xs">
-                  <Users className="w-4 h-4 text-zinc-700" />
+                  <Users className="w-4 h-4 text-[#0052FF]" />
                   <span>{course.studentsCount}</span>
                 </span>
               </div>
@@ -111,88 +106,139 @@ export function CourseDetailView({ course }: CourseDetailViewProps) {
               </button>
             </div>
           </div>
+        </div>
+      </section>
 
-          {/* Video Preview Card Hero (Floating Halfway into Content) */}
-          <div className="mt-10 lg:mt-12 grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-            {/* Left Big Preview Window */}
-            <div className="lg:col-span-8">
-              <div className="relative aspect-[16/10] w-full rounded-[24px] sm:rounded-[32px] overflow-hidden bg-slate-900 shadow-2xl border-4 border-white/20">
-                <Image
-                  src={course.videoPreviewImage || course.image}
-                  alt={course.title}
-                  fill
-                  priority
-                  sizes="(max-width: 1024px) 100vw, 65vw"
-                  className="object-cover"
-                />
+      {/* ───── CONTENT: Video + Sidebar + Tabs — pulled up into the blue area ───── */}
+      <div className="relative z-20 max-w-[1400px] mx-auto px-4 sm:px-8 lg:px-12 -mt-36 sm:-mt-48 lg:-mt-60">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
 
-                {/* Play Button Overlay */}
-                {!isPlaying ? (
+          {/* ─── Left Column: Video Card + Tabs ─── */}
+          <div className="lg:col-span-8">
+            {/* Video Preview Card */}
+            <div className="relative aspect-video w-full rounded-[24px] sm:rounded-[32px] overflow-hidden bg-slate-900 shadow-2xl" style={{ border: 'none' }}>
+              <Image
+                src={course.videoPreviewImage || course.image}
+                alt={course.title}
+                fill
+                priority
+                sizes="(max-width: 1024px) 100vw, 65vw"
+                className="object-cover"
+              />
+
+              {/* Play Button Overlay */}
+              {!isPlaying ? (
+                <button
+                  type="button"
+                  onClick={() => setIsPlaying(true)}
+                  className="absolute inset-0 flex items-center justify-center bg-black/35 hover:bg-black/45 transition-all group cursor-pointer"
+                  aria-label="Play video preview"
+                >
+                  <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-white/90 backdrop-blur-md flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform">
+                    <Play className="w-7 h-7 sm:w-8 sm:h-8 fill-zinc-900 text-zinc-900 ml-1" />
+                  </div>
+                </button>
+              ) : (
+                <div className="absolute inset-0 bg-black/90 flex flex-col items-center justify-center text-white p-6 text-center">
+                  <p className="text-lg font-bold font-poppins">Interactive Video Preview Active</p>
+                  <p className="text-sm text-zinc-400 mt-2 font-satoshi">
+                    Full high-definition lessons available upon enrollment.
+                  </p>
                   <button
                     type="button"
-                    onClick={() => setIsPlaying(true)}
-                    className="absolute inset-0 flex items-center justify-center bg-black/35 hover:bg-black/45 transition-all group cursor-pointer"
-                    aria-label="Play video preview"
+                    onClick={() => setIsPlaying(false)}
+                    className="mt-4 px-5 py-2.5 rounded-full bg-white text-black text-xs font-bold hover:bg-slate-100 transition cursor-pointer"
                   >
-                    <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-white/90 backdrop-blur-md flex items-center justify-center shadow-2xl group-hover:scale-110 transition-transform">
-                      <Play className="w-7 h-7 sm:w-8 sm:h-8 fill-zinc-900 text-zinc-900 ml-1" />
-                    </div>
+                    Close Preview
                   </button>
-                ) : (
-                  <div className="absolute inset-0 bg-black/90 flex flex-col items-center justify-center text-white p-6 text-center">
-                    <p className="text-lg font-bold">Interactive Video Preview Active</p>
-                    <p className="text-sm text-zinc-400 mt-2">
-                      Full high-definition lessons available upon enrollment.
-                    </p>
-                    <button
-                      type="button"
-                      onClick={() => setIsPlaying(false)}
-                      className="mt-4 px-4 py-2 rounded-full bg-white text-black text-xs font-semibold"
-                    >
-                      Close Preview
-                    </button>
-                  </div>
-                )}
-              </div>
+                </div>
+              )}
             </div>
 
-            {/* Right Sticky Enrollment Sidebar on Desktop */}
-            <div className="lg:col-span-4">
-              <div className="rounded-[28px] border border-slate-200 bg-white p-6 sm:p-7 shadow-lg text-zinc-900">
+            {/* Tab Navigation Pill Group */}
+            <div className="mt-8 flex items-center gap-3">
+              <button
+                type="button"
+                onClick={() => setActiveTab("about")}
+                className={`px-6 py-2.5 rounded-full text-xs sm:text-sm font-semibold transition-all cursor-pointer border ${
+                  activeTab === "about"
+                    ? "bg-[#D4FB20] text-black shadow-md font-bold border-transparent"
+                    : "bg-[#EBEBEB] text-zinc-500 border-transparent hover:bg-[#E0E0E0] hover:text-zinc-700"
+                }`}
+              >
+                About
+              </button>
+              <button
+                type="button"
+                onClick={() => setActiveTab("lessons")}
+                className={`px-6 py-2.5 rounded-full text-xs sm:text-sm font-semibold transition-all cursor-pointer border ${
+                  activeTab === "lessons"
+                    ? "bg-[#D4FB20] text-black shadow-md font-bold border-transparent"
+                    : "bg-[#EBEBEB] text-zinc-500 border-transparent hover:bg-[#E0E0E0] hover:text-zinc-700"
+                }`}
+              >
+                Lessons
+              </button>
+              <button
+                type="button"
+                onClick={() => setActiveTab("reviews")}
+                className={`px-6 py-2.5 rounded-full text-xs sm:text-sm font-semibold transition-all cursor-pointer border ${
+                  activeTab === "reviews"
+                    ? "bg-[#D4FB20] text-black shadow-md font-bold border-transparent"
+                    : "bg-[#EBEBEB] text-zinc-500 border-transparent hover:bg-[#E0E0E0] hover:text-zinc-700"
+                }`}
+              >
+                Reviews
+              </button>
+            </div>
+
+            {/* Tab Views Content */}
+            <div className="mt-8 pb-12 sm:pb-16">
+              {activeTab === "about" && <CourseAboutTab course={course} />}
+              {activeTab === "lessons" && <CourseLessonsTab course={course} />}
+              {activeTab === "reviews" && <CourseReviewsTab course={course} />}
+            </div>
+          </div>
+
+          {/* ─── Right Column: Enrollment Sidebar ─── */}
+          {/* Starts at same height as video, overlaps both blue hero and white content */}
+          <div className="lg:col-span-4 relative z-30">
+            <div className="lg:sticky lg:top-24">
+              <div className="rounded-[28px] border border-slate-200/90 bg-white p-6 sm:p-8 shadow-xl text-zinc-900">
                 {/* Header: Total lessons + duration */}
                 <h3 className="font-poppins font-bold text-lg sm:text-xl text-zinc-900">
                   {course.totalLessonsInfo || `${course.lessons} (${course.duration})`}
                 </h3>
 
                 {/* Lesson Preview Snippets */}
-                <div className="mt-4 space-y-3 divide-y divide-slate-100">
+                <div className="mt-5 space-y-4 divide-y divide-slate-100">
                   {course.lessonsList?.slice(0, 3).map((item) => (
-                    <div key={item.id} className="pt-3 first:pt-0 flex items-center justify-between text-xs sm:text-[13px]">
-                      <span className="font-medium text-zinc-700 truncate pr-2">
+                    <div key={item.id} className="pt-4 first:pt-0 flex items-start justify-between gap-3 text-xs sm:text-[13px]">
+                      <span className="font-medium text-zinc-700 leading-relaxed font-satoshi">
                         {item.id} {item.title}
                       </span>
-                      <span className="text-blue-600 font-semibold shrink-0">
+                      <span className="text-[#0052FF] font-semibold shrink-0 font-satoshi mt-0.5">
                         {item.duration}
                       </span>
                     </div>
                   ))}
                 </div>
 
-                <p className="mt-3 text-xs text-zinc-400">
+                <p className="mt-3 text-xs text-zinc-400 font-satoshi">
                   + {Math.max(10, parseInt(course.lessons) - 3 || 12)} more videos
                 </p>
 
                 {/* Callout */}
-                <p className="mt-5 text-xs text-zinc-500 leading-relaxed">
+                <p className="mt-5 text-xs text-zinc-500 leading-relaxed font-satoshi">
                   Ready to Dive In? Enroll Now and Start Building Your Digital Future!
                 </p>
 
                 {/* Price */}
-                <div className="mt-4 flex items-baseline gap-1.5">
-                  <span className="text-3xl font-extrabold text-[#0052FF]">
+                <div className="mt-5 flex items-baseline gap-1.5">
+                  <span className="text-3xl font-extrabold text-[#0052FF] font-poppins">
                     {course.price}
                   </span>
-                  <span className="text-xs text-zinc-400 font-medium">
+                  <span className="text-xs text-zinc-400 font-medium font-satoshi">
                     {course.period}
                   </span>
                 </div>
@@ -207,25 +253,25 @@ export function CourseDetailView({ course }: CourseDetailViewProps) {
 
                 {/* This course includes */}
                 <div className="mt-6 pt-6 border-t border-slate-100">
-                  <h4 className="text-xs font-bold uppercase tracking-wider text-zinc-900">
+                  <h4 className="text-xs font-bold uppercase tracking-wider text-zinc-900 font-poppins">
                     This course include
                   </h4>
-                  <ul className="mt-3 space-y-2.5 text-xs text-zinc-600 font-medium">
+                  <ul className="mt-3.5 space-y-3 text-xs text-zinc-600 font-medium font-satoshi">
                     <li className="flex items-center gap-2.5">
-                      <FileText className="w-4 h-4 text-[#0052FF]" />
-                      <span>Learning Resources & Cheat Sheets</span>
+                      <FileText className="w-4 h-4 text-[#0052FF] shrink-0" />
+                      <span>Learning Resources</span>
                     </li>
                     <li className="flex items-center gap-2.5">
-                      <Video className="w-4 h-4 text-[#0052FF]" />
-                      <span>Quality HD Lesson Videos</span>
+                      <Video className="w-4 h-4 text-[#0052FF] shrink-0" />
+                      <span>Quality Lesson Videos</span>
                     </li>
                     <li className="flex items-center gap-2.5">
-                      <Award className="w-4 h-4 text-[#0052FF]" />
+                      <Award className="w-4 h-4 text-[#0052FF] shrink-0" />
                       <span>Certificate of Completion</span>
                     </li>
                     <li className="flex items-center gap-2.5">
-                      <Headphones className="w-4 h-4 text-[#0052FF]" />
-                      <span>Private Consultation & Community Access</span>
+                      <Headphones className="w-4 h-4 text-[#0052FF] shrink-0" />
+                      <span>Private Consultation</span>
                     </li>
                   </ul>
                 </div>
@@ -241,17 +287,22 @@ export function CourseDetailView({ course }: CourseDetailViewProps) {
                     />
                   </div>
                   <div>
-                    <h5 className="text-sm font-bold text-zinc-900">
+                    <h5 className="text-sm font-bold text-zinc-900 font-poppins">
                       {course.instructor}
                     </h5>
-                    <p className="text-xs text-zinc-500">{course.instructorRole}</p>
+                    <p className="text-xs text-zinc-500 font-satoshi">{course.instructorRole}</p>
                   </div>
                 </div>
+
+                {/* Ready to dive in secondary prompt */}
+                <p className="mt-5 text-xs text-zinc-500 leading-relaxed font-satoshi">
+                  Ready to Dive In? Enroll Now and Start Building Your Digital Future!
+                </p>
 
                 <div className="mt-4">
                   <Link
                     href="/creators"
-                    className="block w-full py-2 rounded-full border border-slate-200 text-center text-xs font-semibold text-zinc-700 hover:bg-slate-50 transition"
+                    className="inline-block py-2 px-5 rounded-full border border-slate-200 text-center text-xs font-semibold text-zinc-700 hover:bg-slate-50 transition"
                   >
                     See Full Profile
                   </Link>
@@ -260,62 +311,7 @@ export function CourseDetailView({ course }: CourseDetailViewProps) {
             </div>
           </div>
         </div>
-      </section>
-
-      {/* 2. TABS & CONTENT SECTION */}
-      <section className="max-w-[1400px] mx-auto px-4 sm:px-8 lg:px-12 py-10 lg:py-14">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-          {/* Main Left Content Area */}
-          <div className="lg:col-span-8">
-            {/* Tab Navigation Pill Group */}
-            <div className="flex items-center gap-2.5 p-1.5 rounded-full bg-slate-100/90 w-fit">
-              <button
-                type="button"
-                onClick={() => setActiveTab("about")}
-                className={`px-5 py-2 rounded-full text-xs sm:text-sm font-semibold transition-all cursor-pointer ${
-                  activeTab === "about"
-                    ? "bg-[#D4FB20] text-black shadow-xs font-bold"
-                    : "text-zinc-600 hover:text-zinc-900"
-                }`}
-              >
-                About
-              </button>
-              <button
-                type="button"
-                onClick={() => setActiveTab("lessons")}
-                className={`px-5 py-2 rounded-full text-xs sm:text-sm font-semibold transition-all cursor-pointer ${
-                  activeTab === "lessons"
-                    ? "bg-[#D4FB20] text-black shadow-xs font-bold"
-                    : "text-zinc-600 hover:text-zinc-900"
-                }`}
-              >
-                Lessons
-              </button>
-              <button
-                type="button"
-                onClick={() => setActiveTab("reviews")}
-                className={`px-5 py-2 rounded-full text-xs sm:text-sm font-semibold transition-all cursor-pointer ${
-                  activeTab === "reviews"
-                    ? "bg-[#D4FB20] text-black shadow-xs font-bold"
-                    : "text-zinc-600 hover:text-zinc-900"
-                }`}
-              >
-                Reviews
-              </button>
-            </div>
-
-            {/* Tab Views */}
-            <div className="mt-8">
-              {activeTab === "about" && <CourseAboutTab course={course} />}
-              {activeTab === "lessons" && <CourseLessonsTab course={course} />}
-              {activeTab === "reviews" && <CourseReviewsTab course={course} />}
-            </div>
-          </div>
-
-          {/* Empty Right Column placeholder for large screens */}
-          <div className="hidden lg:block lg:col-span-4" />
-        </div>
-      </section>
+      </div>
     </div>
   );
 }

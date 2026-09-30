@@ -33,11 +33,11 @@ export function CourseAboutTab({ course }: CourseAboutTabProps) {
         </div>
       </div>
 
-      {/* Sneak Peak Section */}
+      {/* Sneak Peek Section */}
       {course.sneakPeakImages && course.sneakPeakImages.length > 0 && (
         <div>
           <h2 className="text-xl sm:text-2xl font-bold font-poppins text-zinc-900">
-            Sneak Peak
+            Sneak Peek
           </h2>
           <div className="mt-4 grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4">
             {course.sneakPeakImages.slice(0, 4).map((img, idx) => (
@@ -64,16 +64,11 @@ export function CourseAboutTab({ course }: CourseAboutTabProps) {
           <h2 className="text-xl sm:text-2xl font-bold font-poppins text-zinc-900">
             Key Points
           </h2>
-          <div className="mt-5 grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+          <div className="mt-4 space-y-3">
             {course.keyPoints.map((point, idx) => (
-              <div
-                key={idx}
-                className="flex items-center gap-3 p-3.5 rounded-2xl bg-white border border-slate-200/90 shadow-2xs"
-              >
-                <div className="w-6 h-6 rounded-full bg-blue-50 flex items-center justify-center shrink-0">
-                  <CheckCircle2 className="w-4 h-4 text-[#0052FF]" />
-                </div>
-                <span className="text-xs sm:text-sm font-semibold text-zinc-800">
+              <div key={idx} className="flex items-center gap-3">
+                <CheckCircle2 className="w-5 h-5 fill-[#0052FF] text-white shrink-0" />
+                <span className="text-sm font-medium text-zinc-800 font-satoshi">
                   {point}
                 </span>
               </div>

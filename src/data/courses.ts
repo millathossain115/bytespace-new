@@ -3,161 +3,162 @@ import { CourseItem } from "@/types";
 export const coursesData: CourseItem[] = [
   {
     "id": 1,
-    "slug": "advanced-micro-interactions-prototyping-in-figma-1",
-    "title": "Advanced Micro-Interactions & Prototyping in Figma",
-    "subtitle": "Craft fluid mobile transitions and production-ready component logic",
-    "category": "Music",
+    "slug": "build-digital-asset-a-comprehensive-guide-1",
+    "title": "Build Digital Asset: A Comprehensive Guide",
+    "subtitle": "Unlock the Power of Digital Creation with Expert Guidance",
+    "category": "Design",
     "categories": [
-      "Music",
+      "Design",
       "Featured",
       "Digital Illustration"
     ],
     "instructor": "purepearl studio",
-    "instructorRole": "Design Systems Lead",
-    "instructorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
-    "rating": 4.6,
-    "reviewsCount": 120,
-    "studentsCount": "340 Students",
-    "level": "Advanced",
-    "price": "$35",
-    "priceNumeric": 35,
+    "instructorRole": "Professional Creator",
+    "instructorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+    "rating": 4.8,
+    "reviewsCount": 172,
+    "studentsCount": "199 Students",
+    "level": "Intermediate",
+    "price": "$25",
+    "priceNumeric": 25,
     "period": "/lifetime",
-    "image": "/courses/Learn Figma from Basic.webp",
-    "videoPreviewImage": "/courses/Learn Figma from Basic.webp",
-    "lessons": "14 Lessons",
-    "duration": "2 hours 10 mins",
-    "comments": "25 Comments",
-    "totalLessonsInfo": "14 Lessons (2 hours 10 mins)",
-    "progressPercentage": "40%",
-    "modulesOverview": "Step into a comprehensive curriculum designed to take you from core foundations to advanced portfolio-ready skills.",
-    "lessonContentText": "Gain deep mastery through detailed lessons, downloadable cheat sheets, project templates, and practical exercises.",
-    "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
+    "image": "/courses/Build Digital Asset.webp",
+    "videoPreviewImage": "/courses/Build Digital Asset.webp",
+    "lessons": "112 Lessons",
+    "duration": "24 hours",
+    "comments": "32 Comments",
+    "totalLessonsInfo": "112 Lessons (24 hours)",
+    "progressPercentage": "55%",
+    "modulesOverview": "Immerse yourself in the course content as we break down each module into comprehensive lessons, providing practical insights and hands-on experiences.",
+    "lessonContentText": "Engage with each lesson through captivating video content, detailed textual explanations, and interactive elements. Download resources, complete assignments, and test your understanding with quizzes.",
+    "progressTrackingText": "Witness your growth as you complete lessons, with an intuitive progress tracking feature guiding you through your learning journey.",
     "modules": [
       {
-        "title": "Module 1: Introduction & Workspace Foundations",
-        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
+        "title": "Module 1: Introduction to Digital Assets",
+        "description": "Lay the groundwork with lessons like 'Understanding Digital Elements' and 'Navigating Design Software Tools'. Dive into the essentials of digital asset creation."
       },
       {
-        "title": "Module 2: Core Design & Technical Execution",
-        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
+        "title": "Module 2: Design Principles for Impact",
+        "description": "Master the principles that drive impactful designs with lessons such as 'Color Theory in Digital Design' and 'Typography Essentials'. Elevate your visual communication skills."
       },
       {
-        "title": "Module 3: Responsive Constraints & Dynamic Logic",
-        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+        "title": "Module 4: User-Centric Design Strategies",
+        "description": "Understand 'Design Thinking in Digital Creation' and delve into 'User Experience (UX) Essentials'. Craft digital assets with a focus on user-centric design."
       },
       {
-        "title": "Module 4: User-Centric Strategies & Iteration",
-        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+        "title": "Module 5: Interactive Media and Engagement",
+        "description": "Engage your audience with lessons like 'Creating Interactive Presentations' and 'Integrating Multimedia Elements'. Master the art of creating immersive digital experiences."
       },
       {
-        "title": "Module 5: Project Showcase & Peer Critique",
-        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+        "title": "Module 6: Project Showcase and Critique",
+        "description": "Perfect your presentation skills with 'Effective Presentation Techniques' and embrace collaboration with 'Peer Critique and Collaboration'. Showcase your work with confidence."
       },
       {
-        "title": "Module 6: Multi-Platform Optimization & Handoff",
-        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
+        "title": "Module 7: Optimizing Digital Assets for Various Platforms",
+        "description": "Adapt your digital creations for 'Mobile Platforms' and optimize for 'Social Media'. Ensure widespread accessibility and engagement across diverse digital landscapes."
       }
     ],
     "description": [
-      "Master Advanced Micro-Interactions & Prototyping in Figma through hands-on project workflows and expert instruction.",
-      "Learn the core concepts, industry-tested tools, and actionable systems required to achieve professional results.",
-      "By the end of this course, you will possess a complete showcase project ready for your portfolio."
+      "Embark on an enlightening exploration into the world of digital creation with our comprehensive course, \"Build Digital Asset: A Comprehensive Guide.\" This transformative learning experience invites you to delve deep into the intricacies of crafting impactful digital content. From laying the groundwork with foundational concepts to mastering advanced techniques, this guide is meticulously curated to empower you with the skills essential for navigating the dynamic landscape of digital asset creation.",
+      "In the initial modules, you'll establish a solid foundation by immersing yourself in the foundational concepts that form the backbone of digital asset creation. Understand the fundamental elements that constitute compelling digital content and gain proficiency in leveraging these elements to communicate effectively in the digital realm.",
+      "As you progress through the course, you'll ascend to higher levels of expertise, delving into the nuances of design principles that drive impactful creations. Uncover the secrets behind effective visual communication, exploring color theory, typography, and layout strategies that elevate your digital assets to new heights. Engage in hands-on exercises that reinforce your understanding, allowing you to apply these principles in practical scenarios."
     ],
     "keyPoints": [
-      "Comprehensive foundation and core theory",
-      "Step-by-step project demonstrations",
-      "Industry-standard workflows and tools",
-      "Downloadable templates and cheat sheets",
-      "Capstone portfolio project"
+      "Foundational Concepts",
+      "Design Principles Mastery",
+      "Advanced Techniques in Digital Creation",
+      "Project Showcase and Critique",
+      "Optimizing for Various Platforms",
+      "Digital Asset Management Best Practices",
+      "Monetization Strategies",
+      "Capstone Project: Building Your Portfolio"
     ],
     "lessonsList": [
       {
         "id": "01",
-        "title": "Course Overview & Workspace Setup",
+        "title": "Introduction to Digital Assets",
         "duration": "12 mins"
       },
       {
         "id": "02",
-        "title": "Core Principles & Practical Demo",
-        "duration": "20 mins"
+        "title": "Design Principles for Impacts",
+        "duration": "21 mins"
       },
       {
         "id": "03",
-        "title": "Advanced Production Techniques",
-        "duration": "24 mins"
+        "title": "Advanced Techniques in Digital Creation",
+        "duration": "16 mins"
       }
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
       "/sneak peak/2.webp",
       "/sneak peak/3.webp",
-      "/sneak peak/4.webp",
-      "/courses/Learn Figma from Basic.webp",
-      "/courses/Build Digital Asset.webp"
+      "/sneak peak/4.webp"
     ],
     "ratingDistribution": [
       {
         "stars": 5,
-        "count": 90,
-        "percentage": 75
+        "count": 720,
+        "percentage": 80
       },
       {
         "stars": 4,
-        "count": 19,
-        "percentage": 16
+        "count": 130,
+        "percentage": 50
       },
       {
         "stars": 3,
-        "count": 6,
-        "percentage": 5
+        "count": 21,
+        "percentage": 30
       },
       {
         "stars": 2,
-        "count": 3,
-        "percentage": 3
+        "count": 10,
+        "percentage": 15
       },
       {
         "stars": 1,
-        "count": 2,
-        "percentage": 2
+        "count": 14,
+        "percentage": 20
       }
     ],
     "courseReviews": [
       {
         "id": "rev-1-1",
-        "author": "Studio Byte Lead",
+        "author": "PurePearl Studio",
         "role": "UI/UX Designer",
         "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
         "rating": 5,
-        "date": "1 year ago",
-        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+        "date": "4 year ago",
+        "comment": "The course provided me with a comprehensive understanding of digital asset creation. The lessons were in-depth, practical, and immediately applicable to my work. Highly recommended!"
       },
       {
         "id": "rev-1-2",
         "author": "Albert Flores",
-        "role": "Product Designer",
+        "role": "UI/UX Designer",
         "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
         "rating": 5,
-        "date": "1 year ago",
-        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+        "date": "4 year ago",
+        "comment": "This course transformed my approach to digital design. The combination of theory, hands-on exercises, and real-world applications made it a truly enriching experience. Excited to implement what I've learned!"
       },
       {
         "id": "rev-1-3",
         "author": "Cody Fisher",
-        "role": "Design Technologist",
+        "role": "UI/UX Designer",
         "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
         "rating": 5,
-        "date": "1 year ago",
-        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+        "date": "4 year ago",
+        "comment": "The project showcase and critique module created a collaborative environment where I could showcase my work, receive valuable feedback, and refine my skills. It added a unique and valuable dimension to the learning process."
       },
       {
         "id": "rev-1-4",
         "author": "Brooklyn Simmons",
-        "role": "Creative Specialist",
+        "role": "UI/UX Designer",
         "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
-        "rating": 4,
-        "date": "1 year ago",
-        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+        "rating": 5,
+        "date": "4 year ago",
+        "comment": "The lessons on optimizing digital assets for various platforms were particularly insightful. The course adapts to the evolving digital landscape, and the engaging content kept me motivated throughout."
       }
     ]
   },

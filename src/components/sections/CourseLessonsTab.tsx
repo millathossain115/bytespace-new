@@ -34,12 +34,12 @@ export function CourseLessonsTab({ course }: CourseLessonsTabProps) {
             course.modules.map((mod, idx) => (
               <div
                 key={idx}
-                className="flex items-start gap-4 p-4 sm:p-5 rounded-2xl bg-white border border-slate-200/90 shadow-2xs hover:border-slate-300 transition"
+                className="flex items-start gap-4 p-2 sm:p-2.5 rounded-2xl transition"
               >
-                <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-2xl bg-[#D4FB20] flex items-center justify-center shrink-0 shadow-2xs">
-                  <Video className="w-5 h-5 text-black" />
+                <div className="w-11 h-11 rounded-2xl bg-[#D4FB20] flex items-center justify-center shrink-0 shadow-xs">
+                  <Video className="w-5 h-5 text-zinc-950" />
                 </div>
-                <div className="flex-1">
+                <div className="flex-1 pt-0.5">
                   <h4 className="text-sm sm:text-base font-bold text-zinc-900 font-poppins">
                     {mod.title}
                   </h4>
