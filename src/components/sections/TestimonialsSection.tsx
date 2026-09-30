@@ -1,77 +1,63 @@
 import Image from "next/image";
 import { testimonialsData } from "@/data/testimonials";
-import { TestimonialItem } from "@/types";
+import { Glows, type Glow } from "@/components/ui/Decorations";
+
+// Reference radial glows relative to section top
+const glows: Glow[] = [
+  { x: 1410.5, y: 327.5, r: 568.5, rgb: "203 252 1", alpha: 0.4 },
+  { x: 731, y: 198, r: 336, rgb: "203 252 1", alpha: 0.6 },
+  { x: 126.5, y: 717.5, r: 568.5, rgb: "0 59 226", alpha: 0.24 },
+];
 
 export function TestimonialsSection() {
-  const testimonials: TestimonialItem[] = testimonialsData;
-
   return (
-    <section id="testimonials" className="relative overflow-hidden bg-[#fafbfc] py-20 sm:py-28 lg:py-32">
-      {/* Ambient Gradient Glows */}
-      <div className="pointer-events-none absolute inset-0 z-0 overflow-hidden">
-        {/* Top-Right Lime / Yellow Glow */}
-        <div className="absolute -top-24 right-0 h-[450px] w-[550px] rounded-full bg-[#d7ff2e]/25 blur-[130px] sm:h-[550px] sm:w-[650px]" />
-        
-        {/* Mid-Top Lime Accent */}
-        <div className="absolute top-10 left-1/2 -translate-x-1/3 h-[320px] w-[420px] rounded-full bg-[#ccff00]/15 blur-[110px]" />
+    <section id="testimonials" className="relative overflow-hidden bg-[#fafafa] px-5 pt-[74px] pb-[58px] md:px-8">
+      <Glows items={glows} />
 
-        {/* Bottom-Left Soft Blue Glow */}
-        <div className="absolute -bottom-20 -left-20 h-[420px] w-[480px] rounded-full bg-[#93c5fd]/30 blur-[120px]" />
-        
-        {/* Bottom-Right Soft Violet Tint */}
-        <div className="absolute -bottom-24 right-1/4 h-[300px] w-[350px] rounded-full bg-[#c7d2fe]/20 blur-[100px]" />
-      </div>
-
-      <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="relative z-10 mx-auto max-w-[1200px]">
         {/* Header: Title on Left, Description on Right */}
-        <div className="flex flex-col justify-between gap-6 lg:flex-row lg:items-start lg:gap-12">
-          <div className="max-w-xl">
-            <h2 className="text-3xl font-extrabold tracking-tight text-zinc-900 sm:text-4xl lg:text-[42px] lg:leading-[1.18]">
-              Discover What Our <br />
-              Community Is Saying
-            </h2>
-          </div>
-
-          <div className="max-w-xl lg:max-w-[500px] lg:pt-1">
-            <p className="text-xs sm:text-sm lg:text-[14.5px] leading-relaxed text-zinc-600 font-normal">
-              At ByteSpace, our vibrant community of learners and creators is at the heart of what we do. Hear directly from those who have experienced the transformative journey of learning and creating on our platform. Explore testimonials that reflect the diverse perspectives of enthusiastic learners and accomplished creators.
-            </p>
-          </div>
+        <div className="flex flex-col gap-6 lg:flex-row lg:items-start lg:justify-between">
+          <h2 className="font-poppins text-[32px] font-semibold leading-[1.2] tracking-[-0.01em] text-zinc-900 md:text-[44px] lg:mt-10">
+            Discover What Our
+            <br className="hidden md:block" /> Community Is Saying
+          </h2>
+          <p className="text-base leading-[1.6] text-zinc-600 md:text-lg lg:w-[582px]">
+            At ByteSpace, our vibrant community of learners and creators is at
+            the heart of what we do. Hear directly from those who have
+            experienced the transformative journey of learning and creating on
+            our platform. Explore testimonials that reflect the diverse
+            perspectives of enthusiastic learners and accomplished creators.
+          </p>
         </div>
 
-        {/* 3 Testimonials Cards Grid */}
-        <div className="mt-12 sm:mt-16 lg:mt-20 grid grid-cols-1 gap-6 md:grid-cols-3 lg:gap-8">
-          {testimonials.map((item) => (
-            <div
-              key={item.id}
-              className="group relative flex flex-col rounded-[28px] sm:rounded-[32px] border border-zinc-200/90 bg-white p-7 sm:p-8 lg:p-9 shadow-[0_4px_24px_rgba(0,0,0,0.03)] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_14px_36px_rgba(0,0,0,0.07)]"
+        {/* Testimonials 3-Card Grid */}
+        <div className="mt-12 grid items-start gap-6 md:grid-cols-2 lg:-mx-0.5 lg:mt-[71px] lg:grid-cols-3 lg:gap-[41px]">
+          {testimonialsData.map(({ id, name, role, avatar, quote }) => (
+            <figure
+              key={id}
+              className="rounded-[24px] bg-white p-6 shadow-[0_2px_12px_rgba(0,0,0,0.04)] border border-zinc-100 transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
             >
-              {/* User Avatar */}
-              <div className="relative h-14 w-14 sm:h-16 sm:w-16 overflow-hidden rounded-full ring-2 ring-zinc-100 shadow-xs">
+              <div className="relative size-20 overflow-hidden rounded-full ring-2 ring-zinc-100">
                 <Image
-                  src={item.avatar}
-                  alt={item.name}
-                  fill
-                  className="object-cover"
-                  sizes="64px"
+                  src={avatar}
+                  alt={name}
+                  width={80}
+                  height={80}
+                  className="size-full object-cover"
                 />
               </div>
 
-              {/* Name & Role */}
-              <div className="mt-5 sm:mt-6">
-                <h3 className="text-base sm:text-[17px] font-bold text-zinc-900 tracking-tight">
-                  {item.name}
-                </h3>
-                <p className="text-xs sm:text-[13px] font-semibold text-[#0052FE] mt-0.5">
-                  {item.role}
+              <figcaption className="mt-[23px]">
+                <p className="font-poppins text-xl font-semibold leading-[1.5] text-zinc-900">
+                  {name}
                 </p>
-              </div>
+                <p className="text-base leading-[1.6] font-medium text-[#0052FE]">{role}</p>
+              </figcaption>
 
-              {/* Quote */}
-              <p className="mt-4 sm:mt-5 text-xs sm:text-[13.5px] leading-relaxed text-zinc-600 font-normal">
-                {item.quote}
-              </p>
-            </div>
+              <blockquote className="mt-6 text-base leading-[1.6] text-zinc-600">
+                {quote}
+              </blockquote>
+            </figure>
           ))}
         </div>
       </div>
