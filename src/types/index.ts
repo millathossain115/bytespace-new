@@ -55,6 +55,17 @@ export interface CourseItem {
 
 export type Course = CourseItem;
 
+export interface Creator {
+  id: string;
+  name: string;
+  role: string;
+  avatar: string;
+  badge?: string;
+  bio: string;
+  productsCount: number;
+  followersCount: string;
+}
+
 
 export interface PartnerLogo {
   id: number;
