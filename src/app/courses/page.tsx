@@ -3,11 +3,10 @@
 import React, { useState, useMemo, useEffect, useRef, Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import { Search, ChevronDown, Filter, BarChart2, Shapes, AlignLeft, X } from "lucide-react";
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { CourseCard } from "@/components/ui/CourseCard";
 import { Pagination } from "@/components/ui/Pagination";
 import { coursesData } from "@/data/courses";
-import { CourseItem } from "@/types";
 
 const CATEGORIES = [
   "Featured",
@@ -37,13 +36,13 @@ function CoursesContent() {
   const router = useRouter();
 
   // Search input state
-  const initialQuery = searchParams.get("q") || "";
-  const initialCategory = searchParams.get("category") || "Featured";
-  const initialLevel = searchParams.get("level") || "All Levels";
+  const queryParam = searchParams.get("q") || "";
+  const categoryParam = searchParams.get("category") || "Featured";
+  const levelParam = searchParams.get("level") || "All Levels";
 
-  const [searchQuery, setSearchQuery] = useState(initialQuery);
-  const [selectedCategory, setSelectedCategory] = useState(initialCategory);
-  const [selectedLevel, setSelectedLevel] = useState(initialLevel);
+  const [searchQuery, setSearchQuery] = useState(queryParam);
+  const [selectedCategory, setSelectedCategory] = useState(categoryParam);
+  const [selectedLevel, setSelectedLevel] = useState(levelParam);
   const [selectedSort, setSelectedSort] = useState("relevant");
   const [currentPage, setCurrentPage] = useState(1);
 
@@ -79,16 +78,6 @@ function CoursesContent() {
     document.addEventListener("mousedown", handleClickOutside);
     return () => document.removeEventListener("mousedown", handleClickOutside);
   }, []);
-
-  // Sync state when URL params change
-  useEffect(() => {
-    if (searchParams.get("q") !== null) {
-      setSearchQuery(searchParams.get("q") || "");
-    }
-    if (searchParams.get("category")) {
-      setSelectedCategory(searchParams.get("category") || "All");
-    }
-  }, [searchParams]);
 
 
   // Handle Search Submission

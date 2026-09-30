@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 import { Search } from "lucide-react";
 import { motion } from "framer-motion";
 import {
@@ -67,12 +68,13 @@ const decorations: Decoration[] = [
 ];
 
 export function HeroSection() {
+  const router = useRouter();
   const [searchQuery, setSearchQuery] = useState("");
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
     if (searchQuery.trim()) {
-      window.location.href = `/courses?q=${encodeURIComponent(searchQuery.trim())}`;
+      router.push(`/courses?q=${encodeURIComponent(searchQuery.trim())}`);
     }
   };
 
