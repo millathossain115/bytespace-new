@@ -8,14 +8,12 @@ import {
   BarChart2,
   Shapes,
   ChevronDown,
-  ChevronLeft,
-  ChevronRight,
-  Check,
-  Plus
+  Check
 } from "lucide-react";
 import { Creator, CourseItem } from "@/types";
 import { motion } from "framer-motion";
 import { CourseCard } from "@/components/ui/CourseCard";
+import { Pagination } from "@/components/ui/Pagination";
 
 interface CreatorProfileViewProps {
   creator: Creator;
@@ -364,70 +362,12 @@ export function CreatorProfileView({ creator, courses }: CreatorProfileViewProps
         )}
 
         {/* Pagination */}
-        {totalPages > 1 && (
-          <div className="mt-12 flex flex-wrap items-center justify-center gap-1.5 sm:gap-2">
-            {/* Previous Button */}
-            <button
-              type="button"
-              onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
-              disabled={currentPage === 1}
-              className="w-10 h-10 rounded-full border border-slate-200 bg-white flex items-center justify-center text-zinc-600 hover:bg-slate-50 disabled:opacity-40 disabled:cursor-not-allowed transition cursor-pointer"
-            >
-              <ChevronLeft className="w-4 h-4" />
-            </button>
-
-            {/* Page Numbers — show max 5 with ellipsis */}
-            {(() => {
-              const maxVisible = 5;
-              let start = Math.max(1, currentPage - Math.floor(maxVisible / 2));
-              let end = start + maxVisible - 1;
-              if (end > totalPages) {
-                end = totalPages;
-                start = Math.max(1, end - maxVisible + 1);
-              }
-              const pages: (number | string)[] = [];
-              if (start > 1) {
-                pages.push(1);
-                if (start > 2) pages.push("start-ellipsis");
-              }
-              for (let i = start; i <= end; i++) pages.push(i);
-              if (end < totalPages) {
-                if (end < totalPages - 1) pages.push("end-ellipsis");
-                pages.push(totalPages);
-              }
-              return pages.map((page) =>
-                typeof page === "string" ? (
-                  <span key={page} className="w-10 h-10 flex items-center justify-center text-sm text-zinc-400">
-                    …
-                  </span>
-                ) : (
-                  <button
-                    key={page}
-                    type="button"
-                    onClick={() => setCurrentPage(page)}
-                    className={`w-10 h-10 rounded-full text-sm font-semibold transition cursor-pointer ${
-                      currentPage === page
-                        ? "bg-[#0052FF] text-white shadow-md"
-                        : "border border-slate-200 bg-white text-zinc-600 hover:bg-slate-50"
-                    }`}
-                  >
-                    {page}
-                  </button>
-                )
-              );
-            })()}
-
-            {/* Next Button */}
-            <button
-              type="button"
-              onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
-              disabled={currentPage === totalPages}
-              className="w-10 h-10 rounded-full border border-slate-200 bg-white flex items-center justify-center text-zinc-600 hover:bg-slate-50 disabled:opacity-40 disabled:cursor-not-allowed transition cursor-pointer"
-            >
-              <ChevronRight className="w-4 h-4" />
-            </button>
-          </div>
-        )}
+        <Pagination
+          currentPage={currentPage}
+          totalPages={totalPages}
+          onPageChange={setCurrentPage}
+          className="mt-12"
+        />
       </section>
     </div>
   );

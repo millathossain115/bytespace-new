@@ -2,9 +2,10 @@
 
 import React, { useState, useMemo, useEffect, useRef, Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
-import { Search, ChevronDown, Filter, BarChart2, Shapes, AlignLeft, ChevronLeft, ChevronRight, X } from "lucide-react";
+import { Search, ChevronDown, Filter, BarChart2, Shapes, AlignLeft, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { CourseCard } from "@/components/ui/CourseCard";
+import { Pagination } from "@/components/ui/Pagination";
 import { coursesData } from "@/data/courses";
 import { CourseItem } from "@/types";
 
@@ -492,66 +493,12 @@ function CoursesContent() {
         )}
 
         {/* 4. FUNCTIONAL PAGINATION BAR */}
-        <div className="mt-14 sm:mt-16 flex items-center justify-center gap-2 select-none">
-          {/* Prev button */}
-          <button
-            type="button"
-            onClick={() => handlePageChange(currentPage - 1)}
-            disabled={currentPage <= 1}
-            className="w-10 h-10 rounded-full border border-slate-200 bg-white flex items-center justify-center text-slate-700 hover:bg-slate-100 disabled:opacity-30 disabled:pointer-events-none transition cursor-pointer"
-            aria-label="Previous page"
-          >
-            <ChevronLeft className="w-4 h-4" />
-          </button>
-
-          {/* Page number buttons */}
-          <div className="flex items-center gap-1.5 sm:gap-2">
-            {Array.from({ length: Math.max(totalPages, 1) }, (_, idx) => idx + 1)
-              .filter((p) => {
-                // Show pages around current
-                if (totalPages <= 7) return true;
-                return (
-                  p === 1 ||
-                  p === totalPages ||
-                  Math.abs(p - currentPage) <= 2
-                );
-              })
-              .map((page, idx, arr) => {
-                const prev = arr[idx - 1];
-                const hasGap = prev && page - prev > 1;
-
-                return (
-                  <React.Fragment key={page}>
-                    {hasGap && (
-                      <span className="px-1 text-slate-400 text-xs">...</span>
-                    )}
-                    <button
-                      type="button"
-                      onClick={() => handlePageChange(page)}
-                      className={`w-9 h-9 sm:w-10 sm:h-10 rounded-full text-xs sm:text-sm font-semibold transition-all cursor-pointer ${
-                        currentPage === page
-                          ? "bg-[#D4FB20] text-black shadow-xs font-bold border-0"
-                          : "bg-white text-zinc-700 hover:bg-zinc-100 border border-zinc-200"
-                      }`}
-                    >
-                      {page}
-                    </button>
-                  </React.Fragment>
-                );
-              })}
-          </div>
-
-          {/* Next button */}
-          <button
-            type="button"
-            onClick={() => handlePageChange(currentPage + 1)}
-            disabled={currentPage >= totalPages}
-            className="w-10 h-10 rounded-full border border-slate-200 bg-white flex items-center justify-center text-slate-700 hover:bg-slate-100 disabled:opacity-30 disabled:pointer-events-none transition cursor-pointer"
-            aria-label="Next page"
-          >
-            <ChevronRight className="w-4 h-4" />
-          </button>
-        </div>
+        <Pagination
+          currentPage={currentPage}
+          totalPages={totalPages}
+          onPageChange={handlePageChange}
+          className="mt-14 sm:mt-16"
+        />
       </section>
     </div>
   );
