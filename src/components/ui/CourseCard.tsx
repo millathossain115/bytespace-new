@@ -35,7 +35,7 @@ export function CourseCard({ course, studentAvatars = [] }: CourseCardProps) {
             sizes="(min-width: 1024px) 341px, (min-width: 768px) 50vw, 100vw"
             className="object-cover transition-transform duration-300 group-hover:scale-105"
             onError={() => {
-              setImgSrc("/courses/Learn Figma from Basic.jpg");
+              setImgSrc("/courses/Learn Figma from Basic.webp");
             }}
           />
           {/* Overlaid Badges pill list */}

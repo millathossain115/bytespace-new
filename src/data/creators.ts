@@ -5,7 +5,7 @@ export const creatorsData: Creator[] = [
     id: "studio-byte",
     name: "PurePearl Studio",
     role: "Passionate UI/UX, Web designer",
-    avatar: "/creator/Image.png",
+    avatar: "/creator/Image.webp",
     badge: "Creator",
     bio: "Welcome to the creative world of PurePearl Studio. Here, you'll discover the passion, expertise, and inspiration that drive our creative journey. Let's explore and learn together!\n\nDive into our creative portfolio, showcasing a glimpse of artistic endeavors. From digital designs to multimedia projects, each piece tells a unique story. Explore the world of creativity with us.",
     productsCount: 16,

@@ -22,8 +22,8 @@ export const coursesData: CourseItem[] = [
     "price": "$35",
     "priceNumeric": 35,
     "period": "/lifetime",
-    "image": "/courses/Learn Figma from Basic.jpg",
-    "videoPreviewImage": "/courses/Learn Figma from Basic.jpg",
+    "image": "/courses/Learn Figma from Basic.webp",
+    "videoPreviewImage": "/courses/Learn Figma from Basic.webp",
     "lessons": "14 Lessons",
     "duration": "2 hours 10 mins",
     "comments": "25 Comments",
@@ -89,11 +89,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -181,8 +181,8 @@ export const coursesData: CourseItem[] = [
     "price": "$40",
     "priceNumeric": 40,
     "period": "/lifetime",
-    "image": "/courses/Build Digital Asset.jpg",
-    "videoPreviewImage": "/courses/Build Digital Asset.jpg",
+    "image": "/courses/Build Digital Asset.webp",
+    "videoPreviewImage": "/courses/Build Digital Asset.webp",
     "lessons": "15 Lessons",
     "duration": "3 hours 17 mins",
     "comments": "26 Comments",
@@ -248,11 +248,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -340,8 +340,8 @@ export const coursesData: CourseItem[] = [
     "price": "$22",
     "priceNumeric": 22,
     "period": "/lifetime",
-    "image": "/courses/the Power of Big Data.avif",
-    "videoPreviewImage": "/courses/the Power of Big Data.avif",
+    "image": "/courses/the Power of Big Data.webp",
+    "videoPreviewImage": "/courses/the Power of Big Data.webp",
     "lessons": "16 Lessons",
     "duration": "4 hours 24 mins",
     "comments": "27 Comments",
@@ -407,11 +407,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -566,11 +566,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -724,11 +724,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -815,8 +815,8 @@ export const coursesData: CourseItem[] = [
     "price": "$25",
     "priceNumeric": 25,
     "period": "/lifetime",
-    "image": "/courses/From Idea to Startup Success.avif",
-    "videoPreviewImage": "/courses/From Idea to Startup Success.avif",
+    "image": "/courses/From Idea to Startup Success.webp",
+    "videoPreviewImage": "/courses/From Idea to Startup Success.webp",
     "lessons": "19 Lessons",
     "duration": "4 hours 45 mins",
     "comments": "30 Comments",
@@ -882,11 +882,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -1041,11 +1041,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -1132,8 +1132,8 @@ export const coursesData: CourseItem[] = [
     "price": "$30",
     "priceNumeric": 30,
     "period": "/lifetime",
-    "image": "/sneak peak/2.jpg",
-    "videoPreviewImage": "/sneak peak/2.jpg",
+    "image": "/sneak peak/2.webp",
+    "videoPreviewImage": "/sneak peak/2.webp",
     "lessons": "21 Lessons",
     "duration": "3 hours 59 mins",
     "comments": "32 Comments",
@@ -1199,11 +1199,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -1291,8 +1291,8 @@ export const coursesData: CourseItem[] = [
     "price": "$34",
     "priceNumeric": 34,
     "period": "/lifetime",
-    "image": "/sneak peak/3.jpg",
-    "videoPreviewImage": "/sneak peak/3.jpg",
+    "image": "/sneak peak/3.webp",
+    "videoPreviewImage": "/sneak peak/3.webp",
     "lessons": "22 Lessons",
     "duration": "4 hours 16 mins",
     "comments": "33 Comments",
@@ -1358,11 +1358,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -1449,8 +1449,8 @@ export const coursesData: CourseItem[] = [
     "price": "$38",
     "priceNumeric": 38,
     "period": "/lifetime",
-    "image": "/sneak peak/4.jpg",
-    "videoPreviewImage": "/sneak peak/4.jpg",
+    "image": "/sneak peak/4.webp",
+    "videoPreviewImage": "/sneak peak/4.webp",
     "lessons": "23 Lessons",
     "duration": "2 hours 23 mins",
     "comments": "34 Comments",
@@ -1516,11 +1516,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -1607,8 +1607,8 @@ export const coursesData: CourseItem[] = [
     "price": "$29",
     "priceNumeric": 29,
     "period": "/lifetime",
-    "image": "/courses/Learn Figma from Basic.jpg",
-    "videoPreviewImage": "/courses/Learn Figma from Basic.jpg",
+    "image": "/courses/Learn Figma from Basic.webp",
+    "videoPreviewImage": "/courses/Learn Figma from Basic.webp",
     "lessons": "24 Lessons",
     "duration": "3 hours 30 mins",
     "comments": "35 Comments",
@@ -1674,11 +1674,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -1766,8 +1766,8 @@ export const coursesData: CourseItem[] = [
     "price": "$32",
     "priceNumeric": 32,
     "period": "/lifetime",
-    "image": "/courses/Build Digital Asset.jpg",
-    "videoPreviewImage": "/courses/Build Digital Asset.jpg",
+    "image": "/courses/Build Digital Asset.webp",
+    "videoPreviewImage": "/courses/Build Digital Asset.webp",
     "lessons": "25 Lessons",
     "duration": "4 hours 37 mins",
     "comments": "36 Comments",
@@ -1833,11 +1833,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -1924,8 +1924,8 @@ export const coursesData: CourseItem[] = [
     "price": "$26",
     "priceNumeric": 26,
     "period": "/lifetime",
-    "image": "/courses/the Power of Big Data.avif",
-    "videoPreviewImage": "/courses/the Power of Big Data.avif",
+    "image": "/courses/the Power of Big Data.webp",
+    "videoPreviewImage": "/courses/the Power of Big Data.webp",
     "lessons": "26 Lessons",
     "duration": "2 hours 44 mins",
     "comments": "37 Comments",
@@ -1991,11 +1991,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -2149,11 +2149,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -2308,11 +2308,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -2399,8 +2399,8 @@ export const coursesData: CourseItem[] = [
     "price": "$24",
     "priceNumeric": 24,
     "period": "/lifetime",
-    "image": "/courses/From Idea to Startup Success.avif",
-    "videoPreviewImage": "/courses/From Idea to Startup Success.avif",
+    "image": "/courses/From Idea to Startup Success.webp",
+    "videoPreviewImage": "/courses/From Idea to Startup Success.webp",
     "lessons": "14 Lessons",
     "duration": "2 hours 15 mins",
     "comments": "40 Comments",
@@ -2466,11 +2466,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -2624,11 +2624,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -2715,8 +2715,8 @@ export const coursesData: CourseItem[] = [
     "price": "$38",
     "priceNumeric": 38,
     "period": "/lifetime",
-    "image": "/sneak peak/2.jpg",
-    "videoPreviewImage": "/sneak peak/2.jpg",
+    "image": "/sneak peak/2.webp",
+    "videoPreviewImage": "/sneak peak/2.webp",
     "lessons": "16 Lessons",
     "duration": "4 hours 29 mins",
     "comments": "42 Comments",
@@ -2782,11 +2782,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -2874,8 +2874,8 @@ export const coursesData: CourseItem[] = [
     "price": "$22",
     "priceNumeric": 22,
     "period": "/lifetime",
-    "image": "/sneak peak/3.jpg",
-    "videoPreviewImage": "/sneak peak/3.jpg",
+    "image": "/sneak peak/3.webp",
+    "videoPreviewImage": "/sneak peak/3.webp",
     "lessons": "17 Lessons",
     "duration": "2 hours 36 mins",
     "comments": "43 Comments",
@@ -2941,11 +2941,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -3032,8 +3032,8 @@ export const coursesData: CourseItem[] = [
     "price": "$28",
     "priceNumeric": 28,
     "period": "/lifetime",
-    "image": "/sneak peak/4.jpg",
-    "videoPreviewImage": "/sneak peak/4.jpg",
+    "image": "/sneak peak/4.webp",
+    "videoPreviewImage": "/sneak peak/4.webp",
     "lessons": "18 Lessons",
     "duration": "3 hours 43 mins",
     "comments": "44 Comments",
@@ -3099,11 +3099,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -3190,8 +3190,8 @@ export const coursesData: CourseItem[] = [
     "price": "$45",
     "priceNumeric": 45,
     "period": "/lifetime",
-    "image": "/courses/Learn Figma from Basic.jpg",
-    "videoPreviewImage": "/courses/Learn Figma from Basic.jpg",
+    "image": "/courses/Learn Figma from Basic.webp",
+    "videoPreviewImage": "/courses/Learn Figma from Basic.webp",
     "lessons": "19 Lessons",
     "duration": "4 hours 50 mins",
     "comments": "45 Comments",
@@ -3257,11 +3257,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -3348,8 +3348,8 @@ export const coursesData: CourseItem[] = [
     "price": "$39",
     "priceNumeric": 39,
     "period": "/lifetime",
-    "image": "/courses/Build Digital Asset.jpg",
-    "videoPreviewImage": "/courses/Build Digital Asset.jpg",
+    "image": "/courses/Build Digital Asset.webp",
+    "videoPreviewImage": "/courses/Build Digital Asset.webp",
     "lessons": "20 Lessons",
     "duration": "2 hours 57 mins",
     "comments": "46 Comments",
@@ -3415,11 +3415,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -3508,8 +3508,8 @@ export const coursesData: CourseItem[] = [
     "price": "$34",
     "priceNumeric": 34,
     "period": "/lifetime",
-    "image": "/courses/the Power of Big Data.avif",
-    "videoPreviewImage": "/courses/the Power of Big Data.avif",
+    "image": "/courses/the Power of Big Data.webp",
+    "videoPreviewImage": "/courses/the Power of Big Data.webp",
     "lessons": "21 Lessons",
     "duration": "3 hours 14 mins",
     "comments": "47 Comments",
@@ -3575,11 +3575,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -3733,11 +3733,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -3892,11 +3892,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -3984,8 +3984,8 @@ export const coursesData: CourseItem[] = [
     "price": "$25",
     "priceNumeric": 25,
     "period": "/lifetime",
-    "image": "/courses/From Idea to Startup Success.avif",
-    "videoPreviewImage": "/courses/From Idea to Startup Success.avif",
+    "image": "/courses/From Idea to Startup Success.webp",
+    "videoPreviewImage": "/courses/From Idea to Startup Success.webp",
     "lessons": "24 Lessons",
     "duration": "3 hours 35 mins",
     "comments": "50 Comments",
@@ -4051,11 +4051,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -4209,11 +4209,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -4300,8 +4300,8 @@ export const coursesData: CourseItem[] = [
     "price": "$26",
     "priceNumeric": 26,
     "period": "/lifetime",
-    "image": "/sneak peak/2.jpg",
-    "videoPreviewImage": "/sneak peak/2.jpg",
+    "image": "/sneak peak/2.webp",
+    "videoPreviewImage": "/sneak peak/2.webp",
     "lessons": "26 Lessons",
     "duration": "2 hours 49 mins",
     "comments": "52 Comments",
@@ -4367,11 +4367,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -4459,8 +4459,8 @@ export const coursesData: CourseItem[] = [
     "price": "$38",
     "priceNumeric": 38,
     "period": "/lifetime",
-    "image": "/sneak peak/3.jpg",
-    "videoPreviewImage": "/sneak peak/3.jpg",
+    "image": "/sneak peak/3.webp",
+    "videoPreviewImage": "/sneak peak/3.webp",
     "lessons": "27 Lessons",
     "duration": "3 hours 56 mins",
     "comments": "53 Comments",
@@ -4526,11 +4526,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -4617,8 +4617,8 @@ export const coursesData: CourseItem[] = [
     "price": "$32",
     "priceNumeric": 32,
     "period": "/lifetime",
-    "image": "/sneak peak/4.jpg",
-    "videoPreviewImage": "/sneak peak/4.jpg",
+    "image": "/sneak peak/4.webp",
+    "videoPreviewImage": "/sneak peak/4.webp",
     "lessons": "28 Lessons",
     "duration": "4 hours 13 mins",
     "comments": "54 Comments",
@@ -4684,11 +4684,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -4775,8 +4775,8 @@ export const coursesData: CourseItem[] = [
     "price": "$20",
     "priceNumeric": 20,
     "period": "/lifetime",
-    "image": "/courses/Learn Figma from Basic.jpg",
-    "videoPreviewImage": "/courses/Learn Figma from Basic.jpg",
+    "image": "/courses/Learn Figma from Basic.webp",
+    "videoPreviewImage": "/courses/Learn Figma from Basic.webp",
     "lessons": "14 Lessons",
     "duration": "2 hours 20 mins",
     "comments": "55 Comments",
@@ -4842,11 +4842,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -4934,8 +4934,8 @@ export const coursesData: CourseItem[] = [
     "price": "$35",
     "priceNumeric": 35,
     "period": "/lifetime",
-    "image": "/courses/Build Digital Asset.jpg",
-    "videoPreviewImage": "/courses/Build Digital Asset.jpg",
+    "image": "/courses/Build Digital Asset.webp",
+    "videoPreviewImage": "/courses/Build Digital Asset.webp",
     "lessons": "15 Lessons",
     "duration": "3 hours 27 mins",
     "comments": "56 Comments",
@@ -5001,11 +5001,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -5092,8 +5092,8 @@ export const coursesData: CourseItem[] = [
     "price": "$27",
     "priceNumeric": 27,
     "period": "/lifetime",
-    "image": "/courses/the Power of Big Data.avif",
-    "videoPreviewImage": "/courses/the Power of Big Data.avif",
+    "image": "/courses/the Power of Big Data.webp",
+    "videoPreviewImage": "/courses/the Power of Big Data.webp",
     "lessons": "16 Lessons",
     "duration": "4 hours 34 mins",
     "comments": "57 Comments",
@@ -5159,11 +5159,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -5318,11 +5318,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -5477,11 +5477,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -5568,8 +5568,8 @@ export const coursesData: CourseItem[] = [
     "price": "$40",
     "priceNumeric": 40,
     "period": "/lifetime",
-    "image": "/courses/From Idea to Startup Success.avif",
-    "videoPreviewImage": "/courses/From Idea to Startup Success.avif",
+    "image": "/courses/From Idea to Startup Success.webp",
+    "videoPreviewImage": "/courses/From Idea to Startup Success.webp",
     "lessons": "19 Lessons",
     "duration": "4 hours 55 mins",
     "comments": "60 Comments",
@@ -5635,11 +5635,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -5794,11 +5794,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -5885,8 +5885,8 @@ export const coursesData: CourseItem[] = [
     "price": "$28",
     "priceNumeric": 28,
     "period": "/lifetime",
-    "image": "/sneak peak/2.jpg",
-    "videoPreviewImage": "/sneak peak/2.jpg",
+    "image": "/sneak peak/2.webp",
+    "videoPreviewImage": "/sneak peak/2.webp",
     "lessons": "21 Lessons",
     "duration": "3 hours 19 mins",
     "comments": "62 Comments",
@@ -5952,11 +5952,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -6043,8 +6043,8 @@ export const coursesData: CourseItem[] = [
     "price": "$38",
     "priceNumeric": 38,
     "period": "/lifetime",
-    "image": "/sneak peak/3.jpg",
-    "videoPreviewImage": "/sneak peak/3.jpg",
+    "image": "/sneak peak/3.webp",
+    "videoPreviewImage": "/sneak peak/3.webp",
     "lessons": "22 Lessons",
     "duration": "4 hours 26 mins",
     "comments": "63 Comments",
@@ -6110,11 +6110,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -6202,8 +6202,8 @@ export const coursesData: CourseItem[] = [
     "price": "$42",
     "priceNumeric": 42,
     "period": "/lifetime",
-    "image": "/sneak peak/4.jpg",
-    "videoPreviewImage": "/sneak peak/4.jpg",
+    "image": "/sneak peak/4.webp",
+    "videoPreviewImage": "/sneak peak/4.webp",
     "lessons": "23 Lessons",
     "duration": "2 hours 33 mins",
     "comments": "64 Comments",
@@ -6269,11 +6269,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -6360,8 +6360,8 @@ export const coursesData: CourseItem[] = [
     "price": "$24",
     "priceNumeric": 24,
     "period": "/lifetime",
-    "image": "/courses/Learn Figma from Basic.jpg",
-    "videoPreviewImage": "/courses/Learn Figma from Basic.jpg",
+    "image": "/courses/Learn Figma from Basic.webp",
+    "videoPreviewImage": "/courses/Learn Figma from Basic.webp",
     "lessons": "24 Lessons",
     "duration": "3 hours 40 mins",
     "comments": "25 Comments",
@@ -6427,11 +6427,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -6518,8 +6518,8 @@ export const coursesData: CourseItem[] = [
     "price": "$29",
     "priceNumeric": 29,
     "period": "/lifetime",
-    "image": "/courses/Build Digital Asset.jpg",
-    "videoPreviewImage": "/courses/Build Digital Asset.jpg",
+    "image": "/courses/Build Digital Asset.webp",
+    "videoPreviewImage": "/courses/Build Digital Asset.webp",
     "lessons": "25 Lessons",
     "duration": "4 hours 47 mins",
     "comments": "26 Comments",
@@ -6585,11 +6585,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -6676,8 +6676,8 @@ export const coursesData: CourseItem[] = [
     "price": "$30",
     "priceNumeric": 30,
     "period": "/lifetime",
-    "image": "/courses/the Power of Big Data.avif",
-    "videoPreviewImage": "/courses/the Power of Big Data.avif",
+    "image": "/courses/the Power of Big Data.webp",
+    "videoPreviewImage": "/courses/the Power of Big Data.webp",
     "lessons": "26 Lessons",
     "duration": "2 hours 54 mins",
     "comments": "27 Comments",
@@ -6743,11 +6743,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -6902,11 +6902,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -7062,11 +7062,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -7154,8 +7154,8 @@ export const coursesData: CourseItem[] = [
     "price": "$34",
     "priceNumeric": 34,
     "period": "/lifetime",
-    "image": "/courses/From Idea to Startup Success.avif",
-    "videoPreviewImage": "/courses/From Idea to Startup Success.avif",
+    "image": "/courses/From Idea to Startup Success.webp",
+    "videoPreviewImage": "/courses/From Idea to Startup Success.webp",
     "lessons": "14 Lessons",
     "duration": "2 hours 25 mins",
     "comments": "30 Comments",
@@ -7221,11 +7221,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -7380,11 +7380,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -7472,8 +7472,8 @@ export const coursesData: CourseItem[] = [
     "price": "$26",
     "priceNumeric": 26,
     "period": "/lifetime",
-    "image": "/sneak peak/2.jpg",
-    "videoPreviewImage": "/sneak peak/2.jpg",
+    "image": "/sneak peak/2.webp",
+    "videoPreviewImage": "/sneak peak/2.webp",
     "lessons": "16 Lessons",
     "duration": "4 hours 39 mins",
     "comments": "32 Comments",
@@ -7539,11 +7539,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -7631,8 +7631,8 @@ export const coursesData: CourseItem[] = [
     "price": "$44",
     "priceNumeric": 44,
     "period": "/lifetime",
-    "image": "/sneak peak/3.jpg",
-    "videoPreviewImage": "/sneak peak/3.jpg",
+    "image": "/sneak peak/3.webp",
+    "videoPreviewImage": "/sneak peak/3.webp",
     "lessons": "17 Lessons",
     "duration": "2 hours 46 mins",
     "comments": "33 Comments",
@@ -7698,11 +7698,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -7789,8 +7789,8 @@ export const coursesData: CourseItem[] = [
     "price": "$22",
     "priceNumeric": 22,
     "period": "/lifetime",
-    "image": "/sneak peak/4.jpg",
-    "videoPreviewImage": "/sneak peak/4.jpg",
+    "image": "/sneak peak/4.webp",
+    "videoPreviewImage": "/sneak peak/4.webp",
     "lessons": "18 Lessons",
     "duration": "3 hours 53 mins",
     "comments": "34 Comments",
@@ -7856,11 +7856,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -7947,8 +7947,8 @@ export const coursesData: CourseItem[] = [
     "price": "$28",
     "priceNumeric": 28,
     "period": "/lifetime",
-    "image": "/courses/Learn Figma from Basic.jpg",
-    "videoPreviewImage": "/courses/Learn Figma from Basic.jpg",
+    "image": "/courses/Learn Figma from Basic.webp",
+    "videoPreviewImage": "/courses/Learn Figma from Basic.webp",
     "lessons": "19 Lessons",
     "duration": "4 hours 10 mins",
     "comments": "35 Comments",
@@ -8014,11 +8014,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -8105,8 +8105,8 @@ export const coursesData: CourseItem[] = [
     "price": "$42",
     "priceNumeric": 42,
     "period": "/lifetime",
-    "image": "/courses/Build Digital Asset.jpg",
-    "videoPreviewImage": "/courses/Build Digital Asset.jpg",
+    "image": "/courses/Build Digital Asset.webp",
+    "videoPreviewImage": "/courses/Build Digital Asset.webp",
     "lessons": "20 Lessons",
     "duration": "2 hours 17 mins",
     "comments": "36 Comments",
@@ -8172,11 +8172,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -8263,8 +8263,8 @@ export const coursesData: CourseItem[] = [
     "price": "$32",
     "priceNumeric": 32,
     "period": "/lifetime",
-    "image": "/courses/the Power of Big Data.avif",
-    "videoPreviewImage": "/courses/the Power of Big Data.avif",
+    "image": "/courses/the Power of Big Data.webp",
+    "videoPreviewImage": "/courses/the Power of Big Data.webp",
     "lessons": "21 Lessons",
     "duration": "3 hours 24 mins",
     "comments": "37 Comments",
@@ -8330,11 +8330,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -8488,11 +8488,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -8647,11 +8647,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -8739,8 +8739,8 @@ export const coursesData: CourseItem[] = [
     "price": "$24",
     "priceNumeric": 24,
     "period": "/lifetime",
-    "image": "/courses/From Idea to Startup Success.avif",
-    "videoPreviewImage": "/courses/From Idea to Startup Success.avif",
+    "image": "/courses/From Idea to Startup Success.webp",
+    "videoPreviewImage": "/courses/From Idea to Startup Success.webp",
     "lessons": "24 Lessons",
     "duration": "3 hours 45 mins",
     "comments": "40 Comments",
@@ -8806,11 +8806,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -8965,11 +8965,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -9056,8 +9056,8 @@ export const coursesData: CourseItem[] = [
     "price": "$26",
     "priceNumeric": 26,
     "period": "/lifetime",
-    "image": "/sneak peak/2.jpg",
-    "videoPreviewImage": "/sneak peak/2.jpg",
+    "image": "/sneak peak/2.webp",
+    "videoPreviewImage": "/sneak peak/2.webp",
     "lessons": "26 Lessons",
     "duration": "2 hours 59 mins",
     "comments": "42 Comments",
@@ -9123,11 +9123,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -9214,8 +9214,8 @@ export const coursesData: CourseItem[] = [
     "price": "$30",
     "priceNumeric": 30,
     "period": "/lifetime",
-    "image": "/sneak peak/3.jpg",
-    "videoPreviewImage": "/sneak peak/3.jpg",
+    "image": "/sneak peak/3.webp",
+    "videoPreviewImage": "/sneak peak/3.webp",
     "lessons": "27 Lessons",
     "duration": "3 hours 16 mins",
     "comments": "43 Comments",
@@ -9281,11 +9281,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -9372,8 +9372,8 @@ export const coursesData: CourseItem[] = [
     "price": "$32",
     "priceNumeric": 32,
     "period": "/lifetime",
-    "image": "/sneak peak/4.jpg",
-    "videoPreviewImage": "/sneak peak/4.jpg",
+    "image": "/sneak peak/4.webp",
+    "videoPreviewImage": "/sneak peak/4.webp",
     "lessons": "28 Lessons",
     "duration": "4 hours 23 mins",
     "comments": "44 Comments",
@@ -9439,11 +9439,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -9530,8 +9530,8 @@ export const coursesData: CourseItem[] = [
     "price": "$20",
     "priceNumeric": 20,
     "period": "/lifetime",
-    "image": "/courses/Learn Figma from Basic.jpg",
-    "videoPreviewImage": "/courses/Learn Figma from Basic.jpg",
+    "image": "/courses/Learn Figma from Basic.webp",
+    "videoPreviewImage": "/courses/Learn Figma from Basic.webp",
     "lessons": "14 Lessons",
     "duration": "2 hours 30 mins",
     "comments": "45 Comments",
@@ -9597,11 +9597,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -9688,8 +9688,8 @@ export const coursesData: CourseItem[] = [
     "price": "$22",
     "priceNumeric": 22,
     "period": "/lifetime",
-    "image": "/courses/Build Digital Asset.jpg",
-    "videoPreviewImage": "/courses/Build Digital Asset.jpg",
+    "image": "/courses/Build Digital Asset.webp",
+    "videoPreviewImage": "/courses/Build Digital Asset.webp",
     "lessons": "15 Lessons",
     "duration": "3 hours 37 mins",
     "comments": "46 Comments",
@@ -9755,11 +9755,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -9847,8 +9847,8 @@ export const coursesData: CourseItem[] = [
     "price": "$25",
     "priceNumeric": 25,
     "period": "/lifetime",
-    "image": "/courses/the Power of Big Data.avif",
-    "videoPreviewImage": "/courses/the Power of Big Data.avif",
+    "image": "/courses/the Power of Big Data.webp",
+    "videoPreviewImage": "/courses/the Power of Big Data.webp",
     "lessons": "16 Lessons",
     "duration": "4 hours 44 mins",
     "comments": "47 Comments",
@@ -9914,11 +9914,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -10072,11 +10072,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -10231,11 +10231,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -10322,8 +10322,8 @@ export const coursesData: CourseItem[] = [
     "price": "$30",
     "priceNumeric": 30,
     "period": "/lifetime",
-    "image": "/courses/From Idea to Startup Success.avif",
-    "videoPreviewImage": "/courses/From Idea to Startup Success.avif",
+    "image": "/courses/From Idea to Startup Success.webp",
+    "videoPreviewImage": "/courses/From Idea to Startup Success.webp",
     "lessons": "19 Lessons",
     "duration": "4 hours 15 mins",
     "comments": "50 Comments",
@@ -10389,11 +10389,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -10549,11 +10549,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -10640,8 +10640,8 @@ export const coursesData: CourseItem[] = [
     "price": "$25",
     "priceNumeric": 25,
     "period": "/lifetime",
-    "image": "/sneak peak/2.jpg",
-    "videoPreviewImage": "/sneak peak/2.jpg",
+    "image": "/sneak peak/2.webp",
+    "videoPreviewImage": "/sneak peak/2.webp",
     "lessons": "21 Lessons",
     "duration": "3 hours 29 mins",
     "comments": "52 Comments",
@@ -10707,11 +10707,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -10800,8 +10800,8 @@ export const coursesData: CourseItem[] = [
     "price": "$35",
     "priceNumeric": 35,
     "period": "/lifetime",
-    "image": "/sneak peak/3.jpg",
-    "videoPreviewImage": "/sneak peak/3.jpg",
+    "image": "/sneak peak/3.webp",
+    "videoPreviewImage": "/sneak peak/3.webp",
     "lessons": "22 Lessons",
     "duration": "4 hours 36 mins",
     "comments": "53 Comments",
@@ -10867,11 +10867,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -10958,8 +10958,8 @@ export const coursesData: CourseItem[] = [
     "price": "$38",
     "priceNumeric": 38,
     "period": "/lifetime",
-    "image": "/sneak peak/4.jpg",
-    "videoPreviewImage": "/sneak peak/4.jpg",
+    "image": "/sneak peak/4.webp",
+    "videoPreviewImage": "/sneak peak/4.webp",
     "lessons": "23 Lessons",
     "duration": "2 hours 43 mins",
     "comments": "54 Comments",
@@ -11025,11 +11025,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -11117,8 +11117,8 @@ export const coursesData: CourseItem[] = [
     "price": "$34",
     "priceNumeric": 34,
     "period": "/lifetime",
-    "image": "/courses/Learn Figma from Basic.jpg",
-    "videoPreviewImage": "/courses/Learn Figma from Basic.jpg",
+    "image": "/courses/Learn Figma from Basic.webp",
+    "videoPreviewImage": "/courses/Learn Figma from Basic.webp",
     "lessons": "24 Lessons",
     "duration": "3 hours 50 mins",
     "comments": "55 Comments",
@@ -11184,11 +11184,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -11275,8 +11275,8 @@ export const coursesData: CourseItem[] = [
     "price": "$29",
     "priceNumeric": 29,
     "period": "/lifetime",
-    "image": "/courses/Build Digital Asset.jpg",
-    "videoPreviewImage": "/courses/Build Digital Asset.jpg",
+    "image": "/courses/Build Digital Asset.webp",
+    "videoPreviewImage": "/courses/Build Digital Asset.webp",
     "lessons": "25 Lessons",
     "duration": "4 hours 57 mins",
     "comments": "56 Comments",
@@ -11342,11 +11342,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -11434,8 +11434,8 @@ export const coursesData: CourseItem[] = [
     "price": "$42",
     "priceNumeric": 42,
     "period": "/lifetime",
-    "image": "/courses/the Power of Big Data.avif",
-    "videoPreviewImage": "/courses/the Power of Big Data.avif",
+    "image": "/courses/the Power of Big Data.webp",
+    "videoPreviewImage": "/courses/the Power of Big Data.webp",
     "lessons": "26 Lessons",
     "duration": "2 hours 14 mins",
     "comments": "57 Comments",
@@ -11501,11 +11501,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -11659,11 +11659,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -11817,11 +11817,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -11909,8 +11909,8 @@ export const coursesData: CourseItem[] = [
     "price": "$24",
     "priceNumeric": 24,
     "period": "/lifetime",
-    "image": "/courses/From Idea to Startup Success.avif",
-    "videoPreviewImage": "/courses/From Idea to Startup Success.avif",
+    "image": "/courses/From Idea to Startup Success.webp",
+    "videoPreviewImage": "/courses/From Idea to Startup Success.webp",
     "lessons": "14 Lessons",
     "duration": "2 hours 35 mins",
     "comments": "60 Comments",
@@ -11976,11 +11976,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -12134,11 +12134,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -12226,8 +12226,8 @@ export const coursesData: CourseItem[] = [
     "price": "$26",
     "priceNumeric": 26,
     "period": "/lifetime",
-    "image": "/sneak peak/2.jpg",
-    "videoPreviewImage": "/sneak peak/2.jpg",
+    "image": "/sneak peak/2.webp",
+    "videoPreviewImage": "/sneak peak/2.webp",
     "lessons": "16 Lessons",
     "duration": "4 hours 49 mins",
     "comments": "62 Comments",
@@ -12293,11 +12293,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -12385,8 +12385,8 @@ export const coursesData: CourseItem[] = [
     "price": "$24",
     "priceNumeric": 24,
     "period": "/lifetime",
-    "image": "/sneak peak/3.jpg",
-    "videoPreviewImage": "/sneak peak/3.jpg",
+    "image": "/sneak peak/3.webp",
+    "videoPreviewImage": "/sneak peak/3.webp",
     "lessons": "17 Lessons",
     "duration": "2 hours 56 mins",
     "comments": "63 Comments",
@@ -12452,11 +12452,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -12543,8 +12543,8 @@ export const coursesData: CourseItem[] = [
     "price": "$20",
     "priceNumeric": 20,
     "period": "/lifetime",
-    "image": "/sneak peak/4.jpg",
-    "videoPreviewImage": "/sneak peak/4.jpg",
+    "image": "/sneak peak/4.webp",
+    "videoPreviewImage": "/sneak peak/4.webp",
     "lessons": "18 Lessons",
     "duration": "3 hours 13 mins",
     "comments": "64 Comments",
@@ -12610,11 +12610,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -12701,8 +12701,8 @@ export const coursesData: CourseItem[] = [
     "price": "$28",
     "priceNumeric": 28,
     "period": "/lifetime",
-    "image": "/courses/Learn Figma from Basic.jpg",
-    "videoPreviewImage": "/courses/Learn Figma from Basic.jpg",
+    "image": "/courses/Learn Figma from Basic.webp",
+    "videoPreviewImage": "/courses/Learn Figma from Basic.webp",
     "lessons": "19 Lessons",
     "duration": "4 hours 20 mins",
     "comments": "25 Comments",
@@ -12768,11 +12768,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -12860,8 +12860,8 @@ export const coursesData: CourseItem[] = [
     "price": "$35",
     "priceNumeric": 35,
     "period": "/lifetime",
-    "image": "/courses/Build Digital Asset.jpg",
-    "videoPreviewImage": "/courses/Build Digital Asset.jpg",
+    "image": "/courses/Build Digital Asset.webp",
+    "videoPreviewImage": "/courses/Build Digital Asset.webp",
     "lessons": "20 Lessons",
     "duration": "2 hours 27 mins",
     "comments": "26 Comments",
@@ -12927,11 +12927,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -13018,8 +13018,8 @@ export const coursesData: CourseItem[] = [
     "price": "$25",
     "priceNumeric": 25,
     "period": "/lifetime",
-    "image": "/courses/the Power of Big Data.avif",
-    "videoPreviewImage": "/courses/the Power of Big Data.avif",
+    "image": "/courses/the Power of Big Data.webp",
+    "videoPreviewImage": "/courses/the Power of Big Data.webp",
     "lessons": "21 Lessons",
     "duration": "3 hours 34 mins",
     "comments": "27 Comments",
@@ -13085,11 +13085,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -13243,11 +13243,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -13402,11 +13402,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -13493,8 +13493,8 @@ export const coursesData: CourseItem[] = [
     "price": "$27",
     "priceNumeric": 27,
     "period": "/lifetime",
-    "image": "/courses/From Idea to Startup Success.avif",
-    "videoPreviewImage": "/courses/From Idea to Startup Success.avif",
+    "image": "/courses/From Idea to Startup Success.webp",
+    "videoPreviewImage": "/courses/From Idea to Startup Success.webp",
     "lessons": "24 Lessons",
     "duration": "3 hours 55 mins",
     "comments": "30 Comments",
@@ -13560,11 +13560,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -13718,11 +13718,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -13809,8 +13809,8 @@ export const coursesData: CourseItem[] = [
     "price": "$25",
     "priceNumeric": 25,
     "period": "/lifetime",
-    "image": "/sneak peak/2.jpg",
-    "videoPreviewImage": "/sneak peak/2.jpg",
+    "image": "/sneak peak/2.webp",
+    "videoPreviewImage": "/sneak peak/2.webp",
     "lessons": "26 Lessons",
     "duration": "2 hours 19 mins",
     "comments": "32 Comments",
@@ -13876,11 +13876,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -13968,8 +13968,8 @@ export const coursesData: CourseItem[] = [
     "price": "$42",
     "priceNumeric": 42,
     "period": "/lifetime",
-    "image": "/sneak peak/3.jpg",
-    "videoPreviewImage": "/sneak peak/3.jpg",
+    "image": "/sneak peak/3.webp",
+    "videoPreviewImage": "/sneak peak/3.webp",
     "lessons": "27 Lessons",
     "duration": "3 hours 26 mins",
     "comments": "33 Comments",
@@ -14035,11 +14035,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -14126,8 +14126,8 @@ export const coursesData: CourseItem[] = [
     "price": "$33",
     "priceNumeric": 33,
     "period": "/lifetime",
-    "image": "/sneak peak/4.jpg",
-    "videoPreviewImage": "/sneak peak/4.jpg",
+    "image": "/sneak peak/4.webp",
+    "videoPreviewImage": "/sneak peak/4.webp",
     "lessons": "28 Lessons",
     "duration": "4 hours 33 mins",
     "comments": "34 Comments",
@@ -14193,11 +14193,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -14285,8 +14285,8 @@ export const coursesData: CourseItem[] = [
     "price": "$29",
     "priceNumeric": 29,
     "period": "/lifetime",
-    "image": "/courses/Learn Figma from Basic.jpg",
-    "videoPreviewImage": "/courses/Learn Figma from Basic.jpg",
+    "image": "/courses/Learn Figma from Basic.webp",
+    "videoPreviewImage": "/courses/Learn Figma from Basic.webp",
     "lessons": "14 Lessons",
     "duration": "2 hours 40 mins",
     "comments": "35 Comments",
@@ -14352,11 +14352,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -14443,8 +14443,8 @@ export const coursesData: CourseItem[] = [
     "price": "$37",
     "priceNumeric": 37,
     "period": "/lifetime",
-    "image": "/courses/Build Digital Asset.jpg",
-    "videoPreviewImage": "/courses/Build Digital Asset.jpg",
+    "image": "/courses/Build Digital Asset.webp",
+    "videoPreviewImage": "/courses/Build Digital Asset.webp",
     "lessons": "15 Lessons",
     "duration": "3 hours 47 mins",
     "comments": "36 Comments",
@@ -14510,11 +14510,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -14602,8 +14602,8 @@ export const coursesData: CourseItem[] = [
     "price": "$36",
     "priceNumeric": 36,
     "period": "/lifetime",
-    "image": "/courses/the Power of Big Data.avif",
-    "videoPreviewImage": "/courses/the Power of Big Data.avif",
+    "image": "/courses/the Power of Big Data.webp",
+    "videoPreviewImage": "/courses/the Power of Big Data.webp",
     "lessons": "16 Lessons",
     "duration": "4 hours 54 mins",
     "comments": "37 Comments",
@@ -14669,11 +14669,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -14827,11 +14827,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -14985,11 +14985,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {
@@ -15076,8 +15076,8 @@ export const coursesData: CourseItem[] = [
     "price": "$23",
     "priceNumeric": 23,
     "period": "/lifetime",
-    "image": "/courses/From Idea to Startup Success.avif",
-    "videoPreviewImage": "/courses/From Idea to Startup Success.avif",
+    "image": "/courses/From Idea to Startup Success.webp",
+    "videoPreviewImage": "/courses/From Idea to Startup Success.webp",
     "lessons": "19 Lessons",
     "duration": "4 hours 25 mins",
     "comments": "40 Comments",
@@ -15143,11 +15143,11 @@ export const coursesData: CourseItem[] = [
     ],
     "sneakPeakImages": [
       "/sneak peak/1.webp",
-      "/sneak peak/2.jpg",
-      "/sneak peak/3.jpg",
-      "/sneak peak/4.jpg",
-      "/courses/Learn Figma from Basic.jpg",
-      "/courses/Build Digital Asset.jpg"
+      "/sneak peak/2.webp",
+      "/sneak peak/3.webp",
+      "/sneak peak/4.webp",
+      "/courses/Learn Figma from Basic.webp",
+      "/courses/Build Digital Asset.webp"
     ],
     "ratingDistribution": [
       {

@@ -97,7 +97,7 @@ export function GrowthAndCreationSection() {
 
               {/* Student Hero Image */}
               <Image
-                src="/Heros/Hero.png"
+                src="/Heros/Hero.webp"
                 alt="Student learning"
                 width={2812}
                 height={2752}
@@ -176,7 +176,7 @@ export function GrowthAndCreationSection() {
 
               {/* Creator Center Image */}
               <Image
-                src="/Heros/Image (1).png"
+                src="/Heros/Image (1).webp"
                 alt="Course Creator"
                 width={2316}
                 height={2876}

@@ -146,7 +146,7 @@ export function HeroSection() {
 
           {/* Student Cutout */}
           <Image
-            src="/Heros/Hero.png"
+            src="/Heros/Hero.webp"
             alt="Student learning online with a laptop and headphones"
             width={2888}
             height={2060}
