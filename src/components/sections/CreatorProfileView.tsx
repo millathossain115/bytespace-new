@@ -6,9 +6,10 @@ import Link from "next/link";
 import {
   SlidersHorizontal,
   BarChart2,
-  Folder,
-  ArrowUpDown,
+  Shapes,
   ChevronDown,
+  ChevronLeft,
+  ChevronRight,
   Check,
   Plus
 } from "lucide-react";
@@ -35,23 +36,18 @@ const CATEGORIES = [
 
 const LEVELS = ["All Levels", "Beginner", "Intermediate", "Advanced"];
 
-const SORT_OPTIONS = [
-  { label: "Most Relevant", value: "relevant" },
-  { label: "Highest Rated", value: "rating" },
-  { label: "Price: Low to High", value: "price-asc" },
-  { label: "Price: High to Low", value: "price-desc" },
-];
+const CARDS_PER_PAGE = 6;
 
 export function CreatorProfileView({ creator, courses }: CreatorProfileViewProps) {
   const [isFollowing, setIsFollowing] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [selectedLevel, setSelectedLevel] = useState("All Levels");
-  const [selectedSort, setSelectedSort] = useState("relevant");
+  const [currentPage, setCurrentPage] = useState(1);
 
   // Dropdown states
   const [isLevelOpen, setIsLevelOpen] = useState(false);
   const [isCategoryOpen, setIsCategoryOpen] = useState(false);
-  const [isSortOpen, setIsSortOpen] = useState(false);
+  const [isFilterOpen, setIsFilterOpen] = useState(false);
 
   // Filter creator courses
   const filteredCourses = useMemo(() => {
@@ -75,17 +71,35 @@ export function CreatorProfileView({ creator, courses }: CreatorProfileViewProps
       );
     }
 
-    // Sorting
-    if (selectedSort === "rating") {
-      result.sort((a, b) => b.rating - a.rating);
-    } else if (selectedSort === "price-asc") {
-      result.sort((a, b) => a.priceNumeric - b.priceNumeric);
-    } else if (selectedSort === "price-desc") {
-      result.sort((a, b) => b.priceNumeric - a.priceNumeric);
-    }
-
     return result;
-  }, [courses, selectedCategory, selectedLevel, selectedSort]);
+  }, [courses, selectedCategory, selectedLevel]);
+
+  // Pagination
+  const totalPages = Math.max(1, Math.ceil(filteredCourses.length / CARDS_PER_PAGE));
+  const paginatedCourses = filteredCourses.slice(
+    (currentPage - 1) * CARDS_PER_PAGE,
+    currentPage * CARDS_PER_PAGE
+  );
+
+  // Reset page on filter change
+  const handleCategoryChange = (cat: string) => {
+    setSelectedCategory(cat);
+    setCurrentPage(1);
+    setIsCategoryOpen(false);
+  };
+
+  const handleLevelChange = (lvl: string) => {
+    setSelectedLevel(lvl);
+    setCurrentPage(1);
+    setIsLevelOpen(false);
+  };
+
+  const handleResetFilters = () => {
+    setSelectedCategory("All");
+    setSelectedLevel("All Levels");
+    setCurrentPage(1);
+    setIsFilterOpen(false);
+  };
 
   return (
     <div className="w-full bg-[#FAFAFA] min-h-screen">
@@ -107,7 +121,7 @@ export function CreatorProfileView({ creator, courses }: CreatorProfileViewProps
           {/* Creator Profile Header */}
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-5">
             {/* Avatar with soft rounded square & slight pink/white border */}
-            <div className="relative w-20 h-20 sm:w-24 sm:h-24 rounded-[22px] overflow-hidden bg-rose-200 border-2 border-white/40 shadow-xl shrink-0">
+            <div className="relative w-20 h-20 sm:w-24 sm:h-24 rounded-[22px] overflow-hidden bg-rose-200 shadow-xl shrink-0">
               <Image
                 src={creator.avatar}
                 alt={creator.name}
@@ -172,138 +186,130 @@ export function CreatorProfileView({ creator, courses }: CreatorProfileViewProps
 
       {/* 2. FILTER CONTROLS BAR */}
       <section className="max-w-[1400px] mx-auto px-4 sm:px-8 lg:px-12 pt-10 pb-4">
-        <div className="flex flex-wrap items-center justify-between gap-4 pb-6 border-b border-slate-200/80">
-          {/* Left Buttons: Reset Filter, Level Dropdown, Category Dropdown */}
-          <div className="flex flex-wrap items-center gap-2.5 sm:gap-3">
-            {/* Reset Filter Button */}
-            <button
-              type="button"
-              onClick={() => {
-                setSelectedCategory("All");
-                setSelectedLevel("All Levels");
-                setSelectedSort("relevant");
-              }}
-              className="flex items-center gap-2 px-4 py-2 rounded-full border border-slate-200 bg-white hover:bg-slate-50 text-xs sm:text-sm font-semibold text-slate-700 shadow-2xs transition cursor-pointer"
-            >
-              <SlidersHorizontal className="w-3.5 h-3.5 text-slate-500" />
-              <span>Reset Filter</span>
-            </button>
-
-            {/* Level Dropdown */}
-            <div className="relative">
-              <button
-                type="button"
-                onClick={() => setIsLevelOpen(!isLevelOpen)}
-                className="flex items-center gap-2 px-4 py-2 rounded-full border border-slate-200 bg-white hover:bg-slate-50 text-xs sm:text-sm font-semibold text-slate-700 shadow-2xs transition cursor-pointer"
-              >
-                <BarChart2 className="w-3.5 h-3.5 text-slate-500" />
-                <span>{selectedLevel}</span>
-                <ChevronDown className="w-3.5 h-3.5 text-slate-400" />
-              </button>
-
-              {isLevelOpen && (
-                <div className="absolute left-0 top-full mt-2 w-44 bg-white rounded-2xl shadow-xl border border-slate-100 py-2 z-40">
-                  {LEVELS.map((lvl) => (
-                    <button
-                      key={lvl}
-                      type="button"
-                      onClick={() => {
-                        setSelectedLevel(lvl);
-                        setIsLevelOpen(false);
-                      }}
-                      className={`w-full px-4 py-2 text-xs text-left transition ${
-                        selectedLevel === lvl
-                          ? "font-bold text-[#0052FE] bg-blue-50"
-                          : "text-slate-600 hover:bg-slate-50"
-                      }`}
-                    >
-                      {lvl}
-                    </button>
-                  ))}
-                </div>
-              )}
-            </div>
-
-            {/* Category Dropdown */}
-            <div className="relative">
-              <button
-                type="button"
-                onClick={() => setIsCategoryOpen(!isCategoryOpen)}
-                className="flex items-center gap-2 px-4 py-2 rounded-full border border-slate-200 bg-white hover:bg-slate-50 text-xs sm:text-sm font-semibold text-slate-700 shadow-2xs transition cursor-pointer"
-              >
-                <Folder className="w-3.5 h-3.5 text-slate-500" />
-                <span>Category: {selectedCategory}</span>
-                <ChevronDown className="w-3.5 h-3.5 text-slate-400" />
-              </button>
-
-              {isCategoryOpen && (
-                <div className="absolute left-0 top-full mt-2 w-48 bg-white rounded-2xl shadow-xl border border-slate-100 py-2 z-40">
-                  {CATEGORIES.map((cat) => (
-                    <button
-                      key={cat}
-                      type="button"
-                      onClick={() => {
-                        setSelectedCategory(cat);
-                        setIsCategoryOpen(false);
-                      }}
-                      className={`w-full px-4 py-2 text-xs text-left transition ${
-                        selectedCategory === cat
-                          ? "font-bold text-[#0052FE] bg-blue-50"
-                          : "text-slate-600 hover:bg-slate-50"
-                      }`}
-                    >
-                      {cat}
-                    </button>
-                  ))}
-                </div>
-              )}
-            </div>
-          </div>
-
-          {/* Right: Sort Dropdown */}
+        <div className="flex flex-wrap items-center gap-3 pb-6 border-b border-slate-200/80">
+          {/* Filter Button */}
           <div className="relative">
             <button
               type="button"
-              onClick={() => setIsSortOpen(!isSortOpen)}
-              className="flex items-center gap-2 px-4 py-2 rounded-full border border-slate-200 bg-white hover:bg-slate-50 text-xs sm:text-sm font-semibold text-slate-700 shadow-2xs transition cursor-pointer"
+              onClick={() => {
+                setIsFilterOpen(!isFilterOpen);
+                setIsLevelOpen(false);
+                setIsCategoryOpen(false);
+              }}
+              className="flex items-center gap-2.5 px-5 py-2.5 rounded-full border border-slate-200 bg-white hover:bg-slate-50 text-sm font-medium text-zinc-700 transition cursor-pointer"
             >
-              <ArrowUpDown className="w-3.5 h-3.5 text-slate-500" />
-              <span>
-                {SORT_OPTIONS.find((s) => s.value === selectedSort)?.label}
-              </span>
-              <ChevronDown className="w-3.5 h-3.5 text-slate-400" />
+              <SlidersHorizontal className="w-4 h-4 text-zinc-700" />
+              <span>Filter</span>
             </button>
 
-            {isSortOpen && (
-              <div className="absolute right-0 top-full mt-2 w-48 bg-white rounded-2xl shadow-xl border border-slate-100 py-2 z-40">
-                {SORT_OPTIONS.map((opt) => (
+            {isFilterOpen && (
+              <div className="absolute left-0 top-full mt-2 w-44 bg-white rounded-2xl shadow-xl border border-slate-100 py-2 z-40">
+                <button
+                  type="button"
+                  onClick={handleResetFilters}
+                  className="w-full px-4 py-2.5 text-xs text-left font-semibold text-slate-600 hover:bg-slate-50 transition"
+                >
+                  Reset All Filters
+                </button>
+              </div>
+            )}
+          </div>
+
+          {/* Level Button */}
+          <div className="relative">
+            <button
+              type="button"
+              onClick={() => {
+                setIsLevelOpen(!isLevelOpen);
+                setIsFilterOpen(false);
+                setIsCategoryOpen(false);
+              }}
+              className="flex items-center gap-2.5 px-5 py-2.5 rounded-full border border-slate-200 bg-white hover:bg-slate-50 text-sm font-medium text-zinc-700 transition cursor-pointer"
+            >
+              <BarChart2 className="w-4 h-4 text-zinc-700" />
+              <span>Level</span>
+            </button>
+
+            {isLevelOpen && (
+              <div className="absolute left-0 top-full mt-2 w-44 bg-white rounded-2xl shadow-xl border border-slate-100 py-2 z-40">
+                {LEVELS.map((lvl) => (
                   <button
-                    key={opt.value}
+                    key={lvl}
                     type="button"
-                    onClick={() => {
-                      setSelectedSort(opt.value);
-                      setIsSortOpen(false);
-                    }}
-                    className={`w-full px-4 py-2 text-xs text-left transition ${
-                      selectedSort === opt.value
-                        ? "font-bold text-[#0052FE] bg-blue-50"
+                    onClick={() => handleLevelChange(lvl)}
+                    className={`w-full px-4 py-2.5 text-xs text-left transition flex items-center justify-between ${
+                      selectedLevel === lvl
+                        ? "font-bold text-[#0052FF] bg-blue-50"
                         : "text-slate-600 hover:bg-slate-50"
                     }`}
                   >
-                    {opt.label}
+                    <span>{lvl}</span>
+                    {selectedLevel === lvl && <Check className="w-3.5 h-3.5 text-[#0052FF]" />}
                   </button>
                 ))}
               </div>
             )}
           </div>
+
+          {/* Category Button */}
+          <div className="relative">
+            <button
+              type="button"
+              onClick={() => {
+                setIsCategoryOpen(!isCategoryOpen);
+                setIsFilterOpen(false);
+                setIsLevelOpen(false);
+              }}
+              className="flex items-center gap-2.5 px-5 py-2.5 rounded-full border border-slate-200 bg-white hover:bg-slate-50 text-sm font-medium text-zinc-700 transition cursor-pointer"
+            >
+              <Shapes className="w-4 h-4 text-zinc-700" />
+              <span>Category</span>
+            </button>
+
+            {isCategoryOpen && (
+              <div className="absolute left-0 top-full mt-2 w-52 bg-white rounded-2xl shadow-xl border border-slate-100 py-2 z-40 max-h-64 overflow-y-auto">
+                {CATEGORIES.map((cat) => (
+                  <button
+                    key={cat}
+                    type="button"
+                    onClick={() => handleCategoryChange(cat)}
+                    className={`w-full px-4 py-2.5 text-xs text-left transition flex items-center justify-between ${
+                      selectedCategory === cat
+                        ? "font-bold text-[#0052FF] bg-blue-50"
+                        : "text-slate-600 hover:bg-slate-50"
+                    }`}
+                  >
+                    <span>{cat}</span>
+                    {selectedCategory === cat && <Check className="w-3.5 h-3.5 text-[#0052FF]" />}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+
+          {/* Active filter indicators */}
+          {(selectedLevel !== "All Levels" || selectedCategory !== "All") && (
+            <div className="flex items-center gap-2 ml-2">
+              {selectedLevel !== "All Levels" && (
+                <span className="px-3 py-1 rounded-full bg-[#0052FF]/10 text-[#0052FF] text-xs font-semibold">
+                  {selectedLevel}
+                </span>
+              )}
+              {selectedCategory !== "All" && (
+                <span className="px-3 py-1 rounded-full bg-[#0052FF]/10 text-[#0052FF] text-xs font-semibold">
+                  {selectedCategory}
+                </span>
+              )}
+            </div>
+          )}
         </div>
       </section>
 
       {/* 3. CREATOR COURSES GRID */}
-      <section className="max-w-[1400px] mx-auto px-4 sm:px-8 lg:px-12 py-8 pb-24">
-        {filteredCourses.length > 0 ? (
+      <section className="max-w-[1400px] mx-auto px-4 sm:px-8 lg:px-12 py-8 pb-12">
+        {paginatedCourses.length > 0 ? (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-7">
-            {filteredCourses.map((course) => (
+            {paginatedCourses.map((course) => (
               <CourseCard key={course.id} course={course} />
             ))}
           </div>
@@ -314,13 +320,76 @@ export function CreatorProfileView({ creator, courses }: CreatorProfileViewProps
             </p>
             <button
               type="button"
-              onClick={() => {
-                setSelectedCategory("All");
-                setSelectedLevel("All Levels");
-              }}
-              className="mt-4 px-5 py-2.5 rounded-full bg-slate-900 text-white text-xs font-semibold"
+              onClick={handleResetFilters}
+              className="mt-4 px-5 py-2.5 rounded-full bg-slate-900 text-white text-xs font-semibold cursor-pointer"
             >
               Reset Filters
+            </button>
+          </div>
+        )}
+
+        {/* Pagination */}
+        {totalPages > 1 && (
+          <div className="mt-12 flex items-center justify-center gap-2">
+            {/* Previous Button */}
+            <button
+              type="button"
+              onClick={() => setCurrentPage((p) => Math.max(1, p - 1))}
+              disabled={currentPage === 1}
+              className="w-10 h-10 rounded-full border border-slate-200 bg-white flex items-center justify-center text-zinc-600 hover:bg-slate-50 disabled:opacity-40 disabled:cursor-not-allowed transition cursor-pointer"
+            >
+              <ChevronLeft className="w-4 h-4" />
+            </button>
+
+            {/* Page Numbers — show max 5 with ellipsis */}
+            {(() => {
+              const maxVisible = 5;
+              let start = Math.max(1, currentPage - Math.floor(maxVisible / 2));
+              let end = start + maxVisible - 1;
+              if (end > totalPages) {
+                end = totalPages;
+                start = Math.max(1, end - maxVisible + 1);
+              }
+              const pages: (number | string)[] = [];
+              if (start > 1) {
+                pages.push(1);
+                if (start > 2) pages.push("start-ellipsis");
+              }
+              for (let i = start; i <= end; i++) pages.push(i);
+              if (end < totalPages) {
+                if (end < totalPages - 1) pages.push("end-ellipsis");
+                pages.push(totalPages);
+              }
+              return pages.map((page) =>
+                typeof page === "string" ? (
+                  <span key={page} className="w-10 h-10 flex items-center justify-center text-sm text-zinc-400">
+                    …
+                  </span>
+                ) : (
+                  <button
+                    key={page}
+                    type="button"
+                    onClick={() => setCurrentPage(page)}
+                    className={`w-10 h-10 rounded-full text-sm font-semibold transition cursor-pointer ${
+                      currentPage === page
+                        ? "bg-[#0052FF] text-white shadow-md"
+                        : "border border-slate-200 bg-white text-zinc-600 hover:bg-slate-50"
+                    }`}
+                  >
+                    {page}
+                  </button>
+                )
+              );
+            })()}
+
+            {/* Next Button */}
+            <button
+              type="button"
+              onClick={() => setCurrentPage((p) => Math.min(totalPages, p + 1))}
+              disabled={currentPage === totalPages}
+              className="w-10 h-10 rounded-full border border-slate-200 bg-white flex items-center justify-center text-zinc-600 hover:bg-slate-50 disabled:opacity-40 disabled:cursor-not-allowed transition cursor-pointer"
+            >
+              <ChevronRight className="w-4 h-4" />
             </button>
           </div>
         )}
