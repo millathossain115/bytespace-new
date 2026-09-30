@@ -16,6 +16,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "ByteSpace - Get Access to Hundreds of Courses",
   description: "Discover courses with expert mentors and advance your career with real-world skills on ByteSpace.",
+  icons: {
+    icon: "/logo.svg",
+    shortcut: "/logo.svg",
+    apple: "/logo.svg",
+  },
 };
 
 export default function RootLayout({

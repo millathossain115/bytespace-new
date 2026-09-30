@@ -6,13 +6,13 @@ export const coursesData: CourseItem[] = [
     "slug": "advanced-micro-interactions-prototyping-in-figma-1",
     "title": "Advanced Micro-Interactions & Prototyping in Figma",
     "subtitle": "Craft fluid mobile transitions and production-ready component logic",
-    "category": "UI/UX Design",
+    "category": "Music",
     "categories": [
-      "UI/UX Design",
+      "Music",
       "Featured",
-      "Design"
+      "Digital Illustration"
     ],
-    "instructor": "Studio Byte",
+    "instructor": "purepearl studio",
     "instructorRole": "Design Systems Lead",
     "instructorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
     "rating": 4.6,
@@ -166,12 +166,13 @@ export const coursesData: CourseItem[] = [
     "slug": "design-system-engineering-tokens-to-production-code-2",
     "title": "Design System Engineering: Tokens to Production Code",
     "subtitle": "Architect multi-brand token frameworks and resilient UI libraries",
-    "category": "UI/UX Design",
+    "category": "Drawing & Painting",
     "categories": [
-      "UI/UX Design",
-      "Design"
+      "Drawing & Painting",
+      "Social Media",
+      "Film & Video"
     ],
-    "instructor": "Creative Pulse",
+    "instructor": "purepearl studio",
     "instructorRole": "Product Strategist",
     "instructorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
     "rating": 4.7,
@@ -325,12 +326,13 @@ export const coursesData: CourseItem[] = [
     "slug": "mobile-app-wireframing-usability-architecture-3",
     "title": "Mobile App Wireframing & Usability Architecture",
     "subtitle": "From low-fidelity paper sketches to validated iOS & Android flows",
-    "category": "UI/UX Design",
+    "category": "Marketing",
     "categories": [
-      "UI/UX Design",
-      "Featured"
+      "Marketing",
+      "Featured",
+      "Crafts"
     ],
-    "instructor": "Aura Labs",
+    "instructor": "purepearl studio",
     "instructorRole": "Senior Technical Architect",
     "instructorAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -484,12 +486,13 @@ export const coursesData: CourseItem[] = [
     "slug": "saas-dashboard-design-complex-data-visualization-4",
     "title": "SaaS Dashboard Design & Complex Data Visualization",
     "subtitle": "Create legible data grids, filters, and high-density enterprise cards",
-    "category": "UI/UX Design",
+    "category": "Animation",
     "categories": [
-      "UI/UX Design",
-      "Design"
+      "Animation",
+      "Creative Marketing",
+      "Freelance & Entrepreneurship"
     ],
-    "instructor": "Nova Design",
+    "instructor": "purepearl studio",
     "instructorRole": "Creative Director",
     "instructorAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -643,11 +646,13 @@ export const coursesData: CourseItem[] = [
     "slug": "interaction-design-frictionless-user-onboarding-5",
     "title": "Interaction Design & Frictionless User Onboarding",
     "subtitle": "Eliminate user drop-off with guided walkthroughs and progressive disclosure",
-    "category": "UI/UX Design",
+    "category": "Social Media",
     "categories": [
-      "UI/UX Design"
+      "Social Media",
+      "Featured",
+      "Graphic Design"
     ],
-    "instructor": "ByteSpace Academy",
+    "instructor": "purepearl studio",
     "instructorRole": "Staff Instructor",
     "instructorAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
     "rating": 4.9,
@@ -803,9 +808,11 @@ export const coursesData: CourseItem[] = [
     "subtitle": "Build high-contrast, keyboard-navigable and screen-reader compliant apps",
     "category": "UI/UX Design",
     "categories": [
-      "UI/UX Design"
+      "UI/UX Design",
+      "Film & Video",
+      "Photography"
     ],
-    "instructor": "Apex Media",
+    "instructor": "purepearl studio",
     "instructorRole": "Content Strategist",
     "instructorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
     "rating": 4.6,
@@ -959,12 +966,13 @@ export const coursesData: CourseItem[] = [
     "slug": "figma-auto-layout-50-responsive-architecture-7",
     "title": "Figma Auto Layout 5.0 Responsive Architecture",
     "subtitle": "Master responsive constraints, wrap containers, and nested flex structures",
-    "category": "UI/UX Design",
+    "category": "Creative Marketing",
     "categories": [
-      "UI/UX Design",
-      "Design"
+      "Creative Marketing",
+      "Featured",
+      "Productivity"
     ],
-    "instructor": "Studio Byte",
+    "instructor": "purepearl studio",
     "instructorRole": "Design Systems Lead",
     "instructorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
     "rating": 4.7,
@@ -1118,11 +1126,13 @@ export const coursesData: CourseItem[] = [
     "slug": "user-research-mastery-qualitative-interviews-heuristics-8",
     "title": "User Research Mastery: Qualitative Interviews & Heuristics",
     "subtitle": "Interview real users, synthesize insights, and build empathy journey maps",
-    "category": "UI/UX Design",
+    "category": "Digital Illustration",
     "categories": [
-      "UI/UX Design"
+      "Digital Illustration",
+      "Freelance & Entrepreneurship",
+      "Web Development"
     ],
-    "instructor": "Creative Pulse",
+    "instructor": "purepearl studio",
     "instructorRole": "Product Strategist",
     "instructorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -1276,12 +1286,13 @@ export const coursesData: CourseItem[] = [
     "slug": "e-commerce-ux-optimization-checkout-conversion-9",
     "title": "E-Commerce UX Optimization & Checkout Conversion",
     "subtitle": "Streamline cart funnels, payment screens, and mobile checkout experiences",
-    "category": "UI/UX Design",
+    "category": "Film & Video",
     "categories": [
-      "UI/UX Design",
-      "Featured"
+      "Film & Video",
+      "Featured",
+      "Data Science"
     ],
-    "instructor": "Aura Labs",
+    "instructor": "purepearl studio",
     "instructorRole": "Senior Technical Architect",
     "instructorAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -1435,11 +1446,13 @@ export const coursesData: CourseItem[] = [
     "slug": "cross-platform-product-design-for-ios-and-android-10",
     "title": "Cross-Platform Product Design for iOS and Android",
     "subtitle": "Balance Human Interface Guidelines and Material You into cohesive brand UX",
-    "category": "UI/UX Design",
+    "category": "Crafts",
     "categories": [
-      "UI/UX Design"
+      "Crafts",
+      "Photography",
+      "Cooking"
     ],
-    "instructor": "Nova Design",
+    "instructor": "purepearl studio",
     "instructorRole": "Creative Director",
     "instructorAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
     "rating": 4.9,
@@ -1593,11 +1606,13 @@ export const coursesData: CourseItem[] = [
     "slug": "design-critique-portfolio-presentation-for-senior-roles-11",
     "title": "Design Critique & Portfolio Presentation for Senior Roles",
     "subtitle": "Structure compelling case studies and defend design choices during interviews",
-    "category": "UI/UX Design",
+    "category": "Freelance & Entrepreneurship",
     "categories": [
-      "UI/UX Design"
+      "Freelance & Entrepreneurship",
+      "Featured",
+      "Music"
     ],
-    "instructor": "ByteSpace Academy",
+    "instructor": "purepearl studio",
     "instructorRole": "Staff Instructor",
     "instructorAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
     "rating": 4.6,
@@ -1751,12 +1766,13 @@ export const coursesData: CourseItem[] = [
     "slug": "electronic-synthwave-bass-production-in-ableton-live-12",
     "title": "Electronic Synthwave & Bass Production in Ableton Live",
     "subtitle": "Program retro analog synths, pumping sidechains, and punchy drum fills",
-    "category": "Music",
+    "category": "Graphic Design",
     "categories": [
-      "Music",
-      "Featured"
+      "Graphic Design",
+      "Web Development",
+      "Drawing & Painting"
     ],
-    "instructor": "Apex Media",
+    "instructor": "purepearl studio",
     "instructorRole": "Content Strategist",
     "instructorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
     "rating": 4.7,
@@ -1910,11 +1926,13 @@ export const coursesData: CourseItem[] = [
     "slug": "studio-vocal-recording-tuning-pitch-correction-13",
     "title": "Studio Vocal Recording, Tuning & Pitch Correction",
     "subtitle": "Master vocal chains, Auto-Tune, Melodyne, and polished radio saturation",
-    "category": "Music",
+    "category": "Photography",
     "categories": [
-      "Music"
+      "Photography",
+      "Featured",
+      "Marketing"
     ],
-    "instructor": "Studio Byte",
+    "instructor": "purepearl studio",
     "instructorRole": "Design Systems Lead",
     "instructorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -2068,11 +2086,13 @@ export const coursesData: CourseItem[] = [
     "slug": "acoustic-room-treatment-monitor-calibration-14",
     "title": "Acoustic Room Treatment & Monitor Calibration",
     "subtitle": "Eliminate standing waves, position bass traps, and tune your listening space",
-    "category": "Music",
+    "category": "Productivity",
     "categories": [
-      "Music"
+      "Productivity",
+      "Cooking",
+      "Animation"
     ],
-    "instructor": "Creative Pulse",
+    "instructor": "purepearl studio",
     "instructorRole": "Product Strategist",
     "instructorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -2226,12 +2246,13 @@ export const coursesData: CourseItem[] = [
     "slug": "cinematic-orchestral-arranging-with-virtual-instruments-15",
     "title": "Cinematic Orchestral Arranging with Virtual Instruments",
     "subtitle": "Compose dramatic string beds, soaring brass fanfares, and hybrid percussion",
-    "category": "Music",
+    "category": "Web Development",
     "categories": [
-      "Music",
-      "Featured"
+      "Web Development",
+      "Featured",
+      "Social Media"
     ],
-    "instructor": "Aura Labs",
+    "instructor": "purepearl studio",
     "instructorRole": "Senior Technical Architect",
     "instructorAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
     "rating": 4.9,
@@ -2385,11 +2406,13 @@ export const coursesData: CourseItem[] = [
     "slug": "hip-hop-beatmaking-drum-pattern-programming-16",
     "title": "Hip-Hop Beatmaking & Drum Pattern Programming",
     "subtitle": "Slice soul samples, program syncopated hi-hats, and mix booming 808s",
-    "category": "Music",
+    "category": "Data Science",
     "categories": [
-      "Music"
+      "Data Science",
+      "Drawing & Painting",
+      "UI/UX Design"
     ],
-    "instructor": "Nova Design",
+    "instructor": "purepearl studio",
     "instructorRole": "Creative Director",
     "instructorAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
     "rating": 4.6,
@@ -2543,11 +2566,13 @@ export const coursesData: CourseItem[] = [
     "slug": "modern-audio-mixing-surgical-eq-dynamic-compression-17",
     "title": "Modern Audio Mixing: Surgical EQ & Dynamic Compression",
     "subtitle": "Carve sonic frequency pockets so every track sits cleanly in the stereo field",
-    "category": "Music",
+    "category": "Cooking",
     "categories": [
-      "Music"
+      "Cooking",
+      "Featured",
+      "Creative Marketing"
     ],
-    "instructor": "ByteSpace Academy",
+    "instructor": "purepearl studio",
     "instructorRole": "Staff Instructor",
     "instructorAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
     "rating": 4.7,
@@ -2703,9 +2728,11 @@ export const coursesData: CourseItem[] = [
     "subtitle": "Hit target LUFS loudness standards without sacrificing musical dynamic range",
     "category": "Music",
     "categories": [
-      "Music"
+      "Music",
+      "Animation",
+      "Digital Illustration"
     ],
-    "instructor": "Apex Media",
+    "instructor": "purepearl studio",
     "instructorRole": "Content Strategist",
     "instructorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -2859,12 +2886,13 @@ export const coursesData: CourseItem[] = [
     "slug": "songwriting-architecture-chord-progressions-catchy-hooks-19",
     "title": "Songwriting Architecture: Chord Progressions & Catchy Hooks",
     "subtitle": "Write memorable choruses, pre-chorus lifts, and resonant lyrical themes",
-    "category": "Music",
+    "category": "Drawing & Painting",
     "categories": [
-      "Music",
-      "Featured"
+      "Drawing & Painting",
+      "Featured",
+      "Film & Video"
     ],
-    "instructor": "Studio Byte",
+    "instructor": "purepearl studio",
     "instructorRole": "Design Systems Lead",
     "instructorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -3018,11 +3046,13 @@ export const coursesData: CourseItem[] = [
     "slug": "jazz-chord-harmony-fretboard-voicings-on-guitar-20",
     "title": "Jazz Chord Harmony & Fretboard Voicings on Guitar",
     "subtitle": "Unlock Drop-2 chords, chromatic passing tones, and guide-tone improvisation",
-    "category": "Music",
+    "category": "Marketing",
     "categories": [
-      "Music"
+      "Marketing",
+      "UI/UX Design",
+      "Crafts"
     ],
-    "instructor": "Creative Pulse",
+    "instructor": "purepearl studio",
     "instructorRole": "Product Strategist",
     "instructorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
     "rating": 4.9,
@@ -3176,11 +3206,13 @@ export const coursesData: CourseItem[] = [
     "slug": "sound-design-with-modular-synthesis-eurorack-21",
     "title": "Sound Design with Modular Synthesis & Eurorack",
     "subtitle": "Patch control voltages, LFOs, wavefolders, and generative ambient generative drones",
-    "category": "Music",
+    "category": "Animation",
     "categories": [
-      "Music"
+      "Animation",
+      "Featured",
+      "Freelance & Entrepreneurship"
     ],
-    "instructor": "Aura Labs",
+    "instructor": "purepearl studio",
     "instructorRole": "Senior Technical Architect",
     "instructorAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
     "rating": 4.6,
@@ -3334,11 +3366,13 @@ export const coursesData: CourseItem[] = [
     "slug": "game-audio-implementation-with-wwise-fmod-22",
     "title": "Game Audio Implementation with Wwise & FMOD",
     "subtitle": "Connect adaptive interactive audio states directly into game engine events",
-    "category": "Music",
+    "category": "Social Media",
     "categories": [
-      "Music"
+      "Social Media",
+      "Digital Illustration",
+      "Graphic Design"
     ],
-    "instructor": "Nova Design",
+    "instructor": "purepearl studio",
     "instructorRole": "Creative Director",
     "instructorAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
     "rating": 4.7,
@@ -3492,13 +3526,13 @@ export const coursesData: CourseItem[] = [
     "slug": "digital-concept-art-environment-painting-in-photoshop-23",
     "title": "Digital Concept Art & Environment Painting in Photoshop",
     "subtitle": "Establish panoramic landscapes, atmospheric depth, and cinematic lighting",
-    "category": "Drawing & Painting",
+    "category": "UI/UX Design",
     "categories": [
-      "Drawing & Painting",
+      "UI/UX Design",
       "Featured",
-      "Design"
+      "Photography"
     ],
-    "instructor": "ByteSpace Academy",
+    "instructor": "purepearl studio",
     "instructorRole": "Staff Instructor",
     "instructorAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -3652,11 +3686,13 @@ export const coursesData: CourseItem[] = [
     "slug": "dynamic-human-anatomy-gesture-drawing-for-artists-24",
     "title": "Dynamic Human Anatomy & Gesture Drawing for Artists",
     "subtitle": "Master bone landmarks, muscle volumes, and fluid lines of action",
-    "category": "Drawing & Painting",
+    "category": "Creative Marketing",
     "categories": [
-      "Drawing & Painting"
+      "Creative Marketing",
+      "Crafts",
+      "Productivity"
     ],
-    "instructor": "Apex Media",
+    "instructor": "purepearl studio",
     "instructorRole": "Content Strategist",
     "instructorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -3810,12 +3846,13 @@ export const coursesData: CourseItem[] = [
     "slug": "watercolor-landscapes-moisture-control-wet-on-wet-25",
     "title": "Watercolor Landscapes: Moisture Control & Wet-on-Wet",
     "subtitle": "Paint luminous skies, graded horizon washes, and textured natural scenery",
-    "category": "Drawing & Painting",
+    "category": "Digital Illustration",
     "categories": [
-      "Drawing & Painting",
-      "Featured"
+      "Digital Illustration",
+      "Featured",
+      "Web Development"
     ],
-    "instructor": "Studio Byte",
+    "instructor": "purepearl studio",
     "instructorRole": "Design Systems Lead",
     "instructorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
     "rating": 4.9,
@@ -3969,12 +4006,13 @@ export const coursesData: CourseItem[] = [
     "slug": "procreate-brush-mechanics-digital-inking-techniques-26",
     "title": "Procreate Brush Mechanics & Digital Inking Techniques",
     "subtitle": "Craft personalized streamline brushes, crosshatching lines, and clean manga ink",
-    "category": "Drawing & Painting",
+    "category": "Film & Video",
     "categories": [
-      "Drawing & Painting",
-      "Design"
+      "Film & Video",
+      "Graphic Design",
+      "Data Science"
     ],
-    "instructor": "Creative Pulse",
+    "instructor": "purepearl studio",
     "instructorRole": "Product Strategist",
     "instructorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
     "rating": 4.6,
@@ -4128,11 +4166,13 @@ export const coursesData: CourseItem[] = [
     "slug": "color-mood-theory-cinematic-lighting-values-27",
     "title": "Color Mood Theory & Cinematic Lighting Values",
     "subtitle": "Direct emotional focus using warm/cool temperatures and rim bounce light",
-    "category": "Drawing & Painting",
+    "category": "Crafts",
     "categories": [
-      "Drawing & Painting"
+      "Crafts",
+      "Featured",
+      "Cooking"
     ],
-    "instructor": "Aura Labs",
+    "instructor": "purepearl studio",
     "instructorRole": "Senior Technical Architect",
     "instructorAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
     "rating": 4.7,
@@ -4286,11 +4326,13 @@ export const coursesData: CourseItem[] = [
     "slug": "oil-painting-basics-glazing-scumbling-direct-impasto-28",
     "title": "Oil Painting Basics: Glazing, Scumbling & Direct Impasto",
     "subtitle": "Mix buttery oil pigments, control medium dry times, and build rich textures",
-    "category": "Drawing & Painting",
+    "category": "Freelance & Entrepreneurship",
     "categories": [
-      "Drawing & Painting"
+      "Freelance & Entrepreneurship",
+      "Productivity",
+      "Music"
     ],
-    "instructor": "Nova Design",
+    "instructor": "purepearl studio",
     "instructorRole": "Creative Director",
     "instructorAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -4444,12 +4486,13 @@ export const coursesData: CourseItem[] = [
     "slug": "sci-fi-vehicle-mecha-industrial-design-sketching-29",
     "title": "Sci-Fi Vehicle & Mecha Industrial Design Sketching",
     "subtitle": "Draw hard-surface perspective grids, mechanical cutaways, and robotic form language",
-    "category": "Drawing & Painting",
+    "category": "Graphic Design",
     "categories": [
-      "Drawing & Painting",
-      "Design"
+      "Graphic Design",
+      "Featured",
+      "Drawing & Painting"
     ],
-    "instructor": "ByteSpace Academy",
+    "instructor": "purepearl studio",
     "instructorRole": "Staff Instructor",
     "instructorAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -4603,11 +4646,13 @@ export const coursesData: CourseItem[] = [
     "slug": "expressive-portraiture-capturing-facial-features-emotion-30",
     "title": "Expressive Portraiture: Capturing Facial Features & Emotion",
     "subtitle": "Render believable skin undertones, lighting angles, and subtle expressions",
-    "category": "Drawing & Painting",
+    "category": "Photography",
     "categories": [
-      "Drawing & Painting"
+      "Photography",
+      "Data Science",
+      "Marketing"
     ],
-    "instructor": "Apex Media",
+    "instructor": "purepearl studio",
     "instructorRole": "Content Strategist",
     "instructorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
     "rating": 4.9,
@@ -4761,11 +4806,13 @@ export const coursesData: CourseItem[] = [
     "slug": "pencil-sketching-foundations-values-shading-crosshatch-31",
     "title": "Pencil Sketching Foundations: Values, Shading & Crosshatch",
     "subtitle": "Hone observation skills, cast shadow rendering, and pencil stroke confidence",
-    "category": "Drawing & Painting",
+    "category": "Productivity",
     "categories": [
-      "Drawing & Painting"
+      "Productivity",
+      "Featured",
+      "Animation"
     ],
-    "instructor": "Studio Byte",
+    "instructor": "purepearl studio",
     "instructorRole": "Design Systems Lead",
     "instructorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
     "rating": 4.6,
@@ -4919,12 +4966,13 @@ export const coursesData: CourseItem[] = [
     "slug": "fantasy-creature-design-wildlife-anatomy-hybridization-32",
     "title": "Fantasy Creature Design: Wildlife Anatomy Hybridization",
     "subtitle": "Blend real animal skeletons to create grounded, biologically plausible mythical beasts",
-    "category": "Drawing & Painting",
+    "category": "Web Development",
     "categories": [
-      "Drawing & Painting",
-      "Featured"
+      "Web Development",
+      "Music",
+      "Social Media"
     ],
-    "instructor": "Creative Pulse",
+    "instructor": "purepearl studio",
     "instructorRole": "Product Strategist",
     "instructorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
     "rating": 4.7,
@@ -5078,11 +5126,13 @@ export const coursesData: CourseItem[] = [
     "slug": "gouache-painting-for-modern-illustrators-33",
     "title": "Gouache Painting for Modern Illustrators",
     "subtitle": "Work with velvety matte gouache layers, bold graphic shapes, and vibrant palettes",
-    "category": "Drawing & Painting",
+    "category": "Data Science",
     "categories": [
-      "Drawing & Painting"
+      "Data Science",
+      "Featured",
+      "UI/UX Design"
     ],
-    "instructor": "Aura Labs",
+    "instructor": "purepearl studio",
     "instructorRole": "Senior Technical Architect",
     "instructorAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -5236,12 +5286,13 @@ export const coursesData: CourseItem[] = [
     "slug": "b2b-saas-growth-engine-inbound-pipelines-lead-magnets-34",
     "title": "B2B SaaS Growth Engine: Inbound Pipelines & Lead Magnets",
     "subtitle": "Convert cold decision-makers with high-intent case studies and gated tools",
-    "category": "Marketing",
+    "category": "Cooking",
     "categories": [
+      "Cooking",
       "Marketing",
-      "Featured"
+      "Creative Marketing"
     ],
-    "instructor": "Nova Design",
+    "instructor": "purepearl studio",
     "instructorRole": "Creative Director",
     "instructorAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -5395,12 +5446,13 @@ export const coursesData: CourseItem[] = [
     "slug": "high-converting-landing-page-copywriting-layouts-35",
     "title": "High-Converting Landing Page Copywriting & Layouts",
     "subtitle": "Write hero headlines, social proof structures, and frictionless CTA sections",
-    "category": "Marketing",
+    "category": "Music",
     "categories": [
-      "Marketing",
-      "Creative Marketing"
+      "Music",
+      "Featured",
+      "Digital Illustration"
     ],
-    "instructor": "ByteSpace Academy",
+    "instructor": "purepearl studio",
     "instructorRole": "Staff Instructor",
     "instructorAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
     "rating": 4.9,
@@ -5554,11 +5606,13 @@ export const coursesData: CourseItem[] = [
     "slug": "performance-marketing-meta-google-ads-scaling-playbook-36",
     "title": "Performance Marketing: Meta & Google Ads Scaling Playbook",
     "subtitle": "Audit ROAS, test creative hooks at scale, and protect ad account profit margins",
-    "category": "Marketing",
+    "category": "Drawing & Painting",
     "categories": [
-      "Marketing"
+      "Drawing & Painting",
+      "Social Media",
+      "Film & Video"
     ],
-    "instructor": "Apex Media",
+    "instructor": "purepearl studio",
     "instructorRole": "Content Strategist",
     "instructorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
     "rating": 4.6,
@@ -5715,9 +5769,10 @@ export const coursesData: CourseItem[] = [
     "category": "Marketing",
     "categories": [
       "Marketing",
-      "Featured"
+      "Featured",
+      "Crafts"
     ],
-    "instructor": "Studio Byte",
+    "instructor": "purepearl studio",
     "instructorRole": "Design Systems Lead",
     "instructorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
     "rating": 4.7,
@@ -5871,11 +5926,13 @@ export const coursesData: CourseItem[] = [
     "slug": "email-lifecycle-automation-nurture-retain-upsell-38",
     "title": "Email Lifecycle Automation: Nurture, Retain & Upsell",
     "subtitle": "Build behavioral email drip triggers that double customer lifetime value",
-    "category": "Marketing",
+    "category": "Animation",
     "categories": [
-      "Marketing"
+      "Animation",
+      "Creative Marketing",
+      "Freelance & Entrepreneurship"
     ],
-    "instructor": "Creative Pulse",
+    "instructor": "purepearl studio",
     "instructorRole": "Product Strategist",
     "instructorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -6029,11 +6086,13 @@ export const coursesData: CourseItem[] = [
     "slug": "conversion-rate-optimization-cro-ab-multivariate-testing-39",
     "title": "Conversion Rate Optimization (CRO) & A/B Multivariate Testing",
     "subtitle": "Design statistical split tests that systematically increase checkout conversions",
-    "category": "Marketing",
+    "category": "Social Media",
     "categories": [
-      "Marketing"
+      "Social Media",
+      "Featured",
+      "Graphic Design"
     ],
-    "instructor": "Aura Labs",
+    "instructor": "purepearl studio",
     "instructorRole": "Senior Technical Architect",
     "instructorAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -6187,12 +6246,13 @@ export const coursesData: CourseItem[] = [
     "slug": "product-led-growth-plg-virality-in-app-expansion-40",
     "title": "Product-Led Growth (PLG): Virality & In-App Expansion",
     "subtitle": "Drive organic user invites and self-serve team upgrades directly inside software",
-    "category": "Marketing",
+    "category": "UI/UX Design",
     "categories": [
-      "Marketing",
-      "Featured"
+      "UI/UX Design",
+      "Film & Video",
+      "Photography"
     ],
-    "instructor": "Nova Design",
+    "instructor": "purepearl studio",
     "instructorRole": "Creative Director",
     "instructorAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
     "rating": 4.9,
@@ -6346,11 +6406,13 @@ export const coursesData: CourseItem[] = [
     "slug": "cold-outreach-executive-sales-cadence-systems-41",
     "title": "Cold Outreach & Executive Sales Cadence Systems",
     "subtitle": "Craft personalized multi-channel outreach that secures meetings with enterprise VP leads",
-    "category": "Marketing",
+    "category": "Creative Marketing",
     "categories": [
-      "Marketing"
+      "Creative Marketing",
+      "Featured",
+      "Productivity"
     ],
-    "instructor": "ByteSpace Academy",
+    "instructor": "purepearl studio",
     "instructorRole": "Staff Instructor",
     "instructorAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
     "rating": 4.6,
@@ -6504,11 +6566,13 @@ export const coursesData: CourseItem[] = [
     "slug": "affiliate-partner-program-architecture-42",
     "title": "Affiliate & Partner Program Architecture",
     "subtitle": "Recruit influential publishers and incentivize sustainable affiliate referral revenue",
-    "category": "Marketing",
+    "category": "Digital Illustration",
     "categories": [
-      "Marketing"
+      "Digital Illustration",
+      "Freelance & Entrepreneurship",
+      "Web Development"
     ],
-    "instructor": "Apex Media",
+    "instructor": "purepearl studio",
     "instructorRole": "Content Strategist",
     "instructorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
     "rating": 4.7,
@@ -6662,11 +6726,13 @@ export const coursesData: CourseItem[] = [
     "slug": "app-store-optimization-aso-mobile-user-acquisition-43",
     "title": "App Store Optimization (ASO) & Mobile User Acquisition",
     "subtitle": "Maximize keyword discoverability, visual screenshot clicks, and App Store ratings",
-    "category": "Marketing",
+    "category": "Film & Video",
     "categories": [
-      "Marketing"
+      "Film & Video",
+      "Featured",
+      "Data Science"
     ],
-    "instructor": "Studio Byte",
+    "instructor": "purepearl studio",
     "instructorRole": "Design Systems Lead",
     "instructorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -6820,12 +6886,13 @@ export const coursesData: CourseItem[] = [
     "slug": "brand-positioning-category-creation-for-modern-startups-44",
     "title": "Brand Positioning & Category Creation for Modern Startups",
     "subtitle": "Carve out an uncontested market category where your product is the undisputed leader",
-    "category": "Marketing",
+    "category": "Crafts",
     "categories": [
-      "Marketing",
-      "Creative Marketing"
+      "Crafts",
+      "Photography",
+      "Cooking"
     ],
-    "instructor": "Creative Pulse",
+    "instructor": "purepearl studio",
     "instructorRole": "Product Strategist",
     "instructorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -6979,13 +7046,13 @@ export const coursesData: CourseItem[] = [
     "slug": "blender-40-procedural-geometry-nodes-motion-graphics-45",
     "title": "Blender 4.0 Procedural Geometry Nodes & Motion Graphics",
     "subtitle": "Create hypnotic mathematical loops, parametric arrays, and broadcast visual FX",
-    "category": "Animation",
+    "category": "Freelance & Entrepreneurship",
     "categories": [
-      "Animation",
+      "Freelance & Entrepreneurship",
       "Featured",
-      "Design"
+      "Music"
     ],
-    "instructor": "Aura Labs",
+    "instructor": "purepearl studio",
     "instructorRole": "Senior Technical Architect",
     "instructorAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
     "rating": 4.9,
@@ -7139,12 +7206,13 @@ export const coursesData: CourseItem[] = [
     "slug": "2d-character-rigging-skeletal-animation-in-spine-46",
     "title": "2D Character Rigging & Skeletal Animation in Spine",
     "subtitle": "Set up bone weight deformations, inverse kinematics, and lightweight game sprites",
-    "category": "Animation",
+    "category": "Graphic Design",
     "categories": [
-      "Animation",
-      "Design"
+      "Graphic Design",
+      "Web Development",
+      "Drawing & Painting"
     ],
-    "instructor": "Nova Design",
+    "instructor": "purepearl studio",
     "instructorRole": "Creative Director",
     "instructorAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
     "rating": 4.6,
@@ -7298,12 +7366,13 @@ export const coursesData: CourseItem[] = [
     "slug": "the-12-principles-of-animation-digital-timing-spacing-47",
     "title": "The 12 Principles of Animation: Digital Timing & Spacing",
     "subtitle": "Infuse characters with weight, squash and stretch, anticipation, and follow-through",
-    "category": "Animation",
+    "category": "Photography",
     "categories": [
-      "Animation",
-      "Featured"
+      "Photography",
+      "Featured",
+      "Marketing"
     ],
-    "instructor": "ByteSpace Academy",
+    "instructor": "purepearl studio",
     "instructorRole": "Staff Instructor",
     "instructorAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
     "rating": 4.7,
@@ -7457,12 +7526,13 @@ export const coursesData: CourseItem[] = [
     "slug": "kinetic-typography-lower-thirds-in-after-effects-48",
     "title": "Kinetic Typography & Lower Thirds in After Effects",
     "subtitle": "Animate commercial title cards, snappy ease curves, and rhythmic text reveals",
-    "category": "Animation",
+    "category": "Productivity",
     "categories": [
-      "Animation",
-      "Design"
+      "Productivity",
+      "Cooking",
+      "Animation"
     ],
-    "instructor": "Apex Media",
+    "instructor": "purepearl studio",
     "instructorRole": "Content Strategist",
     "instructorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -7616,12 +7686,13 @@ export const coursesData: CourseItem[] = [
     "slug": "3d-hard-surface-product-animation-photorealistic-cycles-49",
     "title": "3D Hard-Surface Product Animation & Photorealistic Cycles",
     "subtitle": "Model sleek consumer tech, animate explosive assemblies, and render studio lighting",
-    "category": "Animation",
+    "category": "Web Development",
     "categories": [
-      "Animation",
-      "Featured"
+      "Web Development",
+      "Featured",
+      "Social Media"
     ],
-    "instructor": "Studio Byte",
+    "instructor": "purepearl studio",
     "instructorRole": "Design Systems Lead",
     "instructorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -7775,11 +7846,13 @@ export const coursesData: CourseItem[] = [
     "slug": "indie-game-pixel-art-combat-animation-sprite-sheets-50",
     "title": "Indie Game Pixel Art Combat Animation & Sprite Sheets",
     "subtitle": "Create responsive 4-directional walk cycles, sword slashes, and impact smears",
-    "category": "Animation",
+    "category": "Data Science",
     "categories": [
-      "Animation"
+      "Data Science",
+      "Drawing & Painting",
+      "UI/UX Design"
     ],
-    "instructor": "Creative Pulse",
+    "instructor": "purepearl studio",
     "instructorRole": "Product Strategist",
     "instructorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
     "rating": 4.9,
@@ -7933,11 +8006,13 @@ export const coursesData: CourseItem[] = [
     "slug": "storyboarding-cinematic-camera-direction-for-animatics-51",
     "title": "Storyboarding & Cinematic Camera Direction for Animatics",
     "subtitle": "Stage dramatic camera cuts, focal depth transitions, and pacing beat sheets",
-    "category": "Animation",
+    "category": "Cooking",
     "categories": [
-      "Animation"
+      "Cooking",
+      "Featured",
+      "Creative Marketing"
     ],
-    "instructor": "Aura Labs",
+    "instructor": "purepearl studio",
     "instructorRole": "Senior Technical Architect",
     "instructorAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
     "rating": 4.6,
@@ -8091,11 +8166,13 @@ export const coursesData: CourseItem[] = [
     "slug": "vfx-particle-systems-liquid-fluid-simulations-52",
     "title": "VFX Particle Systems & Liquid Fluid Simulations",
     "subtitle": "Simulate high-speed splashes, fire, smoke, and particle dust interactions",
-    "category": "Animation",
+    "category": "Music",
     "categories": [
-      "Animation"
+      "Music",
+      "Animation",
+      "Digital Illustration"
     ],
-    "instructor": "Nova Design",
+    "instructor": "purepearl studio",
     "instructorRole": "Creative Director",
     "instructorAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
     "rating": 4.7,
@@ -8249,11 +8326,13 @@ export const coursesData: CourseItem[] = [
     "slug": "facial-acting-lip-sync-animation-for-3d-characters-53",
     "title": "Facial Acting & Lip Sync Animation for 3D Characters",
     "subtitle": "Deconstruct speech phonemes, eye glance darts, and subtle micro-expressions",
-    "category": "Animation",
+    "category": "Drawing & Painting",
     "categories": [
-      "Animation"
+      "Drawing & Painting",
+      "Featured",
+      "Film & Video"
     ],
-    "instructor": "ByteSpace Academy",
+    "instructor": "purepearl studio",
     "instructorRole": "Staff Instructor",
     "instructorAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -8407,11 +8486,13 @@ export const coursesData: CourseItem[] = [
     "slug": "stop-motion-digital-claymation-physical-craft-54",
     "title": "Stop-Motion Digital Claymation & Physical Craft",
     "subtitle": "Build armatures, frame-by-frame puppet capture, and rig-removal compositing",
-    "category": "Animation",
+    "category": "Marketing",
     "categories": [
-      "Animation"
+      "Marketing",
+      "UI/UX Design",
+      "Crafts"
     ],
-    "instructor": "Apex Media",
+    "instructor": "purepearl studio",
     "instructorRole": "Content Strategist",
     "instructorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -8568,9 +8649,10 @@ export const coursesData: CourseItem[] = [
     "category": "Animation",
     "categories": [
       "Animation",
-      "Featured"
+      "Featured",
+      "Freelance & Entrepreneurship"
     ],
-    "instructor": "Studio Byte",
+    "instructor": "purepearl studio",
     "instructorRole": "Design Systems Lead",
     "instructorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
     "rating": 4.9,
@@ -8727,9 +8809,10 @@ export const coursesData: CourseItem[] = [
     "category": "Social Media",
     "categories": [
       "Social Media",
-      "Featured"
+      "Digital Illustration",
+      "Graphic Design"
     ],
-    "instructor": "Creative Pulse",
+    "instructor": "purepearl studio",
     "instructorRole": "Product Strategist",
     "instructorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
     "rating": 4.6,
@@ -8883,12 +8966,13 @@ export const coursesData: CourseItem[] = [
     "slug": "youtube-creator-channel-architecture-from-zero-to-100k-57",
     "title": "YouTube Creator Channel Architecture: From Zero to 100K",
     "subtitle": "Thumbnail psychology, title curiosity gaps, and retention curve optimization",
-    "category": "Social Media",
+    "category": "UI/UX Design",
     "categories": [
-      "Social Media",
-      "Featured"
+      "UI/UX Design",
+      "Featured",
+      "Photography"
     ],
-    "instructor": "Aura Labs",
+    "instructor": "purepearl studio",
     "instructorRole": "Senior Technical Architect",
     "instructorAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
     "rating": 4.7,
@@ -9042,11 +9126,13 @@ export const coursesData: CourseItem[] = [
     "slug": "linkedin-authority-high-engagement-pdf-carousels-58",
     "title": "LinkedIn Authority: High-Engagement PDF Carousels",
     "subtitle": "Transform industry knowledge into viral slide decks that land enterprise consulting",
-    "category": "Social Media",
+    "category": "Creative Marketing",
     "categories": [
-      "Social Media"
+      "Creative Marketing",
+      "Crafts",
+      "Productivity"
     ],
-    "instructor": "Nova Design",
+    "instructor": "purepearl studio",
     "instructorRole": "Creative Director",
     "instructorAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -9200,11 +9286,13 @@ export const coursesData: CourseItem[] = [
     "slug": "creator-monetization-paid-memberships-digital-products-59",
     "title": "Creator Monetization: Paid Memberships & Digital Products",
     "subtitle": "Launch recurring subscription clubs, Discord hubs, and profitable digital templates",
-    "category": "Social Media",
+    "category": "Digital Illustration",
     "categories": [
-      "Social Media"
+      "Digital Illustration",
+      "Featured",
+      "Web Development"
     ],
-    "instructor": "ByteSpace Academy",
+    "instructor": "purepearl studio",
     "instructorRole": "Staff Instructor",
     "instructorAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -9358,11 +9446,13 @@ export const coursesData: CourseItem[] = [
     "slug": "brand-sponsorship-pitching-media-kit-negotiation-60",
     "title": "Brand Sponsorship Pitching & Media Kit Negotiation",
     "subtitle": "Package viewership metrics, write outreach emails, and command high 4-figure deals",
-    "category": "Social Media",
+    "category": "Film & Video",
     "categories": [
-      "Social Media"
+      "Film & Video",
+      "Graphic Design",
+      "Data Science"
     ],
-    "instructor": "Apex Media",
+    "instructor": "purepearl studio",
     "instructorRole": "Content Strategist",
     "instructorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
     "rating": 4.9,
@@ -9516,11 +9606,13 @@ export const coursesData: CourseItem[] = [
     "slug": "social-media-content-scheduling-omnichannel-repurposing-61",
     "title": "Social Media Content Scheduling & Omnichannel Repurposing",
     "subtitle": "Turn a single weekly video into 15 multi-platform posts automatically",
-    "category": "Social Media",
+    "category": "Crafts",
     "categories": [
-      "Social Media"
+      "Crafts",
+      "Featured",
+      "Cooking"
     ],
-    "instructor": "Studio Byte",
+    "instructor": "purepearl studio",
     "instructorRole": "Design Systems Lead",
     "instructorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
     "rating": 4.6,
@@ -9674,11 +9766,13 @@ export const coursesData: CourseItem[] = [
     "slug": "community-building-managing-highly-active-online-hubs-62",
     "title": "Community Building: Managing Highly Active Online Hubs",
     "subtitle": "Moderate engagement, host live AMAs, and cultivate passionate brand superfans",
-    "category": "Social Media",
+    "category": "Freelance & Entrepreneurship",
     "categories": [
-      "Social Media"
+      "Freelance & Entrepreneurship",
+      "Productivity",
+      "Music"
     ],
-    "instructor": "Creative Pulse",
+    "instructor": "purepearl studio",
     "instructorRole": "Product Strategist",
     "instructorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
     "rating": 4.7,
@@ -9832,12 +9926,13 @@ export const coursesData: CourseItem[] = [
     "slug": "personal-brand-visual-identity-color-palettes-aesthetic-grids-63",
     "title": "Personal Brand Visual Identity: Color Palettes & Aesthetic Grids",
     "subtitle": "Stand out in busy feeds with signature graphic styles, typography, and cohesive visuals",
-    "category": "Social Media",
+    "category": "Graphic Design",
     "categories": [
-      "Social Media",
-      "Design"
+      "Graphic Design",
+      "Featured",
+      "Drawing & Painting"
     ],
-    "instructor": "Aura Labs",
+    "instructor": "purepearl studio",
     "instructorRole": "Senior Technical Architect",
     "instructorAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -9991,11 +10086,13 @@ export const coursesData: CourseItem[] = [
     "slug": "short-form-smartphone-cinematography-lighting-64",
     "title": "Short-Form Smartphone Cinematography & Lighting",
     "subtitle": "Set up three-point lighting, wireless lavalier mics, and shoot cinematic phone B-roll",
-    "category": "Social Media",
+    "category": "Photography",
     "categories": [
-      "Social Media"
+      "Photography",
+      "Data Science",
+      "Marketing"
     ],
-    "instructor": "Nova Design",
+    "instructor": "purepearl studio",
     "instructorRole": "Creative Director",
     "instructorAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -10149,12 +10246,13 @@ export const coursesData: CourseItem[] = [
     "slug": "decoding-social-algorithms-timing-retention-engagement-signals-65",
     "title": "Decoding Social Algorithms: Timing, Retention & Engagement Signals",
     "subtitle": "Understand watch time metrics, share triggers, and save signals across platforms",
-    "category": "Social Media",
+    "category": "Productivity",
     "categories": [
-      "Social Media",
-      "Featured"
+      "Productivity",
+      "Featured",
+      "Animation"
     ],
-    "instructor": "ByteSpace Academy",
+    "instructor": "purepearl studio",
     "instructorRole": "Staff Instructor",
     "instructorAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
     "rating": 4.9,
@@ -10308,11 +10406,13 @@ export const coursesData: CourseItem[] = [
     "slug": "podcasting-mastery-remote-interviewing-editing-distribution-66",
     "title": "Podcasting Mastery: Remote Interviewing, Editing & Distribution",
     "subtitle": "Record broadcast-grade remote interviews, edit audio clarity, and publish to Spotify",
-    "category": "Social Media",
+    "category": "Web Development",
     "categories": [
+      "Web Development",
+      "Music",
       "Social Media"
     ],
-    "instructor": "Apex Media",
+    "instructor": "purepearl studio",
     "instructorRole": "Content Strategist",
     "instructorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
     "rating": 4.6,
@@ -10466,13 +10566,13 @@ export const coursesData: CourseItem[] = [
     "slug": "visual-storytelling-documentary-brand-films-67",
     "title": "Visual Storytelling & Documentary Brand Films",
     "subtitle": "Structure emotional founder journeys and cinematic customer breakthrough stories",
-    "category": "Creative Marketing",
+    "category": "Data Science",
     "categories": [
-      "Creative Marketing",
+      "Data Science",
       "Featured",
-      "Marketing"
+      "UI/UX Design"
     ],
-    "instructor": "Studio Byte",
+    "instructor": "purepearl studio",
     "instructorRole": "Design Systems Lead",
     "instructorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
     "rating": 4.7,
@@ -10626,11 +10726,13 @@ export const coursesData: CourseItem[] = [
     "slug": "newsletter-publishing-monetizing-10000-subscribers-68",
     "title": "Newsletter Publishing & Monetizing 10,000 Subscribers",
     "subtitle": "Write compelling subject lines, structure sponsor slots, and automate welcome flows",
-    "category": "Creative Marketing",
+    "category": "Cooking",
     "categories": [
+      "Cooking",
+      "Marketing",
       "Creative Marketing"
     ],
-    "instructor": "Creative Pulse",
+    "instructor": "purepearl studio",
     "instructorRole": "Product Strategist",
     "instructorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -10784,13 +10886,13 @@ export const coursesData: CourseItem[] = [
     "slug": "generative-ai-tools-for-creative-directors-copywriters-69",
     "title": "Generative AI Tools for Creative Directors & Copywriters",
     "subtitle": "Harness Midjourney and prompt chaining to prototype campaign ideas 10x faster",
-    "category": "Creative Marketing",
+    "category": "Music",
     "categories": [
-      "Creative Marketing",
+      "Music",
       "Featured",
-      "Design"
+      "Digital Illustration"
     ],
-    "instructor": "Aura Labs",
+    "instructor": "purepearl studio",
     "instructorRole": "Senior Technical Architect",
     "instructorAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -10944,11 +11046,13 @@ export const coursesData: CourseItem[] = [
     "slug": "unconventional-pr-guerilla-marketing-stunts-that-get-press-70",
     "title": "Unconventional PR: Guerilla Marketing & Stunts That Get Press",
     "subtitle": "Design memorable real-world activations that news publications cover organically",
-    "category": "Creative Marketing",
+    "category": "Drawing & Painting",
     "categories": [
-      "Creative Marketing"
+      "Drawing & Painting",
+      "Social Media",
+      "Film & Video"
     ],
-    "instructor": "Nova Design",
+    "instructor": "purepearl studio",
     "instructorRole": "Creative Director",
     "instructorAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
     "rating": 4.9,
@@ -11102,12 +11206,13 @@ export const coursesData: CourseItem[] = [
     "slug": "physical-packaging-design-unboxing-experience-architecture-71",
     "title": "Physical Packaging Design & Unboxing Experience Architecture",
     "subtitle": "Craft tactile box finishes, die-cut packaging inserts, and premium customer unboxings",
-    "category": "Creative Marketing",
+    "category": "Marketing",
     "categories": [
-      "Creative Marketing",
-      "Design"
+      "Marketing",
+      "Featured",
+      "Crafts"
     ],
-    "instructor": "ByteSpace Academy",
+    "instructor": "purepearl studio",
     "instructorRole": "Staff Instructor",
     "instructorAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
     "rating": 4.6,
@@ -11261,11 +11366,13 @@ export const coursesData: CourseItem[] = [
     "slug": "micro-influencer-co-creation-ugc-creative-direction-72",
     "title": "Micro-Influencer Co-Creation & UGC Creative Direction",
     "subtitle": "Direct genuine user-generated content creators that outperform generic studio ads",
-    "category": "Creative Marketing",
+    "category": "Animation",
     "categories": [
-      "Creative Marketing"
+      "Animation",
+      "Creative Marketing",
+      "Freelance & Entrepreneurship"
     ],
-    "instructor": "Apex Media",
+    "instructor": "purepearl studio",
     "instructorRole": "Content Strategist",
     "instructorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
     "rating": 4.7,
@@ -11419,12 +11526,13 @@ export const coursesData: CourseItem[] = [
     "slug": "interactive-web-experiences-3d-landing-pages-gamification-73",
     "title": "Interactive Web Experiences: 3D Landing Pages & Gamification",
     "subtitle": "Engage visitors with interactive scrollytelling and immersive visual surprises",
-    "category": "Creative Marketing",
+    "category": "Social Media",
     "categories": [
-      "Creative Marketing",
-      "Design"
+      "Social Media",
+      "Featured",
+      "Graphic Design"
     ],
-    "instructor": "Studio Byte",
+    "instructor": "purepearl studio",
     "instructorRole": "Design Systems Lead",
     "instructorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -11578,11 +11686,13 @@ export const coursesData: CourseItem[] = [
     "slug": "brand-mascot-character-ip-development-74",
     "title": "Brand Mascot & Character IP Development",
     "subtitle": "Create recognizable company mascots with memorable backstories and expressions",
-    "category": "Creative Marketing",
+    "category": "UI/UX Design",
     "categories": [
-      "Creative Marketing"
+      "UI/UX Design",
+      "Film & Video",
+      "Photography"
     ],
-    "instructor": "Creative Pulse",
+    "instructor": "purepearl studio",
     "instructorRole": "Product Strategist",
     "instructorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -11738,9 +11848,11 @@ export const coursesData: CourseItem[] = [
     "subtitle": "Design temporary retail environments that immerse customers in your brand ethos",
     "category": "Creative Marketing",
     "categories": [
-      "Creative Marketing"
+      "Creative Marketing",
+      "Featured",
+      "Productivity"
     ],
-    "instructor": "Aura Labs",
+    "instructor": "purepearl studio",
     "instructorRole": "Senior Technical Architect",
     "instructorAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
     "rating": 4.9,
@@ -11894,12 +12006,13 @@ export const coursesData: CourseItem[] = [
     "slug": "copywriting-that-converts-emotional-hooks-rhythm-76",
     "title": "Copywriting That Converts: Emotional Hooks & Rhythm",
     "subtitle": "Draft punchy taglines, benefit bullets, and sales copy that commands attention",
-    "category": "Creative Marketing",
+    "category": "Digital Illustration",
     "categories": [
-      "Creative Marketing",
-      "Featured"
+      "Digital Illustration",
+      "Freelance & Entrepreneurship",
+      "Web Development"
     ],
-    "instructor": "Nova Design",
+    "instructor": "purepearl studio",
     "instructorRole": "Creative Director",
     "instructorAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
     "rating": 4.6,
@@ -12053,11 +12166,13 @@ export const coursesData: CourseItem[] = [
     "slug": "creative-agency-pitch-decks-winning-6-figure-client-contracts-77",
     "title": "Creative Agency Pitch Decks: Winning 6-Figure Client Contracts",
     "subtitle": "Structure design proposals, quote value-based pricing, and close major brands",
-    "category": "Creative Marketing",
+    "category": "Film & Video",
     "categories": [
-      "Creative Marketing"
+      "Film & Video",
+      "Featured",
+      "Data Science"
     ],
-    "instructor": "ByteSpace Academy",
+    "instructor": "purepearl studio",
     "instructorRole": "Staff Instructor",
     "instructorAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
     "rating": 4.7,
@@ -12211,12 +12326,13 @@ export const coursesData: CourseItem[] = [
     "slug": "artisanal-wild-sourdough-baking-fermentation-science-78",
     "title": "Artisanal Wild Sourdough Baking & Fermentation Science",
     "subtitle": "Nurture live wild starters, calibrate dough hydration, and bake crusty loaves",
-    "category": "Cooking",
+    "category": "Crafts",
     "categories": [
-      "Cooking",
-      "Featured"
+      "Crafts",
+      "Photography",
+      "Cooking"
     ],
-    "instructor": "Apex Media",
+    "instructor": "purepearl studio",
     "instructorRole": "Content Strategist",
     "instructorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -12370,12 +12486,13 @@ export const coursesData: CourseItem[] = [
     "slug": "traditional-italian-egg-pasta-hand-rolled-ribbons-79",
     "title": "Traditional Italian Egg Pasta & Hand-Rolled Ribbons",
     "subtitle": "Knead silky doughs, hand-shape tortellini, and master emulsion pan sauces",
-    "category": "Cooking",
+    "category": "Freelance & Entrepreneurship",
     "categories": [
-      "Cooking",
-      "Featured"
+      "Freelance & Entrepreneurship",
+      "Featured",
+      "Music"
     ],
-    "instructor": "Studio Byte",
+    "instructor": "purepearl studio",
     "instructorRole": "Design Systems Lead",
     "instructorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -12529,11 +12646,13 @@ export const coursesData: CourseItem[] = [
     "slug": "chef-knife-precision-skills-kitchen-mise-en-place-80",
     "title": "Chef Knife Precision Skills & Kitchen Mise en Place",
     "subtitle": "Hone Japanese blade maintenance, rapid julienne cuts, and prep station efficiency",
-    "category": "Cooking",
+    "category": "Graphic Design",
     "categories": [
-      "Cooking"
+      "Graphic Design",
+      "Web Development",
+      "Drawing & Painting"
     ],
-    "instructor": "Creative Pulse",
+    "instructor": "purepearl studio",
     "instructorRole": "Product Strategist",
     "instructorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
     "rating": 4.9,
@@ -12687,11 +12806,13 @@ export const coursesData: CourseItem[] = [
     "slug": "the-science-of-steak-reverse-searing-pan-basting-81",
     "title": "The Science of Steak: Reverse-Searing & Pan Basting",
     "subtitle": "Control internal meat temperatures, baste with herb butter, and form golden crusts",
-    "category": "Cooking",
+    "category": "Photography",
     "categories": [
-      "Cooking"
+      "Photography",
+      "Featured",
+      "Marketing"
     ],
-    "instructor": "Aura Labs",
+    "instructor": "purepearl studio",
     "instructorRole": "Senior Technical Architect",
     "instructorAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
     "rating": 4.6,
@@ -12845,12 +12966,13 @@ export const coursesData: CourseItem[] = [
     "slug": "french-pastry-architecture-flaky-croissants-lamination-82",
     "title": "French Pastry Architecture: Flaky Croissants & Lamination",
     "subtitle": "Fold 27-layer butter blocks for crisp honeycomb layers and delicate morning pastries",
-    "category": "Cooking",
+    "category": "Productivity",
     "categories": [
+      "Productivity",
       "Cooking",
-      "Featured"
+      "Animation"
     ],
-    "instructor": "Nova Design",
+    "instructor": "purepearl studio",
     "instructorRole": "Creative Director",
     "instructorAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
     "rating": 4.7,
@@ -13004,11 +13126,13 @@ export const coursesData: CourseItem[] = [
     "slug": "plant-based-umami-gourmet-vegetable-roasting-reductions-83",
     "title": "Plant-Based Umami: Gourmet Vegetable Roasting & Reductions",
     "subtitle": "Extract deep savory richness through miso caramels, charred alliums, and stocks",
-    "category": "Cooking",
+    "category": "Web Development",
     "categories": [
-      "Cooking"
+      "Web Development",
+      "Featured",
+      "Social Media"
     ],
-    "instructor": "ByteSpace Academy",
+    "instructor": "purepearl studio",
     "instructorRole": "Staff Instructor",
     "instructorAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -13162,11 +13286,13 @@ export const coursesData: CourseItem[] = [
     "slug": "sushi-sashimi-artistry-rice-chemistry-knife-cuts-84",
     "title": "Sushi & Sashimi Artistry: Rice Chemistry & Knife Cuts",
     "subtitle": "Season seasoned sushi rice, slice fresh fish ribbons, and shape elegant nigiri",
-    "category": "Cooking",
+    "category": "Data Science",
     "categories": [
-      "Cooking"
+      "Data Science",
+      "Drawing & Painting",
+      "UI/UX Design"
     ],
-    "instructor": "Apex Media",
+    "instructor": "purepearl studio",
     "instructorRole": "Content Strategist",
     "instructorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -13323,9 +13449,10 @@ export const coursesData: CourseItem[] = [
     "category": "Cooking",
     "categories": [
       "Cooking",
-      "Featured"
+      "Featured",
+      "Creative Marketing"
     ],
-    "instructor": "Studio Byte",
+    "instructor": "purepearl studio",
     "instructorRole": "Design Systems Lead",
     "instructorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
     "rating": 4.9,
@@ -13479,11 +13606,13 @@ export const coursesData: CourseItem[] = [
     "slug": "the-art-of-sauce-reductions-demi-glace-velout-86",
     "title": "The Art of Sauce Reductions: Demi-Glace & Velouté",
     "subtitle": "Simmer roasted bone stocks, mount cold butter, and balance acidity in pan juices",
-    "category": "Cooking",
+    "category": "Music",
     "categories": [
-      "Cooking"
+      "Music",
+      "Animation",
+      "Digital Illustration"
     ],
-    "instructor": "Creative Pulse",
+    "instructor": "purepearl studio",
     "instructorRole": "Product Strategist",
     "instructorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
     "rating": 4.6,
@@ -13637,11 +13766,13 @@ export const coursesData: CourseItem[] = [
     "slug": "artisan-wood-fired-pizza-72-hour-cold-fermented-dough-87",
     "title": "Artisan Wood-Fired Pizza: 72-Hour Cold Fermented Dough",
     "subtitle": "Stretch delicate neapolitan crusts, balance san marzano tomatoes, and blister edges",
-    "category": "Cooking",
+    "category": "Drawing & Painting",
     "categories": [
-      "Cooking"
+      "Drawing & Painting",
+      "Featured",
+      "Film & Video"
     ],
-    "instructor": "Aura Labs",
+    "instructor": "purepearl studio",
     "instructorRole": "Senior Technical Architect",
     "instructorAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
     "rating": 4.7,
@@ -13795,11 +13926,13 @@ export const coursesData: CourseItem[] = [
     "slug": "cocktail-craft-mixology-bitters-syrups-balance-88",
     "title": "Cocktail Craft & Mixology: Bitters, Syrups & Balance",
     "subtitle": "Shake classic cocktails, infuse bespoke syrups, and carve crystal-clear ice spears",
-    "category": "Cooking",
+    "category": "Marketing",
     "categories": [
-      "Cooking"
+      "Marketing",
+      "UI/UX Design",
+      "Crafts"
     ],
-    "instructor": "Nova Design",
+    "instructor": "purepearl studio",
     "instructorRole": "Creative Director",
     "instructorAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -13953,12 +14086,13 @@ export const coursesData: CourseItem[] = [
     "slug": "design-ops-scaling-design-tokens-across-large-teams-89",
     "title": "Design Ops: Scaling Design Tokens Across Large Teams",
     "subtitle": "Automate Figma token sync into GitHub codebases without manual developer handoff",
-    "category": "UI/UX Design",
+    "category": "Animation",
     "categories": [
-      "UI/UX Design",
-      "Design"
+      "Animation",
+      "Featured",
+      "Freelance & Entrepreneurship"
     ],
-    "instructor": "ByteSpace Academy",
+    "instructor": "purepearl studio",
     "instructorRole": "Staff Instructor",
     "instructorAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -14112,11 +14246,13 @@ export const coursesData: CourseItem[] = [
     "slug": "modern-film-foley-environmental-sound-effects-90",
     "title": "Modern Film Foley & Environmental Sound Effects",
     "subtitle": "Perform real-time footsteps, cloth rustles, and props sync directly to film scenes",
-    "category": "Music",
+    "category": "Social Media",
     "categories": [
-      "Music"
+      "Social Media",
+      "Digital Illustration",
+      "Graphic Design"
     ],
-    "instructor": "Apex Media",
+    "instructor": "purepearl studio",
     "instructorRole": "Content Strategist",
     "instructorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
     "rating": 4.9,
@@ -14270,12 +14406,13 @@ export const coursesData: CourseItem[] = [
     "slug": "ink-watercolor-comic-book-page-illustration-91",
     "title": "Ink & Watercolor Comic Book Page Illustration",
     "subtitle": "Draft panel gutters, dynamic comic perspective, and paint expressive watercolor hues",
-    "category": "Drawing & Painting",
+    "category": "UI/UX Design",
     "categories": [
-      "Drawing & Painting",
-      "Design"
+      "UI/UX Design",
+      "Featured",
+      "Photography"
     ],
-    "instructor": "Studio Byte",
+    "instructor": "purepearl studio",
     "instructorRole": "Design Systems Lead",
     "instructorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
     "rating": 4.6,
@@ -14429,11 +14566,13 @@ export const coursesData: CourseItem[] = [
     "slug": "growth-marketing-analytics-sql-retention-cohorts-92",
     "title": "Growth Marketing Analytics: SQL & Retention Cohorts",
     "subtitle": "Analyze churn cohorts, customer retention curves, and calculate true CAC payback",
-    "category": "Marketing",
+    "category": "Creative Marketing",
     "categories": [
-      "Marketing"
+      "Creative Marketing",
+      "Crafts",
+      "Productivity"
     ],
-    "instructor": "Creative Pulse",
+    "instructor": "purepearl studio",
     "instructorRole": "Product Strategist",
     "instructorAvatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
     "rating": 4.7,
@@ -14587,12 +14726,13 @@ export const coursesData: CourseItem[] = [
     "slug": "stylized-3d-character-sculpting-in-blender-93",
     "title": "Stylized 3D Character Sculpting in Blender",
     "subtitle": "Block out stylized heads, hair strands, clothing folds, and prepare clean topology",
-    "category": "Animation",
+    "category": "Digital Illustration",
     "categories": [
-      "Animation",
-      "Design"
+      "Digital Illustration",
+      "Featured",
+      "Web Development"
     ],
-    "instructor": "Aura Labs",
+    "instructor": "purepearl studio",
     "instructorRole": "Senior Technical Architect",
     "instructorAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -14746,11 +14886,13 @@ export const coursesData: CourseItem[] = [
     "slug": "tiktok-livestream-commerce-audience-engagement-94",
     "title": "TikTok Livestream Commerce & Audience Engagement",
     "subtitle": "Host high-converting live shopping sessions and maintain energetic viewer interaction",
-    "category": "Social Media",
+    "category": "Film & Video",
     "categories": [
-      "Social Media"
+      "Film & Video",
+      "Graphic Design",
+      "Data Science"
     ],
-    "instructor": "Nova Design",
+    "instructor": "purepearl studio",
     "instructorRole": "Creative Director",
     "instructorAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
     "rating": 4.8,
@@ -14904,11 +15046,13 @@ export const coursesData: CourseItem[] = [
     "slug": "creative-brand-naming-trademark-verification-95",
     "title": "Creative Brand Naming & Trademark Verification",
     "subtitle": "Brainstorm memorable company names, verify global domains, and draft brand guidelines",
-    "category": "Creative Marketing",
+    "category": "Crafts",
     "categories": [
-      "Creative Marketing"
+      "Crafts",
+      "Featured",
+      "Cooking"
     ],
-    "instructor": "ByteSpace Academy",
+    "instructor": "purepearl studio",
     "instructorRole": "Staff Instructor",
     "instructorAvatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
     "rating": 4.9,
@@ -15062,11 +15206,13 @@ export const coursesData: CourseItem[] = [
     "slug": "artisanal-cheese-pairing-charcuterie-wine-harmony-96",
     "title": "Artisanal Cheese Pairing, Charcuterie & Wine Harmony",
     "subtitle": "Pair soft and hard cheeses with cured meats, artisanal honeys, and vintage wines",
-    "category": "Cooking",
+    "category": "Freelance & Entrepreneurship",
     "categories": [
-      "Cooking"
+      "Freelance & Entrepreneurship",
+      "Productivity",
+      "Music"
     ],
-    "instructor": "Apex Media",
+    "instructor": "purepearl studio",
     "instructorRole": "Content Strategist",
     "instructorAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
     "rating": 4.6,

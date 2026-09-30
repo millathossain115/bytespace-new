@@ -38,7 +38,7 @@ export function HappyStudentsCard({
       <div className="flex items-center gap-1.5 mt-1 font-satoshi text-xs text-slate-600">
         <span className="font-bold text-slate-900">{rating}</span>
         <span className="text-slate-400">({reviewsCount})</span>
-        <span className="text-[#FBBF24]">★</span>
+        <span className="text-[#D4FB20]">★</span>
       </div>
 
       {/* Avatar Stack */}
@@ -46,7 +46,7 @@ export function HappyStudentsCard({
         {avatars.map((avatar, idx) => (
           <div
             key={idx}
-            className="w-7 h-7 sm:w-8 sm:h-8 rounded-full border-2 border-white overflow-hidden bg-slate-100 shrink-0"
+            className="w-7 h-7 sm:w-8 sm:h-8 rounded-full overflow-hidden bg-slate-100 shrink-0"
           >
             <Image
               src={avatar}
@@ -57,7 +57,7 @@ export function HappyStudentsCard({
             />
           </div>
         ))}
-        <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-[#D4FB20] text-black font-satoshi font-bold text-[10px] sm:text-xs flex items-center justify-center border-2 border-white shrink-0">
+        <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-[#D4FB20] text-black font-satoshi font-bold text-[10px] sm:text-xs flex items-center justify-center shrink-0">
           {totalBadge}
         </div>
       </div>
