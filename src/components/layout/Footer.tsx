@@ -41,7 +41,7 @@ export function Footer() {
   ];
 
   return (
-    <footer className="bg-white border-t border-zinc-100 py-16 sm:py-20 lg:py-24 text-zinc-900">
+    <footer className="bg-white border-t border-zinc-300 py-16 sm:py-20 lg:py-24 text-zinc-900">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Main Grid: Newsletter on Left, 3 Columns on Right */}
         <div className="flex flex-col justify-between gap-12 lg:flex-row lg:gap-16">
