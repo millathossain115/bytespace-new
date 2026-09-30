@@ -25,7 +25,7 @@ const decorations: Decoration[] = [
     width: 265,
   },
   {
-    src: "/shapes/Spiral-White.png",
+    src: "/shapes/Spiral-White CTA.png",
     w: 160,
     h: 160,
     left: fromFrame(184),
