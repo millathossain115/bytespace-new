@@ -3,9 +3,11 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { AuthShowcase } from "@/components/auth/AuthShowcase";
 
 export default function SignupPage() {
+  const router = useRouter();
   const [fullName, setFullName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -16,7 +18,7 @@ export default function SignupPage() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-      window.location.href = "/courses";
+      router.push("/courses");
     }, 600);
   };
 
