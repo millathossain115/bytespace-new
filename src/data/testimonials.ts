@@ -1,4 +1,6 @@
-[
+import { TestimonialItem } from "@/types";
+
+export const testimonialsData: TestimonialItem[] = [
   {
     "id": 1,
     "name": "Sarah M.",
@@ -20,4 +22,4 @@
     "avatar": "/reviewer/Ellipse (2).png",
     "quote": "\"As a creator, ByteSpace has been a game-changer for me. The Course Editor is user-friendly, and the support from the community is incredible. It's fulfilling to see my courses making a positive impact on learners globally.\""
   }
-]
+];

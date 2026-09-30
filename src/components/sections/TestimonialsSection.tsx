@@ -1,5 +1,5 @@
 import Image from "next/image";
-import testimonialsData from "@/data/testimonials.json";
+import { testimonialsData } from "@/data/testimonials";
 import { TestimonialItem } from "@/types";
 
 export function TestimonialsSection() {

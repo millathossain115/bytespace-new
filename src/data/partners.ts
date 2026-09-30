@@ -1,4 +1,6 @@
-[
+import { PartnerLogo } from "@/types";
+
+export const partnersData: PartnerLogo[] = [
   {
     "id": 1,
     "name": "Logoipsum",
@@ -24,4 +26,4 @@
     "name": "Logoipsum",
     "image": "/logoIpsum/Frame (4).png"
   }
-]
+];

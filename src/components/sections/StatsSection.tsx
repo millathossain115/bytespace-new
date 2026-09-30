@@ -1,5 +1,5 @@
 import Image from "next/image";
-import partnersData from "@/data/partners.json";
+import { partnersData } from "@/data/partners";
 import { PartnerLogo } from "@/types";
 
 export function StatsSection() {

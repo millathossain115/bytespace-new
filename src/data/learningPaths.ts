@@ -1,4 +1,6 @@
-[
+import { LearningPathItem } from "@/types";
+
+export const learningPathsData: LearningPathItem[] = [
   {
     "id": 1,
     "title": "Design",
@@ -35,4 +37,4 @@
     "category": "Drawing & Painting",
     "icon": "Camera"
   }
-]
+];

@@ -3,10 +3,8 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { CourseCard } from "@/components/ui/CourseCard";
-import coursesDataRaw from "@/data/courses.json";
+import { coursesData } from "@/data/courses";
 import { CourseItem } from "@/types";
-
-const coursesData: CourseItem[] = coursesDataRaw as CourseItem[];
 
 const CATEGORIES = [
   "Featured",

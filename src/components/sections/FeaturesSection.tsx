@@ -7,7 +7,7 @@ import {
   Megaphone,
   Camera,
 } from "lucide-react";
-import learningPathsData from "@/data/learningPaths.json";
+import { learningPathsData } from "@/data/learningPaths";
 import { LearningPathItem } from "@/types";
 
 const ICONS_MAP: Record<string, React.ReactNode> = {
