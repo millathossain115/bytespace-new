@@ -1,33 +1,29 @@
 import Image from "next/image";
 import { partnersData } from "@/data/partners";
-import { PartnerLogo } from "@/types";
 
 export function StatsSection() {
-  const logos: PartnerLogo[] = partnersData;
-
   return (
-    <section className="border-y border-zinc-200/80 bg-[#F2F4F7] py-10 sm:py-12">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-12">
-        <div className="flex flex-wrap items-center justify-center gap-8 sm:gap-12 md:justify-between">
-          {logos.map((logo) => (
-            <div
-              key={logo.id}
-              className="flex items-center gap-2.5 transition-transform duration-200 hover:scale-105"
-            >
-              <div className="relative h-7 w-7 shrink-0 sm:h-8 sm:w-8">
-                <Image
-                  src={logo.image}
-                  alt={logo.name}
-                  fill
-                  className="object-contain"
-                />
-              </div>
-              <span className="text-base font-bold tracking-tight text-[#64748B] sm:text-lg">
-                {logo.name}
-              </span>
+    <section aria-label="Trusted partners" className="bg-[#fafafa] border-y border-zinc-200/60">
+      <div className="mx-auto flex min-h-[140px] max-w-[1200px] flex-wrap items-center justify-center gap-x-12 gap-y-7 px-5 py-8 md:justify-between">
+        {partnersData.map((logo) => (
+          <div
+            key={logo.id}
+            className="flex items-center gap-2.5 text-[#82868E] transition-opacity duration-200 hover:text-zinc-900"
+          >
+            <div className="relative size-10 shrink-0">
+              <Image
+                src={logo.image}
+                alt={logo.name}
+                width={40}
+                height={40}
+                className="size-full object-contain"
+              />
             </div>
-          ))}
-        </div>
+            <span className="font-poppins text-xl sm:text-2xl font-bold tracking-tight text-[#82868E]">
+              {logo.name}
+            </span>
+          </div>
+        ))}
       </div>
     </section>
   );

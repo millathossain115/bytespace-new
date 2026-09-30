@@ -2,28 +2,28 @@ import { PartnerLogo } from "@/types";
 
 export const partnersData: PartnerLogo[] = [
   {
-    "id": 1,
-    "name": "Logoipsum",
-    "image": "/logoIpsum/Frame.png"
+    id: 1,
+    name: "Logoipsum",
+    image: "/logoIpsum/1-Vector.svg",
   },
   {
-    "id": 2,
-    "name": "Logoipsum",
-    "image": "/logoIpsum/Frame (1).png"
+    id: 2,
+    name: "Logoipsum",
+    image: "/logoIpsum/2-Vector.svg",
   },
   {
-    "id": 3,
-    "name": "Logoipsum",
-    "image": "/logoIpsum/Frame (2).png"
+    id: 3,
+    name: "Logoipsum",
+    image: "/logoIpsum/3-Vector.svg",
   },
   {
-    "id": 4,
-    "name": "Logoipsum",
-    "image": "/logoIpsum/Frame (3).png"
+    id: 4,
+    name: "Logoipsum",
+    image: "/logoIpsum/4-Vector.svg",
   },
   {
-    "id": 5,
-    "name": "Logoipsum",
-    "image": "/logoIpsum/Frame (4).png"
-  }
+    id: 5,
+    name: "Logoipsum",
+    image: "/logoIpsum/5-vector.svg",
+  },
 ];
