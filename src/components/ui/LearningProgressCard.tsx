@@ -15,18 +15,20 @@ export function LearningProgressCard({
   return (
     <div
       className={cn(
-        "bg-white rounded-2xl p-6 sm:p-7 shadow-[0_16px_36px_rgba(0,0,0,0.18)] text-left min-w-[220px] sm:min-w-[270px] w-full max-w-[290px]",
+        "bg-white rounded-2xl px-5 pt-4 pb-4 shadow-[0_16px_36px_rgba(0,0,0,0.18)] text-left min-w-[220px] w-full flex flex-col justify-between",
         className
       )}
     >
-      <span className="font-satoshi font-medium text-[14px] text-slate-500 leading-tight block">
-        {label}
-      </span>
-      <div className="font-poppins font-semibold text-slate-900 text-[48px] mt-3.5 tracking-tight leading-none">
-        {percentage}%
+      <div>
+        <span className="font-satoshi font-medium text-[13px] text-slate-500 leading-tight block">
+          {label}
+        </span>
+        <div className="font-poppins font-semibold text-slate-900 text-[40px] tracking-tight leading-none mt-1.5">
+          {percentage}%
+        </div>
       </div>
-      {/* Progress Bar */}
-      <div className="mt-3.5 w-full h-2 bg-slate-100 rounded-full overflow-hidden">
+      {/* Progress Bar with bottom gap */}
+      <div className="w-full h-2 bg-slate-100 rounded-full overflow-hidden mb-1">
         <div
           className="h-full bg-[#D4FB20] rounded-full transition-all duration-500"
           style={{ width: `${percentage}%` }}
