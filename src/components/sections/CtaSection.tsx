@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { motion } from "framer-motion";
 import {
   type Decoration,
   Decorations,
@@ -90,7 +91,13 @@ export function CtaSection() {
       <Decorations items={decorations} className="h-full" />
 
       {/* Main Content */}
-      <div className="relative z-20 mx-auto max-w-[980px]">
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-60px" }}
+        transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
+        className="relative z-20 mx-auto max-w-[980px]"
+      >
         <h2 className="font-poppins text-[32px] font-semibold leading-[1.2] tracking-[-0.01em] md:text-[44px]">
           Unlock Your Potential as a
           <br className="hidden md:block" /> Creator with ByteSpace
@@ -105,15 +112,21 @@ export function CtaSection() {
           ByteSpace Course Library.
         </p>
 
-        <div className="mt-8 flex justify-center lg:mt-[41px]">
+        <motion.div
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          className="mt-8 flex justify-center lg:mt-[41px]"
+        >
           <Link
             href="/signup"
             className="inline-grid h-[46px] w-[172px] place-items-center rounded-full bg-[#D4FB20] text-base font-semibold text-zinc-950 transition-transform hover:scale-105 active:scale-95 shadow-xl cursor-pointer"
           >
             Join as Creator
           </Link>
-        </div>
-      </div>
+        </motion.div>
+      </motion.div>
     </section>
   );
 }

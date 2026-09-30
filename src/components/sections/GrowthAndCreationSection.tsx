@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { CircleCheck } from "lucide-react";
+import { motion } from "framer-motion";
 import { coursesData } from "@/data/courses";
 import { CourseCard } from "@/components/ui/CourseCard";
 import { HappyStudentsCard } from "@/components/ui/HappyStudentsCard";
@@ -65,7 +66,13 @@ export function GrowthAndCreationSection() {
         {/* ================= HERO ROW 1: Path to Professional Growth ================= */}
         {/* Stage coordinates are Figma px relative to each stage's origin */}
         <div className="relative pt-20 lg:h-[744px] lg:pt-[194px]">
-          <div className="max-w-[600px]">
+          <motion.div
+            initial={{ opacity: 0, x: -30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, margin: "-60px" }}
+            transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
+            className="max-w-[600px]"
+          >
             <h2 className="font-poppins text-[32px] font-semibold leading-[1.2] tracking-[-0.01em] text-zinc-900 md:text-[44px] md:leading-[56px]">
               Your Path to Professional
               <br className="hidden md:block" /> Growth Starts Here!
@@ -87,11 +94,17 @@ export function GrowthAndCreationSection() {
                 </div>
               ))}
             </dl>
-          </div>
+          </motion.div>
 
           {/* Right Visual Collage */}
           <div className="mt-12 flex justify-center lg:absolute lg:top-[120px] lg:left-[617px] lg:mt-0 lg:block">
-            <div className="relative h-[560px] w-[600px] shrink-0 [zoom:0.55] sm:[zoom:0.8] md:[zoom:1]">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.94 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true, margin: "-60px" }}
+              transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+              className="relative h-[560px] w-[600px] shrink-0 [zoom:0.55] sm:[zoom:0.8] md:[zoom:1]"
+            >
               
               {/* Back Card: Course Preview (static illustration, non-interactive) */}
               <div className="absolute top-0 left-[21.5px] w-[373px] z-10 pointer-events-none select-none">
@@ -117,7 +130,11 @@ export function GrowthAndCreationSection() {
               </div>
 
               {/* Floating Learning Progress Card: bottom-anchored content */}
-              <div className="absolute top-[213px] left-[366px] z-30 flex h-[138px] w-[232px] flex-col rounded-2xl bg-white p-4 text-zinc-900 shadow-xl border border-zinc-100/60">
+              <motion.div
+                animate={{ y: [0, -8, 0] }}
+                transition={{ duration: 4.6, repeat: Infinity, ease: "easeInOut" }}
+                className="absolute top-[213px] left-[366px] z-30 flex h-[138px] w-[232px] flex-col rounded-2xl bg-white p-4 text-zinc-900 shadow-xl border border-zinc-100/60"
+              >
                 <p className="text-sm font-medium text-zinc-900">Learning Progress</p>
                 <p className="mt-2 font-poppins text-[44px] font-semibold leading-none text-zinc-900">
                   55%
@@ -125,7 +142,7 @@ export function GrowthAndCreationSection() {
                 <div className="mt-auto h-2 w-full overflow-hidden rounded-full bg-zinc-100">
                   <div className="h-full w-[56%] rounded-full bg-[#D4FB20]" />
                 </div>
-              </div>
+              </motion.div>
 
               {/* Lime Coil Shape at top-right */}
               <Image
@@ -136,13 +153,19 @@ export function GrowthAndCreationSection() {
                 className="absolute top-[92px] left-[472px] h-auto w-[124px] max-w-none pointer-events-none select-none z-10"
               />
 
-            </div>
+            </motion.div>
           </div>
         </div>
 
         {/* ================= HERO ROW 2: Create & Manage Courses Easily ================= */}
         <div className="relative flex flex-col pt-20 pb-20 lg:h-[716px] lg:pt-[107px] lg:pb-0">
-          <div className="max-w-[560px] lg:ml-[621px]">
+          <motion.div
+            initial={{ opacity: 0, x: 30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true, margin: "-60px" }}
+            transition={{ duration: 0.7, ease: [0.16, 1, 0.3, 1] }}
+            className="max-w-[560px] lg:ml-[621px]"
+          >
             <h2 className="font-poppins text-[32px] font-semibold leading-[1.2] tracking-[-0.01em] text-zinc-900 md:text-[44px] md:leading-[1.2]">
               Create &amp; Manage
               <br className="hidden md:block" /> Courses Easily.
@@ -167,10 +190,16 @@ export function GrowthAndCreationSection() {
                 </li>
               ))}
             </ul>
-          </div>
+          </motion.div>
 
           <div className="mt-12 flex justify-center lg:absolute lg:top-[-4px] lg:left-[1px] lg:mt-0 lg:block">
-            <div className="relative h-[600px] w-[586px] shrink-0 [zoom:0.55] sm:[zoom:0.8] md:[zoom:1]">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.94 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true, margin: "-60px" }}
+              transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+              className="relative h-[600px] w-[586px] shrink-0 [zoom:0.55] sm:[zoom:0.8] md:[zoom:1]"
+            >
               {/* Total Revenue Card - positioned behind hero image */}
               <RevenueCard
                 title="Total Revenue"
@@ -195,18 +224,32 @@ export function GrowthAndCreationSection() {
                 </span>
               </RevenueCard>
 
-              {/* Creator Center Image - in front of revenue cards */}
-              <Image
-                src="/Heros/Image (1).webp"
-                alt="Course Creator"
-                width={2316}
-                height={2876}
+              {/* Creator Center Image - in front of revenue cards with smooth gradient fade at bottom */}
+              <div
                 className="absolute top-0 left-[7px] h-auto w-[579px] max-w-none pointer-events-none select-none z-20"
-                sizes="579px"
-              />
+                style={{
+                  maskImage: "linear-gradient(to bottom, black 0%, black 80%, transparent 98%)",
+                  WebkitMaskImage: "linear-gradient(to bottom, black 0%, black 80%, transparent 98%)",
+                }}
+              >
+                <Image
+                  src="/Heros/Image (1).webp"
+                  alt="Course Creator"
+                  width={2316}
+                  height={2876}
+                  className="h-auto w-full max-w-none drop-shadow-2xl"
+                  sizes="579px"
+                />
+              </div>
 
-              {/* Floating Happy Students Card - in front */}
-              <HappyStudentsCard className="absolute top-[417px] left-[283px] h-[123px] w-[258px] z-30" />
+              {/* Floating Happy Students Card - in front with gentle oscillation */}
+              <motion.div
+                animate={{ y: [0, 8, 0] }}
+                transition={{ duration: 4.8, repeat: Infinity, ease: "easeInOut" }}
+                className="absolute top-[417px] left-[283px] z-30"
+              >
+                <HappyStudentsCard className="h-[123px] w-[258px]" />
+              </motion.div>
 
               {/* 3D Shape Accent - Spiral lime growth flipped right */}
               <Image
@@ -217,7 +260,7 @@ export function GrowthAndCreationSection() {
                 className="absolute top-[154px] left-[339px] h-auto w-[141px] max-w-none pointer-events-none select-none z-20 scale-x-[-1]"
                 sizes="141px"
               />
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>

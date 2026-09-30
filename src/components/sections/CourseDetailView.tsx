@@ -18,6 +18,7 @@ import {
   Check
 } from "lucide-react";
 import { CourseItem } from "@/types";
+import { motion, AnimatePresence } from "framer-motion";
 import { CourseAboutTab } from "./CourseAboutTab";
 import { CourseLessonsTab } from "./CourseLessonsTab";
 import { CourseReviewsTab } from "./CourseReviewsTab";
@@ -27,7 +28,7 @@ interface CourseDetailViewProps {
 }
 
 export function CourseDetailView({ course }: CourseDetailViewProps) {
-  const [activeTab, setActiveTab] = useState<"about" | "lessons" | "reviews">("lessons");
+  const [activeTab, setActiveTab] = useState<"about" | "lessons" | "reviews">("about");
   const [copied, setCopied] = useState(false);
   const [isPlaying, setIsPlaying] = useState(false);
 
@@ -58,7 +59,12 @@ export function CourseDetailView({ course }: CourseDetailViewProps) {
         <div className="relative z-10 max-w-[1400px] mx-auto px-4 sm:px-8 lg:px-12">
           {/* Header row: Title + Share button */}
           <div className="flex flex-col lg:flex-row lg:items-start lg:justify-between gap-6">
-            <div className="max-w-3xl">
+            <motion.div
+              initial={{ opacity: 0, y: 25 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.65, ease: [0.16, 1, 0.3, 1] }}
+              className="max-w-3xl"
+            >
               <h1 className="font-poppins font-bold text-3xl sm:text-4xl lg:text-[44px] leading-tight text-white tracking-tight">
                 {course.title}
               </h1>
@@ -92,10 +98,15 @@ export function CourseDetailView({ course }: CourseDetailViewProps) {
                   <span>{course.studentsCount}</span>
                 </span>
               </div>
-            </div>
+            </motion.div>
 
             {/* Share Button Top Right */}
-            <div className="shrink-0">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.9 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5, delay: 0.15 }}
+              className="shrink-0"
+            >
               <button
                 type="button"
                 onClick={handleShare}
@@ -104,7 +115,7 @@ export function CourseDetailView({ course }: CourseDetailViewProps) {
                 {copied ? <Check className="w-4 h-4" /> : <Share2 className="w-4 h-4" />}
                 <span>{copied ? "Link Copied!" : "Share"}</span>
               </button>
-            </div>
+            </motion.div>
           </div>
         </div>
       </section>
@@ -116,7 +127,13 @@ export function CourseDetailView({ course }: CourseDetailViewProps) {
           {/* ─── Left Column: Video Card + Tabs ─── */}
           <div className="lg:col-span-8">
             {/* Video Preview Card */}
-            <div className="relative aspect-video w-full rounded-[24px] sm:rounded-[32px] overflow-hidden bg-slate-900 shadow-2xl" style={{ border: 'none' }}>
+            <motion.div
+              initial={{ opacity: 0, y: 35 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.7, delay: 0.2, ease: [0.16, 1, 0.3, 1] }}
+              className="relative aspect-video w-full rounded-[24px] sm:rounded-[32px] overflow-hidden bg-slate-900 shadow-2xl"
+              style={{ border: 'none' }}
+            >
               <Image
                 src={course.videoPreviewImage || course.image}
                 alt={course.title}
@@ -153,10 +170,10 @@ export function CourseDetailView({ course }: CourseDetailViewProps) {
                   </button>
                 </div>
               )}
-            </div>
+            </motion.div>
 
             {/* Tab Navigation Pill Group */}
-            <div className="mt-8 flex items-center gap-3">
+            <div className="mt-8 flex flex-wrap items-center gap-2.5 sm:gap-3">
               <button
                 type="button"
                 onClick={() => setActiveTab("about")}
@@ -192,17 +209,32 @@ export function CourseDetailView({ course }: CourseDetailViewProps) {
               </button>
             </div>
 
-            {/* Tab Views Content */}
+            {/* Tab Views Content with Animated Transition */}
             <div className="mt-8 pb-12 sm:pb-16">
-              {activeTab === "about" && <CourseAboutTab course={course} />}
-              {activeTab === "lessons" && <CourseLessonsTab course={course} />}
-              {activeTab === "reviews" && <CourseReviewsTab course={course} />}
+              <AnimatePresence mode="wait">
+                <motion.div
+                  key={activeTab}
+                  initial={{ opacity: 0, y: 15 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -10 }}
+                  transition={{ duration: 0.3, ease: "easeOut" }}
+                >
+                  {activeTab === "about" && <CourseAboutTab course={course} />}
+                  {activeTab === "lessons" && <CourseLessonsTab course={course} />}
+                  {activeTab === "reviews" && <CourseReviewsTab course={course} />}
+                </motion.div>
+              </AnimatePresence>
             </div>
           </div>
 
-          {/* ─── Right Column: Enrollment Sidebar ─── */}
+          {/* ─── Right Column: Enrollment Sidebar with Entrance Animation ─── */}
           {/* Starts at same height as video, overlaps both blue hero and white content */}
-          <div className="lg:col-span-4 relative z-30">
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.75, delay: 0.3, ease: [0.16, 1, 0.3, 1] }}
+            className="lg:col-span-4 relative z-30"
+          >
             <div className="lg:sticky lg:top-24">
               <div className="rounded-[28px] border border-slate-200/90 bg-white p-6 sm:p-8 shadow-xl text-zinc-900">
                 {/* Header: Total lessons + duration */}
@@ -309,7 +341,7 @@ export function CourseDetailView({ course }: CourseDetailViewProps) {
                 </div>
               </div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </div>

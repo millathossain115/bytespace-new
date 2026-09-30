@@ -3,6 +3,7 @@
 import React, { useState, useMemo, useEffect, useRef, Suspense } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import { Search, ChevronDown, Filter, BarChart2, Shapes, AlignLeft, ChevronLeft, ChevronRight, X } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
 import { CourseCard } from "@/components/ui/CourseCard";
 import { coursesData } from "@/data/courses";
 import { CourseItem } from "@/types";
@@ -191,12 +192,20 @@ function CoursesContent() {
         />
 
         <div className="relative z-10 max-w-4xl mx-auto px-4">
-          <h1 className="font-poppins font-semibold text-3xl sm:text-5xl lg:text-[56px] text-white tracking-tight leading-tight">
+          <motion.h1
+            initial={{ opacity: 0, y: 25 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.65, ease: [0.16, 1, 0.3, 1] }}
+            className="font-poppins font-semibold text-3xl sm:text-5xl lg:text-[56px] text-white tracking-tight leading-tight"
+          >
             Find Your Next Course
-          </h1>
+          </motion.h1>
 
           {/* Search Bar Form with separated courses dropdown button */}
-          <form
+          <motion.form
+            initial={{ opacity: 0, y: 20, scale: 0.98 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            transition={{ duration: 0.6, delay: 0.15, ease: [0.16, 1, 0.3, 1] }}
             onSubmit={handleSearchSubmit}
             className="mt-8 sm:mt-10 mx-auto max-w-[620px] flex items-center gap-3 px-2"
           >
@@ -255,7 +264,7 @@ function CoursesContent() {
                 </div>
               )}
             </div>
-          </form>
+          </motion.form>
         </div>
       </section>
 
@@ -427,17 +436,40 @@ function CoursesContent() {
           )}
         </div>
 
-        {/* Grid of Course Cards: 3 columns matching image layout */}
+        {/* Grid of Course Cards: 3 columns matching image layout with staggered animation */}
         {paginatedCourses.length > 0 ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+          <motion.div
+            key={`${currentPage}-${selectedCategory}-${selectedLevel}-${selectedSort}-${searchQuery}`}
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: { opacity: 0 },
+              visible: {
+                opacity: 1,
+                transition: { staggerChildren: 0.05 },
+              },
+            }}
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8"
+          >
             {paginatedCourses.map((course) => (
-              <CourseCard
+              <motion.div
                 key={course.id}
-                course={course}
-                studentAvatars={studentAvatars}
-              />
+                variants={{
+                  hidden: { opacity: 0, y: 20 },
+                  visible: {
+                    opacity: 1,
+                    y: 0,
+                    transition: { duration: 0.45, ease: [0.16, 1, 0.3, 1] },
+                  },
+                }}
+              >
+                <CourseCard
+                  course={course}
+                  studentAvatars={studentAvatars}
+                />
+              </motion.div>
             ))}
-          </div>
+          </motion.div>
         ) : (
           <div className="py-24 text-center">
             <h3 className="text-xl font-bold text-slate-800 font-poppins">

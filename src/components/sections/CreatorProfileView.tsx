@@ -14,6 +14,7 @@ import {
   Plus
 } from "lucide-react";
 import { Creator, CourseItem } from "@/types";
+import { motion } from "framer-motion";
 import { CourseCard } from "@/components/ui/CourseCard";
 
 interface CreatorProfileViewProps {
@@ -117,11 +118,21 @@ export function CreatorProfileView({ creator, courses }: CreatorProfileViewProps
           }}
         />
 
-        <div className="relative z-10 max-w-[1400px] mx-auto px-4 sm:px-8 lg:px-12">
+        <motion.div
+          initial={{ opacity: 0, y: 25 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.65, ease: [0.16, 1, 0.3, 1] }}
+          className="relative z-10 max-w-[1400px] mx-auto px-4 sm:px-8 lg:px-12"
+        >
           {/* Creator Profile Header */}
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-5">
             {/* Avatar with soft rounded square & slight pink/white border */}
-            <div className="relative w-20 h-20 sm:w-24 sm:h-24 rounded-[22px] overflow-hidden bg-rose-200 shadow-xl shrink-0">
+            <motion.div
+              initial={{ scale: 0.85, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.1 }}
+              className="relative w-20 h-20 sm:w-24 sm:h-24 rounded-[22px] overflow-hidden bg-rose-200 shadow-xl shrink-0"
+            >
               <Image
                 src={creator.avatar}
                 alt={creator.name}
@@ -129,7 +140,7 @@ export function CreatorProfileView({ creator, courses }: CreatorProfileViewProps
                 priority
                 className="object-cover"
               />
-            </div>
+            </motion.div>
 
             {/* Name, Badge, Role */}
             <div>
@@ -181,7 +192,7 @@ export function CreatorProfileView({ creator, courses }: CreatorProfileViewProps
               </button>
             </div>
           </div>
-        </div>
+        </motion.div>
       </section>
 
       {/* 2. FILTER CONTROLS BAR */}
@@ -305,14 +316,38 @@ export function CreatorProfileView({ creator, courses }: CreatorProfileViewProps
         </div>
       </section>
 
-      {/* 3. CREATOR COURSES GRID */}
+      {/* 3. CREATOR COURSES GRID with staggered animation */}
       <section className="max-w-[1400px] mx-auto px-4 sm:px-8 lg:px-12 py-8 pb-12">
         {paginatedCourses.length > 0 ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-7">
+          <motion.div
+            key={`${currentPage}-${selectedCategory}-${selectedLevel}`}
+            initial="hidden"
+            animate="visible"
+            variants={{
+              hidden: { opacity: 0 },
+              visible: {
+                opacity: 1,
+                transition: { staggerChildren: 0.06 },
+              },
+            }}
+            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-7"
+          >
             {paginatedCourses.map((course) => (
-              <CourseCard key={course.id} course={course} />
+              <motion.div
+                key={course.id}
+                variants={{
+                  hidden: { opacity: 0, y: 20 },
+                  visible: {
+                    opacity: 1,
+                    y: 0,
+                    transition: { duration: 0.45, ease: [0.16, 1, 0.3, 1] },
+                  },
+                }}
+              >
+                <CourseCard course={course} />
+              </motion.div>
             ))}
-          </div>
+          </motion.div>
         ) : (
           <div className="py-20 text-center">
             <p className="text-base text-zinc-500 font-satoshi">
@@ -330,7 +365,7 @@ export function CreatorProfileView({ creator, courses }: CreatorProfileViewProps
 
         {/* Pagination */}
         {totalPages > 1 && (
-          <div className="mt-12 flex items-center justify-center gap-2">
+          <div className="mt-12 flex flex-wrap items-center justify-center gap-1.5 sm:gap-2">
             {/* Previous Button */}
             <button
               type="button"

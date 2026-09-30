@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { motion } from "framer-motion";
 import {
   PencilRuler,
   Code2,
@@ -20,26 +23,56 @@ const ICONS_MAP: Record<string, React.ReactNode> = {
 
 export function FeaturesSection() {
   return (
-    <section className="px-5 pt-[72px] pb-[121px] md:px-8 bg-white">
+    <section className="px-5 pt-[72px] pb-[121px] md:px-8 bg-white overflow-hidden">
       <div className="mx-auto max-w-[1200px] text-center">
         {/* Section Header */}
-        <h2 className="font-poppins text-[28px] font-semibold leading-[1.2] tracking-[-0.01em] text-zinc-900 md:text-[36px]">
-          Explore Diverse Learning Paths at Bytespace
-        </h2>
-        <p className="mx-auto mt-[15px] max-w-[910px] text-base leading-[1.6] text-zinc-500 md:text-lg">
-          At Bytespace, we believe in empowering individuals through knowledge.
-          Our diverse range of courses spans various fields, ensuring there&apos;s
-          something for everyone. Unleash your potential and explore our
-          carefully curated categories.
-        </p>
+        <motion.div
+          initial={{ opacity: 0, y: 25 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-60px" }}
+          transition={{ duration: 0.65, ease: [0.16, 1, 0.3, 1] }}
+        >
+          <h2 className="font-poppins text-[28px] font-semibold leading-[1.2] tracking-[-0.01em] text-zinc-900 md:text-[36px]">
+            Explore Diverse Learning Paths at Bytespace
+          </h2>
+          <p className="mx-auto mt-[15px] max-w-[910px] text-base leading-[1.6] text-zinc-500 md:text-lg">
+            At Bytespace, we believe in empowering individuals through knowledge.
+            Our diverse range of courses spans various fields, ensuring there&apos;s
+            something for everyone. Unleash your potential and explore our
+            carefully curated categories.
+          </p>
+        </motion.div>
 
         {/* 6 Category Path Cards Grid */}
-        <ul className="mt-[69px] grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-6 lg:gap-10">
+        <motion.ul
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-50px" }}
+          variants={{
+            hidden: { opacity: 0 },
+            visible: {
+              opacity: 1,
+              transition: { staggerChildren: 0.08, delayChildren: 0.1 },
+            },
+          }}
+          className="mt-[69px] grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-6 lg:gap-10"
+        >
           {learningPathsData.map((path) => (
-            <li key={path.id}>
+            <motion.li
+              key={path.id}
+              variants={{
+                hidden: { opacity: 0, y: 25, scale: 0.95 },
+                visible: {
+                  opacity: 1,
+                  y: 0,
+                  scale: 1,
+                  transition: { duration: 0.5, ease: [0.16, 1, 0.3, 1] },
+                },
+              }}
+            >
               <Link
                 href={`/courses?category=${encodeURIComponent(path.category)}`}
-                className="group flex aspect-square flex-col items-center justify-center rounded-[24px] border border-zinc-200/90 bg-white p-4 shadow-xs transition-all duration-300 hover:-translate-y-1.5 hover:shadow-xl cursor-pointer"
+                className="group flex aspect-square flex-col items-center justify-center rounded-[24px] border border-zinc-200/90 bg-white p-4 shadow-xs transition-all duration-300 hover:-translate-y-2 hover:shadow-xl cursor-pointer"
               >
                 {/* 60px Lime Circle */}
                 <div className="flex size-[60px] items-center justify-center rounded-full bg-[#D4FB20] shadow-xs transition-transform duration-300 group-hover:scale-110">
@@ -51,9 +84,9 @@ export function FeaturesSection() {
                   {path.title}
                 </span>
               </Link>
-            </li>
+            </motion.li>
           ))}
-        </ul>
+        </motion.ul>
       </div>
     </section>
   );

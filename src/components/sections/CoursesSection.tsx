@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import Link from "next/link";
+import { motion } from "framer-motion";
 import { CourseCard } from "@/components/ui/CourseCard";
 import { coursesData } from "@/data/courses";
 
@@ -61,21 +62,34 @@ export function CoursesSection() {
     filteredCourses.length > 0 ? filteredCourses : coursesData.slice(0, 6);
 
   return (
-    <section id="courses" className="px-5 pt-[73px] pb-16 md:px-8 bg-white">
+    <section id="courses" className="px-5 pt-[73px] pb-16 md:px-8 bg-white overflow-hidden">
       <div className="mx-auto max-w-[1320px] text-center">
         {/* Section Header */}
-        <h2 className="font-poppins text-[32px] font-semibold leading-[1.2] tracking-[-0.01em] text-zinc-900 md:text-[44px]">
-          Discover Your Passion,
-          <br /> Build Your Skills
-        </h2>
-        <p className="mx-auto mt-[15px] max-w-[910px] text-base leading-[1.6] text-zinc-500 md:text-lg">
-          At Bytespace Courses, we bring you closer to life-changing knowledge.
-          Explore a variety of courses across different fields, from technology
-          to the arts, and make a difference in your career and life.
-        </p>
+        <motion.div
+          initial={{ opacity: 0, y: 25 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-60px" }}
+          transition={{ duration: 0.65, ease: [0.16, 1, 0.3, 1] }}
+        >
+          <h2 className="font-poppins text-[32px] font-semibold leading-[1.2] tracking-[-0.01em] text-zinc-900 md:text-[44px]">
+            Discover Your Passion,
+            <br /> Build Your Skills
+          </h2>
+          <p className="mx-auto mt-[15px] max-w-[910px] text-base leading-[1.6] text-zinc-500 md:text-lg">
+            At Bytespace Courses, we bring you closer to life-changing knowledge.
+            Explore a variety of courses across different fields, from technology
+            to the arts, and make a difference in your career and life.
+          </p>
+        </motion.div>
 
         {/* 3 Filter Pill Rows (Exact Match to Image) */}
-        <div className="mt-[42px] flex flex-col items-center gap-[18px]">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, margin: "-40px" }}
+          transition={{ duration: 0.6, delay: 0.15 }}
+          className="mt-[42px] flex flex-col items-center gap-[18px]"
+        >
           {CATEGORY_ROWS.map((row, rowIndex) => (
             <ul
               key={rowIndex}
@@ -108,18 +122,43 @@ export function CoursesSection() {
               )}
             </ul>
           ))}
-        </div>
+        </motion.div>
 
-        {/* Courses Cards Grid */}
-        <div className="mt-[77px] grid gap-[41px] text-left md:grid-cols-2 lg:grid-cols-3 max-w-[1200px] mx-auto">
+        {/* Courses Cards Grid with Staggered Entrance */}
+        <motion.div
+          key={activeCategory}
+          initial="hidden"
+          animate="visible"
+          variants={{
+            hidden: { opacity: 0 },
+            visible: {
+              opacity: 1,
+              transition: {
+                staggerChildren: 0.08,
+              },
+            },
+          }}
+          className="mt-[77px] grid gap-[41px] text-left md:grid-cols-2 lg:grid-cols-3 max-w-[1200px] mx-auto"
+        >
           {displayCourses.map((course) => (
-            <CourseCard
+            <motion.div
               key={course.id}
-              course={course}
-              studentAvatars={STUDENT_AVATARS}
-            />
+              variants={{
+                hidden: { opacity: 0, y: 25 },
+                visible: {
+                  opacity: 1,
+                  y: 0,
+                  transition: { duration: 0.5, ease: [0.16, 1, 0.3, 1] },
+                },
+              }}
+            >
+              <CourseCard
+                course={course}
+                studentAvatars={STUDENT_AVATARS}
+              />
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </section>
   );

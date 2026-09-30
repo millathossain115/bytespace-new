@@ -86,7 +86,33 @@ body {
   animation: floatReverse 7s ease-in-out infinite;
 }
 
-/* Thematic custom scrollbar for dropdown menus */
+/* Subtle white/light-toned thematic scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e2e8f0;
+  border-radius: 9999px;
+  border: 1px solid #ffffff;
+  transition: background-color 0.2s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cbd5e1;
+}
+
+/* Firefox scrollbar styling */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #e2e8f0 #ffffff;
+}
+
 .thematic-scrollbar::-webkit-scrollbar {
   width: 5px;
 }
@@ -95,15 +121,16 @@ body {
   margin: 6px 0;
 }
 .thematic-scrollbar::-webkit-scrollbar-thumb {
-  background-color: #cbd5e1;
+  background-color: #e2e8f0;
   border-radius: 9999px;
   transition: background-color 0.2s;
 }
 .thematic-scrollbar::-webkit-scrollbar-thumb:hover {
-  background-color: #0052fe;
+  background-color: #cbd5e1;
 }
 .thematic-scrollbar {
   scrollbar-width: thin;
-  scrollbar-color: #cbd5e1 transparent;
+  scrollbar-color: #e2e8f0 transparent;
 }
+
 
