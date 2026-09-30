@@ -14,7 +14,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ByteSpace - Get Access to Hundreds of Courses",
+  title: {
+    default: "ByteSpace - Get Access to Hundreds of Courses",
+    template: "%s | ByteSpace",
+  },
   description: "Discover courses with expert mentors and advance your career with real-world skills on ByteSpace.",
   icons: {
     icon: "/logo.svg",

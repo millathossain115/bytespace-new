@@ -14,7 +14,8 @@ export type Decoration = {
   h: number;
   left?: string;
   right?: string;
-  top: number;
+  top?: number;
+  bottom?: string | number;
   width: number;
   rotate?: string;
 };
@@ -33,7 +34,7 @@ export function Decorations({
     >
       {items.map(({ src, w, h, rotate, ...position }) => (
         <div
-          key={src + position.top}
+          key={src + String(position.top ?? position.bottom ?? 0)}
           className="absolute h-auto max-w-none"
           style={{
             ...(position as CSSProperties),

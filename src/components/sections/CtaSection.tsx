@@ -8,10 +8,10 @@ import {
   fromFrame,
 } from "@/components/ui/Decorations";
 
-// Exact Figma px relative to CTA section top from reference repo
+// Exact Figma px relative to CTA section top (page y 4580)
 const decorations: Decoration[] = [
   {
-    src: "/shapes/Cone-Triangle.png",
+    src: "/shapes/Cone-Triangle-Lime.png",
     w: 499,
     h: 549,
     left: fromFrame(1105.4),
@@ -19,23 +19,23 @@ const decorations: Decoration[] = [
     width: 124.7,
   },
   {
-    src: "/shapes/Spiral-Lime.png",
+    src: "/shapes/Spiral-lime-CTA.png",
     w: 495,
     h: 649,
     left: fromFrame(1179.5),
-    top: 327.5,
-    width: 190.2,
+    bottom: 0,
+    width: 220,
   },
   {
-    src: "/shapes/Spiral-lime-3.png",
+    src: "/shapes/Spiral Lime-CTA.png",
     w: 563,
     h: 598,
-    left: fromEdge(-57.2),
-    top: -97.6,
-    width: 252.2,
+    left: "0px",
+    top: 0,
+    width: 220,
   },
   {
-    src: "/shapes/Spiral-White.png",
+    src: "/shapes/Spiral-White CTA.png",
     w: 704,
     h: 704,
     left: fromFrame(178.8),
@@ -43,7 +43,7 @@ const decorations: Decoration[] = [
     width: 176,
   },
   {
-    src: "/shapes/Cone-Triangle-2.png",
+    src: "/shapes/Cone-Triangle-CTA.png",
     w: 512,
     h: 609,
     left: fromEdge(-13.5),
@@ -51,7 +51,7 @@ const decorations: Decoration[] = [
     width: 128,
   },
   {
-    src: "/shapes/Cone-White.png",
+    src: "/shapes/Cine-Lime CTA.png",
     w: 952,
     h: 872,
     left: fromFrame(69.5),
@@ -59,7 +59,7 @@ const decorations: Decoration[] = [
     width: 238.1,
   },
   {
-    src: "/shapes/Cone-lime-Rectangle.png",
+    src: "/shapes/Cone-White-Rectangle CTA.png",
     w: 1093,
     h: 1198,
     right: fromEdge(-104.1),

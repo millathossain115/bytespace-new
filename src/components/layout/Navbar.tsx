@@ -1,15 +1,76 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 
 export function Navbar() {
+  const pathname = usePathname();
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [visible, setVisible] = useState(true);
+  const [isScrolled, setIsScrolled] = useState(false);
+  const idleTimerRef = useRef<NodeJS.Timeout | null>(null);
+
+  const isActive = (path: string) => {
+    if (path === "/") return pathname === "/";
+    return pathname.startsWith(path);
+  };
+
+  useEffect(() => {
+    let lastScrollY = window.scrollY;
+
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+
+      // Clear any pending hide timer
+      if (idleTimerRef.current) {
+        clearTimeout(idleTimerRef.current);
+      }
+
+      if (currentScrollY <= 20) {
+        // At top of page -> always visible
+        setVisible(true);
+        setIsScrolled(false);
+      } else if (currentScrollY > lastScrollY && currentScrollY > 88) {
+        // Scrolling down -> hide immediately
+        setVisible(false);
+        setMobileOpen(false);
+        setIsScrolled(true);
+      } else if (currentScrollY < lastScrollY) {
+        // Scrolling up -> show navbar
+        setVisible(true);
+        setIsScrolled(true);
+
+        // Disappear after 2.5s of idle if not at top and menu closed
+        idleTimerRef.current = setTimeout(() => {
+          if (window.scrollY > 88 && !mobileOpen) {
+            setVisible(false);
+          }
+        }, 2500);
+      }
+
+      lastScrollY = currentScrollY;
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      if (idleTimerRef.current) clearTimeout(idleTimerRef.current);
+    };
+  }, [mobileOpen]);
 
   return (
-    <nav className="w-full bg-transparent text-white absolute top-0 left-0 right-0 z-50">
+    <nav
+      className={`fixed top-0 left-0 right-0 z-50 text-white transition-all duration-300 ease-in-out ${
+        visible ? "translate-y-0" : "-translate-y-full"
+      } ${
+        isScrolled
+          ? "bg-[#0052FE]/95 backdrop-blur-md shadow-[0_4px_20px_rgba(0,0,0,0.15)]"
+          : "bg-transparent"
+      }`}
+    >
       <div className="max-w-[1440px] mx-auto px-6 sm:px-12 lg:px-20 h-[88px] flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3">
@@ -30,19 +91,31 @@ export function Navbar() {
         <div className="hidden md:flex items-center gap-10 font-satoshi text-[16px] font-medium text-white/90">
           <Link
             href="/"
-            className="text-white hover:text-[#D4FB20] transition-colors"
+            className={`transition-colors duration-200 ${
+              isActive("/")
+                ? "text-[#D4FB20] font-semibold"
+                : "text-white/80 hover:text-white"
+            }`}
           >
             Home
           </Link>
           <Link
             href="/courses"
-            className="hover:text-[#D4FB20] transition-colors"
+            className={`transition-colors duration-200 ${
+              isActive("/courses")
+                ? "text-[#D4FB20] font-semibold"
+                : "text-white/80 hover:text-white"
+            }`}
           >
             Courses
           </Link>
           <Link
             href="/creators"
-            className="hover:text-[#D4FB20] transition-colors"
+            className={`transition-colors duration-200 ${
+              isActive("/creators")
+                ? "text-[#D4FB20] font-semibold"
+                : "text-white/80 hover:text-white"
+            }`}
           >
             Creators
           </Link>
@@ -104,21 +177,33 @@ export function Navbar() {
           <Link
             href="/"
             onClick={() => setMobileOpen(false)}
-            className="block text-[16px] font-medium text-white hover:text-[#D4FB20]"
+            className={`block text-[16px] font-medium transition-colors ${
+              isActive("/")
+                ? "text-[#D4FB20] font-semibold"
+                : "text-white/80 hover:text-white"
+            }`}
           >
             Home
           </Link>
           <Link
             href="/courses"
             onClick={() => setMobileOpen(false)}
-            className="block text-[16px] font-medium text-white/90 hover:text-[#D4FB20]"
+            className={`block text-[16px] font-medium transition-colors ${
+              isActive("/courses")
+                ? "text-[#D4FB20] font-semibold"
+                : "text-white/80 hover:text-white"
+            }`}
           >
             Courses
           </Link>
           <Link
             href="/creators"
             onClick={() => setMobileOpen(false)}
-            className="block text-[16px] font-medium text-white/90 hover:text-[#D4FB20]"
+            className={`block text-[16px] font-medium transition-colors ${
+              isActive("/creators")
+                ? "text-[#D4FB20] font-semibold"
+                : "text-white/80 hover:text-white"
+            }`}
           >
             Creators
           </Link>

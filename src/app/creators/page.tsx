@@ -4,7 +4,7 @@ import { coursesData } from "@/data/courses";
 import { CreatorProfileView } from "@/components/sections/CreatorProfileView";
 
 export const metadata = {
-  title: "Creators | ByteSpace",
+  title: "Featured Creators",
   description: "Explore world-class instructors, designers, and builders teaching on ByteSpace.",
 };
 
