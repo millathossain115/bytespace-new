@@ -37,6 +37,20 @@ export interface CourseItem {
     duration: string;
   }[];
   sneakPeakImages?: string[];
+  ratingDistribution?: {
+    stars: number;
+    count: number;
+    percentage: number;
+  }[];
+  courseReviews?: {
+    id: string;
+    author: string;
+    role: string;
+    avatar: string;
+    rating: number;
+    date: string;
+    comment: string;
+  }[];
 }
 
 export type Course = CourseItem;

@@ -34,16 +34,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -82,6 +94,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 90,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 19,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 6,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 3,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 2,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-1-1",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-1-2",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-1-3",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-1-4",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -116,16 +193,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -164,6 +253,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 104,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 22,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 6,
+        "percentage": 4
+      },
+      {
+        "stars": 2,
+        "count": 4,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 3,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-2-1",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-2-2",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-2-3",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-2-4",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -198,16 +352,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -246,6 +412,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 118,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 25,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 7,
+        "percentage": 4
+      },
+      {
+        "stars": 2,
+        "count": 4,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 4,
+        "percentage": 3
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-3-1",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-3-2",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-3-3",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-3-4",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -280,16 +511,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -328,6 +571,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 132,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 28,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 8,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 5,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 4,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-4-1",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-4-2",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-4-3",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-4-4",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -361,16 +669,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -409,6 +729,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 147,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 31,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 9,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 5,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 4,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-5-1",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-5-2",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-5-3",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-5-4",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -442,16 +827,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -490,6 +887,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 161,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 34,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 10,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 6,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 4,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-6-1",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-6-2",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-6-3",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-6-4",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -524,16 +986,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -572,6 +1046,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 175,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 37,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 11,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 7,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 4,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-7-1",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-7-2",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-7-3",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-7-4",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -605,16 +1144,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -653,6 +1204,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 189,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 40,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 12,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 7,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 5,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-8-1",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-8-2",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-8-3",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-8-4",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -687,16 +1303,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -735,6 +1363,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 204,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 43,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 13,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 8,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 4,
+        "percentage": 1
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-9-1",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-9-2",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-9-3",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-9-4",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -768,16 +1461,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -816,6 +1521,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 218,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 46,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 14,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 8,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 5,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-10-1",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-10-2",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-10-3",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-10-4",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -849,16 +1619,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -897,6 +1679,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 232,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 49,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 15,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 9,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 5,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-11-1",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-11-2",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-11-3",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-11-4",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -931,16 +1778,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -979,6 +1838,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 246,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 52,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 16,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 9,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 6,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-12-1",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-12-2",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-12-3",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-12-4",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -1012,16 +1936,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -1060,6 +1996,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 261,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 55,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 17,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 10,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 5,
+        "percentage": 1
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-13-1",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-13-2",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-13-3",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-13-4",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -1093,16 +2094,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -1141,6 +2154,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 275,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 58,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 18,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 11,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 5,
+        "percentage": 1
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-14-1",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-14-2",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-14-3",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-14-4",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -1175,16 +2253,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -1223,6 +2313,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 289,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 61,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 19,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 11,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 6,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-15-1",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-15-2",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-15-3",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-15-4",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -1256,16 +2411,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -1304,6 +2471,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 303,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 64,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 20,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 12,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 6,
+        "percentage": 1
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-16-1",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-16-2",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-16-3",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-16-4",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -1337,16 +2569,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -1385,6 +2629,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 318,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 67,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 21,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 12,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 6,
+        "percentage": 1
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-17-1",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-17-2",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-17-3",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-17-4",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -1418,16 +2727,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -1466,6 +2787,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 332,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 70,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 22,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 13,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 6,
+        "percentage": 1
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-18-1",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-18-2",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-18-3",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-18-4",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -1500,16 +2886,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -1548,6 +2946,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 346,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 73,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 23,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 13,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 7,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-19-1",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-19-2",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-19-3",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-19-4",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -1581,16 +3044,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -1629,6 +3104,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 98,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 20,
+        "percentage": 15
+      },
+      {
+        "stars": 3,
+        "count": 6,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 3,
+        "percentage": 2
+      },
+      {
+        "stars": 1,
+        "count": 4,
+        "percentage": 3
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-20-1",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-20-2",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-20-3",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-20-4",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -1662,16 +3202,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -1710,6 +3262,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 112,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 24,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 7,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 4,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 3,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-21-1",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-21-2",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-21-3",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-21-4",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -1743,16 +3360,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -1791,6 +3420,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 126,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 27,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 8,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 5,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 3,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-22-1",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-22-2",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-22-3",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-22-4",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -1826,16 +3520,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -1874,6 +3580,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 141,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 30,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 9,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 5,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 3,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-23-1",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-23-2",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-23-3",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-23-4",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -1907,16 +3678,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -1955,6 +3738,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 155,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 33,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 10,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 6,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 3,
+        "percentage": 1
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-24-1",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-24-2",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-24-3",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-24-4",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -1989,16 +3837,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -2037,6 +3897,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 169,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 36,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 11,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 6,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 4,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-25-1",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-25-2",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-25-3",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-25-4",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -2071,16 +3996,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -2119,6 +4056,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 183,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 39,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 12,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 7,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 4,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-26-1",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-26-2",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-26-3",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-26-4",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -2152,16 +4154,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -2200,6 +4214,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 198,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 42,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 13,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 7,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 4,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-27-1",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-27-2",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-27-3",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-27-4",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -2233,16 +4312,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -2281,6 +4372,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 212,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 45,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 14,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 8,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 4,
+        "percentage": 1
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-28-1",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-28-2",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-28-3",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-28-4",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -2315,16 +4471,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -2363,6 +4531,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 226,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 48,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 15,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 9,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 4,
+        "percentage": 1
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-29-1",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-29-2",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-29-3",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-29-4",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -2396,16 +4629,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -2444,6 +4689,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 240,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 51,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 16,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 9,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 5,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-30-1",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-30-2",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-30-3",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-30-4",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -2477,16 +4787,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -2525,6 +4847,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 255,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 54,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 17,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 10,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 4,
+        "percentage": 1
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-31-1",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-31-2",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-31-3",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-31-4",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -2559,16 +4946,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -2607,6 +5006,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 269,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 57,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 17,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 10,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 6,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-32-1",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-32-2",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-32-3",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-32-4",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -2640,16 +5104,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -2688,6 +5164,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 283,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 60,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 18,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 11,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 6,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-33-1",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-33-2",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-33-3",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-33-4",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -2722,16 +5263,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -2770,6 +5323,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 297,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 63,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 19,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 11,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 7,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-34-1",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-34-2",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-34-3",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-34-4",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -2804,16 +5422,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -2852,6 +5482,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 312,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 66,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 20,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 12,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 6,
+        "percentage": 1
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-35-1",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-35-2",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-35-3",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-35-4",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -2885,16 +5580,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -2933,6 +5640,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 326,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 69,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 21,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 13,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 6,
+        "percentage": 1
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-36-1",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-36-2",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-36-3",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-36-4",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -2967,16 +5739,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -3015,6 +5799,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 340,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 72,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 22,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 13,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 7,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-37-1",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-37-2",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-37-3",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-37-4",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -3048,16 +5897,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -3096,6 +5957,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 92,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 19,
+        "percentage": 15
+      },
+      {
+        "stars": 3,
+        "count": 6,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 3,
+        "percentage": 2
+      },
+      {
+        "stars": 1,
+        "count": 3,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-38-1",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-38-2",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-38-3",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-38-4",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -3129,16 +6055,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -3177,6 +6115,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 106,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 22,
+        "percentage": 15
+      },
+      {
+        "stars": 3,
+        "count": 7,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 4,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 3,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-39-1",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-39-2",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-39-3",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-39-4",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -3211,16 +6214,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -3259,6 +6274,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 120,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 25,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 8,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 4,
+        "percentage": 2
+      },
+      {
+        "stars": 1,
+        "count": 4,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-40-1",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-40-2",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-40-3",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-40-4",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -3292,16 +6372,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -3340,6 +6432,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 135,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 28,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 9,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 5,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 3,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-41-1",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-41-2",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-41-3",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-41-4",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -3373,16 +6530,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -3421,6 +6590,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 149,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 31,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 9,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 5,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 5,
+        "percentage": 3
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-42-1",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-42-2",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-42-3",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-42-4",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -3454,16 +6688,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -3502,6 +6748,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 163,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 34,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 10,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 6,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 5,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-43-1",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-43-2",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-43-3",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-43-4",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -3536,16 +6847,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -3584,6 +6907,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 177,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 37,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 11,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 7,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 5,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-44-1",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-44-2",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-44-3",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-44-4",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -3619,16 +7007,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -3667,6 +7067,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 192,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 40,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 12,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 7,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 5,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-45-1",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-45-2",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-45-3",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-45-4",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -3701,16 +7166,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -3749,6 +7226,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 206,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 44,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 13,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 8,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 4,
+        "percentage": 1
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-46-1",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-46-2",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-46-3",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-46-4",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -3783,16 +7325,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -3831,6 +7385,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 220,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 47,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 14,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 8,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 5,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-47-1",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-47-2",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-47-3",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-47-4",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -3865,16 +7484,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -3913,6 +7544,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 234,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 50,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 15,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 9,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 5,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-48-1",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-48-2",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-48-3",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-48-4",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -3947,16 +7643,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -3995,6 +7703,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 249,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 53,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 16,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 9,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 5,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-49-1",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-49-2",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-49-3",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-49-4",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -4028,16 +7801,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -4076,6 +7861,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 263,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 56,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 17,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 10,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 5,
+        "percentage": 1
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-50-1",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-50-2",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-50-3",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-50-4",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -4109,16 +7959,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -4157,6 +8019,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 277,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 59,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 18,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 11,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 5,
+        "percentage": 1
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-51-1",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-51-2",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-51-3",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-51-4",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -4190,16 +8117,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -4238,6 +8177,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 291,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 62,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 19,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 11,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 6,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-52-1",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-52-2",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-52-3",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-52-4",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -4271,16 +8275,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -4319,6 +8335,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 306,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 65,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 20,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 12,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 5,
+        "percentage": 1
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-53-1",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-53-2",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-53-3",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-53-4",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -4352,16 +8433,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -4400,6 +8493,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 320,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 68,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 21,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 12,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 6,
+        "percentage": 1
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-54-1",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-54-2",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-54-3",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-54-4",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -4434,16 +8592,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -4482,6 +8652,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 334,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 71,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 22,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 13,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 6,
+        "percentage": 1
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-55-1",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-55-2",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-55-3",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-55-4",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -4516,16 +8751,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -4564,6 +8811,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 348,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 74,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 23,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 13,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 7,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-56-1",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-56-2",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-56-3",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-56-4",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -4598,16 +8910,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -4646,6 +8970,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 100,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 21,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 6,
+        "percentage": 4
+      },
+      {
+        "stars": 2,
+        "count": 4,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 3,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-57-1",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-57-2",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-57-3",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-57-4",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -4679,16 +9068,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -4727,6 +9128,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 114,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 24,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 7,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 4,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 4,
+        "percentage": 3
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-58-1",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-58-2",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-58-3",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-58-4",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -4760,16 +9226,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -4808,6 +9286,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 129,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 27,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 8,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 5,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 3,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-59-1",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-59-2",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-59-3",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-59-4",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -4841,16 +9384,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -4889,6 +9444,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 143,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 30,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 9,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 5,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 4,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-60-1",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-60-2",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-60-3",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-60-4",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -4922,16 +9542,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -4970,6 +9602,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 157,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 33,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 10,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 6,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 4,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-61-1",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-61-2",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-61-3",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-61-4",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -5003,16 +9700,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -5051,6 +9760,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 171,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 36,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 11,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 6,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 5,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-62-1",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-62-2",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-62-3",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-62-4",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -5085,16 +9859,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -5133,6 +9919,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 186,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 39,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 12,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 7,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 4,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-63-1",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-63-2",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-63-3",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-63-4",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -5166,16 +10017,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -5214,6 +10077,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 200,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 42,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 13,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 8,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 4,
+        "percentage": 1
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-64-1",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-64-2",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-64-3",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-64-4",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -5248,16 +10176,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -5296,6 +10236,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 214,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 45,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 14,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 8,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 5,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-65-1",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-65-2",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-65-3",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-65-4",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -5329,16 +10334,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -5377,6 +10394,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 228,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 48,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 15,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 9,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 5,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-66-1",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-66-2",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-66-3",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-66-4",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -5412,16 +10494,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -5460,6 +10554,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 243,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 51,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 16,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 9,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 5,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-67-1",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-67-2",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-67-3",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-67-4",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -5493,16 +10652,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -5541,6 +10712,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 257,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 54,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 17,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 10,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 5,
+        "percentage": 1
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-68-1",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-68-2",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-68-3",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-68-4",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -5576,16 +10812,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -5624,6 +10872,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 271,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 57,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 18,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 10,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 6,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-69-1",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-69-2",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-69-3",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-69-4",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -5657,16 +10970,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -5705,6 +11030,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 285,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 60,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 19,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 11,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 6,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-70-1",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-70-2",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-70-3",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-70-4",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -5739,16 +11129,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -5787,6 +11189,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 300,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 64,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 20,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 12,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 4,
+        "percentage": 1
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-71-1",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-71-2",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-71-3",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-71-4",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -5820,16 +11287,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -5868,6 +11347,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 314,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 67,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 20,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 12,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 6,
+        "percentage": 1
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-72-1",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-72-2",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-72-3",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-72-4",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -5902,16 +11446,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -5950,6 +11506,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 328,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 70,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 21,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 13,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 6,
+        "percentage": 1
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-73-1",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-73-2",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-73-3",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-73-4",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -5983,16 +11604,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -6031,6 +11664,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 342,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 73,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 22,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 13,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 7,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-74-1",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-74-2",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-74-3",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-74-4",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -6064,16 +11762,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -6112,6 +11822,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 94,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 20,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 6,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 3,
+        "percentage": 2
+      },
+      {
+        "stars": 1,
+        "count": 3,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-75-1",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-75-2",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-75-3",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-75-4",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -6146,16 +11921,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -6194,6 +11981,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 108,
+        "percentage": 74
+      },
+      {
+        "stars": 4,
+        "count": 23,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 7,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 4,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 3,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-76-1",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-76-2",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-76-3",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-76-4",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -6227,16 +12079,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -6275,6 +12139,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 123,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 26,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 8,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 4,
+        "percentage": 2
+      },
+      {
+        "stars": 1,
+        "count": 3,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-77-1",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-77-2",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-77-3",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-77-4",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -6309,16 +12238,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -6357,6 +12298,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 137,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 29,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 9,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 5,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 3,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-78-1",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-78-2",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-78-3",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-78-4",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -6391,16 +12397,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -6439,6 +12457,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 151,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 32,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 10,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 6,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 3,
+        "percentage": 1
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-79-1",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-79-2",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-79-3",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-79-4",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -6472,16 +12555,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -6520,6 +12615,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 165,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 35,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 11,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 6,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 4,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-80-1",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-80-2",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-80-3",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-80-4",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -6553,16 +12713,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -6601,6 +12773,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 180,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 38,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 12,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 7,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 3,
+        "percentage": 1
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-81-1",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-81-2",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-81-3",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-81-4",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -6635,16 +12872,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -6683,6 +12932,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 194,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 41,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 12,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 7,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 5,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-82-1",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-82-2",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-82-3",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-82-4",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -6716,16 +13030,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -6764,6 +13090,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 208,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 44,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 13,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 8,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 5,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-83-1",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-83-2",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-83-3",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-83-4",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -6797,16 +13188,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -6845,6 +13248,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 222,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 47,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 14,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 8,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 6,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-84-1",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-84-2",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-84-3",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-84-4",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -6879,16 +13347,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -6927,6 +13407,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 237,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 50,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 15,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 9,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 5,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-85-1",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-85-2",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-85-3",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-85-4",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -6960,16 +13505,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -7008,6 +13565,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 251,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 53,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 16,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 10,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 5,
+        "percentage": 1
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-86-1",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-86-2",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-86-3",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-86-4",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -7041,16 +13663,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -7089,6 +13723,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 265,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 56,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 17,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 10,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 6,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-87-1",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-87-2",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-87-3",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-87-4",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -7122,16 +13821,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -7170,6 +13881,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 279,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 59,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 18,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 11,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 6,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-88-1",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-88-2",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-88-3",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-88-4",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -7204,16 +13980,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -7252,6 +14040,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 294,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 62,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 19,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 11,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 6,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-89-1",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-89-2",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-89-3",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-89-4",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -7285,16 +14138,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -7333,6 +14198,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 308,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 65,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 20,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 12,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 6,
+        "percentage": 1
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-90-1",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-90-2",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-90-3",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-90-4",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -7367,16 +14297,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -7415,6 +14357,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 322,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 68,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 21,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 12,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 7,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-91-1",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-91-2",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-91-3",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-91-4",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -7448,16 +14455,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -7496,6 +14515,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 336,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 71,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 22,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 13,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 7,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-92-1",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-92-2",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-92-3",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-92-4",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -7530,16 +14614,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -7578,6 +14674,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 351,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 74,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 23,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 14,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 6,
+        "percentage": 1
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-93-1",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-93-2",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-93-3",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-93-4",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -7611,16 +14772,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -7659,6 +14832,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 102,
+        "percentage": 74
+      },
+      {
+        "stars": 4,
+        "count": 21,
+        "percentage": 15
+      },
+      {
+        "stars": 3,
+        "count": 6,
+        "percentage": 4
+      },
+      {
+        "stars": 2,
+        "count": 4,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 4,
+        "percentage": 3
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-94-1",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-94-2",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-94-3",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-94-4",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -7692,16 +14930,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -7740,6 +14990,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 117,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 24,
+        "percentage": 15
+      },
+      {
+        "stars": 3,
+        "count": 7,
+        "percentage": 4
+      },
+      {
+        "stars": 2,
+        "count": 4,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 4,
+        "percentage": 3
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-95-1",
+        "author": "Devon Lane",
+        "role": "Senior Consultant",
+        "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-95-2",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-95-3",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-95-4",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   },
   {
@@ -7773,16 +15088,28 @@ export const coursesData: CourseItem[] = [
     "progressTrackingText": "Follow your progress step by step as you build mastery throughout each module.",
     "modules": [
       {
-        "title": "Module 1: Foundations & Workspace Architecture",
-        "description": "Set up your tools, master fundamental mechanics, and establish clean organized workflows."
+        "title": "Module 1: Introduction & Workspace Foundations",
+        "description": "Lay the groundwork with tool orientation, interface shortcuts, canvas setup, and baseline asset management."
       },
       {
-        "title": "Module 2: Advanced Techniques & Practical Implementation",
-        "description": "Delve into real-world case studies, iterative project builds, and industry best practices."
+        "title": "Module 2: Core Design & Technical Execution",
+        "description": "Master the central principles, vector structures, and execution techniques that drive impactful deliverables."
       },
       {
-        "title": "Module 3: Portfolio Polish & Final Showcase",
-        "description": "Complete capstone demonstrations and package your outcomes for clients or leadership."
+        "title": "Module 3: Responsive Constraints & Dynamic Logic",
+        "description": "Construct adaptive layouts, responsive mobile grids, and flexible components built for scale."
+      },
+      {
+        "title": "Module 4: User-Centric Strategies & Iteration",
+        "description": "Incorporate user feedback, heuristic reviews, and iterative validation to continuously refine outcomes."
+      },
+      {
+        "title": "Module 5: Project Showcase & Peer Critique",
+        "description": "Perfect presentation skills, critique peer deliverables, and build confidence presenting to stakeholders."
+      },
+      {
+        "title": "Module 6: Multi-Platform Optimization & Handoff",
+        "description": "Adapt deliverables for cross-platform deployment, performance efficiency, and clean developer specifications."
       }
     ],
     "description": [
@@ -7821,6 +15148,71 @@ export const coursesData: CourseItem[] = [
       "/sneak peak/4.jpg",
       "/courses/Learn Figma from Basic.jpg",
       "/courses/Build Digital Asset.jpg"
+    ],
+    "ratingDistribution": [
+      {
+        "stars": 5,
+        "count": 131,
+        "percentage": 75
+      },
+      {
+        "stars": 4,
+        "count": 28,
+        "percentage": 16
+      },
+      {
+        "stars": 3,
+        "count": 8,
+        "percentage": 5
+      },
+      {
+        "stars": 2,
+        "count": 5,
+        "percentage": 3
+      },
+      {
+        "stars": 1,
+        "count": 3,
+        "percentage": 2
+      }
+    ],
+    "courseReviews": [
+      {
+        "id": "rev-96-1",
+        "author": "Studio Byte Lead",
+        "role": "UI/UX Designer",
+        "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "This course provided me with a comprehensive understanding of real-world workflows. The lessons were in-depth, practical, and immediately applicable to my projects. Highly recommended!"
+      },
+      {
+        "id": "rev-96-2",
+        "author": "Albert Flores",
+        "role": "Product Designer",
+        "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "Truly transformative experience. The combination of theory, hands-on exercises, and production case studies made it an enriching journey. Excited to implement what I've learned!"
+      },
+      {
+        "id": "rev-96-3",
+        "author": "Cody Fisher",
+        "role": "Design Technologist",
+        "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
+        "rating": 5,
+        "date": "1 year ago",
+        "comment": "The project showcase and structured critique created a collaborative environment where I could showcase my work and refine my skills. It added unique value to the learning process."
+      },
+      {
+        "id": "rev-96-4",
+        "author": "Brooklyn Simmons",
+        "role": "Creative Specialist",
+        "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop",
+        "rating": 4,
+        "date": "1 year ago",
+        "comment": "The lessons on optimizing assets for various platforms were particularly insightful. The course adapts to modern industry standards and kept me motivated throughout."
+      }
     ]
   }
 ];
