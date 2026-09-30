@@ -186,11 +186,11 @@ export function HeroSection() {
           {/* Floating UI/UX Design Card */}
           <motion.div
             initial={{ opacity: 0, x: -30, y: 20 }}
-            animate={{ opacity: 1, x: 0, y: [0, -8, 0] }}
+            animate={{ opacity: 1, x: 0, y: 0 }}
             transition={{
-              opacity: { duration: 0.6, delay: 0.6 },
-              x: { duration: 0.6, delay: 0.6 },
-              y: { duration: 4.5, repeat: Infinity, ease: "easeInOut", delay: 0.6 },
+              duration: 0.65,
+              delay: 0.6,
+              ease: [0.16, 1, 0.3, 1],
             }}
             className="absolute top-[129px] left-[259px] z-30"
           >
@@ -200,11 +200,11 @@ export function HeroSection() {
           {/* Floating Learning Progress Card */}
           <motion.div
             initial={{ opacity: 0, x: 30, y: 20 }}
-            animate={{ opacity: 1, x: 0, y: [0, -10, 0] }}
+            animate={{ opacity: 1, x: 0, y: 0 }}
             transition={{
-              opacity: { duration: 0.6, delay: 0.7 },
-              x: { duration: 0.6, delay: 0.7 },
-              y: { duration: 5, repeat: Infinity, ease: "easeInOut", delay: 0.9 },
+              duration: 0.65,
+              delay: 0.7,
+              ease: [0.16, 1, 0.3, 1],
             }}
             className="absolute top-[141px] left-[697px] z-30"
           >
@@ -214,11 +214,11 @@ export function HeroSection() {
           {/* Floating Happy Students Card */}
           <motion.div
             initial={{ opacity: 0, y: 30, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1, y: [0, 8, 0] }}
+            animate={{ opacity: 1, scale: 1, y: 0 }}
             transition={{
-              opacity: { duration: 0.6, delay: 0.8 },
-              scale: { duration: 0.6, delay: 0.8 },
-              y: { duration: 4.8, repeat: Infinity, ease: "easeInOut", delay: 1.1 },
+              duration: 0.65,
+              delay: 0.8,
+              ease: [0.16, 1, 0.3, 1],
             }}
             className="absolute top-[327px] left-[183px] z-30"
           >

@@ -130,11 +130,7 @@ export function GrowthAndCreationSection() {
               </div>
 
               {/* Floating Learning Progress Card: bottom-anchored content */}
-              <motion.div
-                animate={{ y: [0, -8, 0] }}
-                transition={{ duration: 4.6, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute top-[213px] left-[366px] z-30 flex h-[138px] w-[232px] flex-col rounded-2xl bg-white p-4 text-zinc-900 shadow-xl border border-zinc-100/60"
-              >
+              <div className="absolute top-[213px] left-[366px] z-30 flex h-[138px] w-[232px] flex-col rounded-2xl bg-white p-4 text-zinc-900 shadow-xl border border-zinc-100/60">
                 <p className="text-sm font-medium text-zinc-900">Learning Progress</p>
                 <p className="mt-2 font-poppins text-[44px] font-semibold leading-none text-zinc-900">
                   55%
@@ -142,7 +138,7 @@ export function GrowthAndCreationSection() {
                 <div className="mt-auto h-2 w-full overflow-hidden rounded-full bg-zinc-100">
                   <div className="h-full w-[56%] rounded-full bg-[#D4FB20]" />
                 </div>
-              </motion.div>
+              </div>
 
               {/* Lime Coil Shape at top-right */}
               <Image
@@ -242,14 +238,10 @@ export function GrowthAndCreationSection() {
                 />
               </div>
 
-              {/* Floating Happy Students Card - in front with gentle oscillation */}
-              <motion.div
-                animate={{ y: [0, 8, 0] }}
-                transition={{ duration: 4.8, repeat: Infinity, ease: "easeInOut" }}
-                className="absolute top-[417px] left-[283px] z-30"
-              >
+              {/* Floating Happy Students Card - in front */}
+              <div className="absolute top-[417px] left-[283px] z-30">
                 <HappyStudentsCard className="h-[123px] w-[258px]" />
-              </motion.div>
+              </div>
 
               {/* 3D Shape Accent - Spiral lime growth flipped right */}
               <Image
