@@ -3,6 +3,9 @@
 import { Search } from "lucide-react";
 import Image from "next/image";
 import React, { useState } from "react";
+import { CategoryStatCard } from "@/components/ui/CategoryStatCard";
+import { LearningProgressCard } from "@/components/ui/LearningProgressCard";
+import { HappyStudentsCard } from "@/components/ui/HappyStudentsCard";
 
 export function HeroSection() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -21,19 +24,20 @@ export function HeroSection() {
     "/students/Ellipse (4).png",
     "/students/Ellipse (5).png",
     "/students/Ellipse (6).png",
+    "/students/Ellipse (7).png",
   ];
 
   return (
     <section className="relative w-full bg-[#0052FF] overflow-hidden pt-28 sm:pt-32 lg:pt-36 pb-0">
-      {/* Background White Intense Grid Pattern */}
+      {/* Background White Exact 12-Column Grid Pattern */}
       <div
-        className="absolute inset-0 pointer-events-none opacity-40"
+        className="absolute inset-0 pointer-events-none opacity-35"
         style={{
           backgroundImage: `
-            linear-gradient(to right, rgba(255, 255, 255, 0.5) 1px, transparent 1px),
-            linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 1px, transparent 1px)
+            linear-gradient(to right, rgba(255, 255, 255, 0.45) 1px, transparent 1px),
+            linear-gradient(to bottom, rgba(255, 255, 255, 0.45) 1px, transparent 1px)
           `,
-          backgroundSize: "72px 72px",
+          backgroundSize: "calc(100vw / 12) calc(100vw / 12)",
         }}
       />
 
@@ -50,24 +54,24 @@ export function HeroSection() {
         />
       </div>
 
-      {/* 2. Left middle white spring/zigzag: w-175 h-175 */}
-      <div className="absolute left-[12%] sm:left-[14%] lg:left-[16%] top-[460px] sm:top-[480px] lg:top-[490px] w-[100px] sm:w-[140px] lg:w-[175px] pointer-events-none select-none z-10 rotate-[-12deg]">
+      {/* 2. Left middle white spring/zigzag */}
+      <div className="absolute left-[16%] sm:left-[19%] lg:left-[21%] top-[380px] sm:top-[400px] lg:top-[410px] w-[90px] sm:w-[130px] lg:w-[160px] pointer-events-none select-none z-10 rotate-[-12deg]">
         <Image
           src="/shapes/Spiral-White.png"
           alt="White Spiral Shape"
-          width={175}
-          height={175}
+          width={160}
+          height={160}
           className="w-full h-auto drop-shadow-md"
         />
       </div>
 
-      {/* 3. Left bottom white donut ring: w-343 h-343 */}
-      <div className="absolute left-[-20px] sm:left-[1%] lg:left-[3%] bottom-[20px] sm:bottom-[40px] lg:bottom-[50px] w-[200px] sm:w-[270px] lg:w-[343px] pointer-events-none select-none z-10 -rotate-[22deg]">
+      {/* 3. Left bottom white donut ring: lowered size to 290px and placed a bit right */}
+      <div className="absolute left-[0px] sm:left-[3%] lg:left-[6%] bottom-[20px] sm:bottom-[35px] lg:bottom-[45px] w-[180px] sm:w-[230px] lg:w-[290px] pointer-events-none select-none z-10 -rotate-[22deg]">
         <Image
           src="/shapes/Cone-White.png"
           alt="White Donut Ring Shape"
-          width={343}
-          height={343}
+          width={290}
+          height={290}
           className="w-full h-auto drop-shadow-2xl"
         />
       </div>
@@ -146,7 +150,7 @@ export function HeroSection() {
         </form>
 
         {/* HERO IMAGE & ARCH DISPLAY WITH FLOATING BADGES */}
-        <div className="relative mt-14 sm:mt-16 lg:mt-20 w-full max-w-[1240px] flex justify-center items-end">
+        <div className="relative mt-6 sm:mt-8 lg:mt-10 w-full max-w-[1240px] flex justify-center items-end">
           {/* Green Lime Arch (Ellipse 7): w-1149 h-1149 */}
           <div className="absolute bottom-0 w-[720px] sm:w-[940px] lg:w-[1149px] pointer-events-none select-none z-0">
             <Image
@@ -159,73 +163,33 @@ export function HeroSection() {
             />
           </div>
 
-          {/* Student Cutout Image (Hero.png) */}
-          <div className="relative z-10 w-[360px] sm:w-[480px] lg:w-[580px] mx-auto">
+          {/* Student Cutout Image (Hero.png) - naturally larger size anchored to bottom */}
+          <div className="relative z-10 w-[450px] sm:w-[600px] lg:w-[750px] mx-auto">
             <Image
               src="/Heros/Hero.png"
               alt="Smiling Student with Laptop and Headset"
-              width={580}
-              height={580}
+              width={750}
+              height={702}
               className="w-full h-auto object-contain drop-shadow-2xl"
               priority
             />
           </div>
 
           {/* FLOATING CARD 1: UI/UX Design (Left of student's shoulder) */}
-          <div className="absolute left-[3%] sm:left-[8%] lg:left-[16%] top-[34%] sm:top-[36%] z-30 bg-white rounded-2xl px-5 py-4 shadow-[0_16px_36px_rgba(0,0,0,0.18)] text-left min-w-[160px] sm:min-w-[190px] hidden sm:block">
-            <h4 className="font-clash font-bold text-slate-900 text-sm sm:text-[15px] leading-tight">
-              UI/UX Design
-            </h4>
-            <p className="font-satoshi text-[11px] sm:text-xs text-slate-400 mt-1 whitespace-nowrap">
-              200 Courses &bull; 1000+ Students
-            </p>
-          </div>
+          <CategoryStatCard
+            className="absolute left-[3%] sm:left-[8%] lg:left-[16%] top-[34%] sm:top-[36%] z-30 hidden sm:block"
+          />
 
           {/* FLOATING CARD 2: Learning Progress 55% (Right of student's shoulder) */}
-          <div className="absolute right-[3%] sm:right-[8%] lg:right-[15%] top-[35%] sm:top-[37%] z-30 bg-white rounded-2xl p-5 sm:p-6 shadow-[0_16px_36px_rgba(0,0,0,0.18)] text-left min-w-[170px] sm:min-w-[210px] hidden sm:block">
-            <span className="font-satoshi text-[12px] sm:text-[13px] text-slate-700 font-semibold">
-              Learning Progress
-            </span>
-            <div className="font-clash font-bold text-slate-900 text-3xl sm:text-[40px] mt-1 tracking-tight leading-none">
-              55%
-            </div>
-            {/* Progress Bar */}
-            <div className="mt-3.5 w-full h-2 bg-slate-100 rounded-full overflow-hidden">
-              <div className="h-full bg-[#D4FB20] rounded-full w-[55%]" />
-            </div>
-          </div>
+          <LearningProgressCard
+            className="absolute right-[3%] sm:right-[8%] lg:right-[15%] top-[35%] sm:top-[37%] z-30 hidden sm:block"
+          />
 
           {/* FLOATING CARD 3: Happy Students (Overlapping bottom left of student) */}
-          <div className="absolute left-[6%] sm:left-[12%] lg:left-[21%] bottom-[8%] sm:bottom-[10%] z-30 bg-white rounded-2xl px-5 py-4 shadow-[0_18px_40px_rgba(0,0,0,0.2)] text-left min-w-[210px] sm:min-w-[230px]">
-            <h4 className="font-clash font-bold text-slate-900 text-sm sm:text-[15px] leading-tight">
-              Happy Students
-            </h4>
-            <div className="flex items-center gap-1.5 mt-1 font-satoshi text-xs text-slate-600">
-              <span className="font-bold text-slate-900">4.5</span>
-              <span className="text-slate-400">(240)</span>
-              <span className="text-[#FBBF24]">★</span>
-            </div>
-
-            {/* Avatar Stack */}
-            <div className="flex items-center -space-x-2 mt-2.5 overflow-hidden">
-              {studentAvatars.map((avatar, idx) => (
-                <div
-                  key={idx}
-                  className="w-7 h-7 sm:w-8 sm:h-8 rounded-full border-2 border-white overflow-hidden bg-slate-100 shrink-0">
-                  <Image
-                    src={avatar}
-                    alt={`Student ${idx + 1}`}
-                    width={32}
-                    height={32}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-              ))}
-              <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-[#D4FB20] text-black font-satoshi font-bold text-[10px] sm:text-xs flex items-center justify-center border-2 border-white shrink-0">
-                2K+
-              </div>
-            </div>
-          </div>
+          <HappyStudentsCard
+            avatars={studentAvatars}
+            className="absolute left-[6%] sm:left-[12%] lg:left-[21%] bottom-[8%] sm:bottom-[10%] z-30"
+          />
         </div>
       </div>
     </section>
