@@ -48,6 +48,18 @@ body {
   background-size: 72px 72px;
 }
 
+.grid-backdrop {
+  background:
+    linear-gradient(rgb(255 255 255 / 12%) 2px, transparent 2px) 0 0 / 120px
+    120px,
+    linear-gradient(90deg, rgb(255 255 255 / 12%) 2px, transparent 2px) 0 0 /
+    120px 120px,
+    #003be2;
+  /* Align the 120px grid to the centred 1440px Figma frame: x = 50vw - 720px. */
+  background-position: calc(50% - 660px) -2px;
+}
+
+
 @keyframes floatSlow {
   0%, 100% {
     transform: translateY(0px) rotate(0deg);

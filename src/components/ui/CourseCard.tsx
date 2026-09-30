@@ -5,17 +5,20 @@ import Image from "next/image";
 import Link from "next/link";
 import { Star, ChartNoAxesColumnIncreasing } from "lucide-react";
 import { CourseItem } from "@/types";
+import { cn } from "@/lib/utils";
 
 interface CourseCardProps {
   course: CourseItem;
   studentAvatars?: string[];
   interactive?: boolean;
+  className?: string;
 }
 
 export function CourseCard({
   course,
   studentAvatars = [],
   interactive = true,
+  className,
 }: CourseCardProps) {
   const [imgSrc, setImgSrc] = useState(course.image);
 
@@ -27,11 +30,13 @@ export function CourseCard({
 
   return (
     <article
-      className={`min-w-0 rounded-[24px] border border-zinc-200/90 bg-white p-[15px] flex flex-col justify-between ${
+      className={cn(
+        "min-w-0 rounded-[24px] border border-zinc-200/90 bg-white p-[15px] flex flex-col justify-between",
         interactive
           ? "group shadow-[0_2px_12px_rgba(0,0,0,0.04)] transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
-          : "shadow-none"
-      }`}
+          : "shadow-none",
+        className
+      )}
     >
       <div>
         {/* Course Top Image & Overlaid Badges */}
